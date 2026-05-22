@@ -45,25 +45,19 @@ log = logging.getLogger(__name__)
 # Add or remove video IDs here. Get IDs from the URL: youtube.com/watch?v=VIDEO_ID
 TARGET_VIDEOS = [
     # GitHub Copilot reviews / debates
-    {"id": "Fi3AJZZregI", "tool": "copilot",    "label": "GitHub Copilot Full Review"},
-    {"id": "4RfD5qu0KSQ", "tool": "copilot",    "label": "Copilot vs Manual Coding"},
-    {"id": "Rj443bFSGy8", "tool": "copilot",    "label": "Is GitHub Copilot Worth It?"},
+    {"id": "RDd71IUIgpg", "tool": "copilot",    "label": "CoPilot Review: My Thoughts After 6 Months"},
+    {"id": "uMnhX1CQa8g", "tool": "copilot",    "label": "GitHub Copilot Review 2023: I Love It, But It's Not For Everyone"},
 
     # Cursor AI
-    {"id": "oXeVH_X8hSg", "tool": "cursor",     "label": "Cursor AI Review 2024"},
-    {"id": "1CC88QGQiEA", "tool": "cursor",     "label": "Cursor vs Copilot"},
+    {"id": "ocMOZpuAMw4", "tool": "cursor",     "label": "Cursor Tutorial for Beginners (AI Code Editor)"},
 
     # Claude Code / Anthropic
-    {"id": "7K0OABcHJnY", "tool": "claude",     "label": "Claude Code Full Demo"},
-
-    # Vibe coding / AI agents
-    {"id": "u1PNFOaFtCM", "tool": "general",    "label": "Vibe Coding Explained"},
-    {"id": "Tw18-4U7mts", "tool": "general",    "label": "AI Coding Tools Compared"},
+    {"id": "qLMYOhaKcZs", "tool": "claude",     "label": "The Ultimate Beginner's Guide to Claude Code"},
 
     # Sceptical / critical perspectives (important for trust/distrust balance)
-    {"id": "tNmgmwEo33Y", "tool": "general",    "label": "Why I Stopped Using AI Coding Tools"},
-    {"id": "s7KO3NbRYPY", "tool": "general",    "label": "AI Code Is a Liability"},
-]
+    {"id": "pJylXFAC87A", "tool": "general",    "label": "Cursor vs Codex vs Claude vs Zed vs Anti-Gravity (I Tested Them All)"},
+    {"id": "KW35wHNU7pY", "tool": "cursor",     "label": "Cursor vs Claude Code: Which is best for programming? | Lex Fridman Podcast"},
+]   
 
 
 # Quota tracking
@@ -286,7 +280,7 @@ class YouTubeCollector:
                 all_comments.extend(top_comments)
 
                 # 3. Replies — only fetch for comments that have replies (save quota)
-                comments_with_replies = [c for c in top_comments if c["reply_count"] > 0]
+                comments_with_replies = [c for c in top_comments if c["reply_count"] >= 1]
                 log.info(f"  Fetching replies for {len(comments_with_replies)} threaded comments...")
 
                 for i, comment in enumerate(comments_with_replies):
