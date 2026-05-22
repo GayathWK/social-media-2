@@ -13,7 +13,7 @@ What drives trust and distrust in AI coding assistants among developers, and how
 ## Data Sources
 - **YouTube** — Comments from videos reviewing GitHub Copilot, Cursor, Claude Code, Codex
 - **Hacker News** — Discussion threads on AI coding tools
-- **GitHub Issues** — microsoft/vscode-copilot-release public issues
+- **GitHub Issues** — Public issues from microsoft/vscode-copilot-release, openai/codex, and anthropics/claude-code
 
 ## Project Structure
 ```
@@ -30,7 +30,7 @@ social_media_2/
 │   ├── collectors/       # Data collection scripts
 │   ├── network/          # Network construction and analysis
 │   ├── nlp/              # Sentiment and topic modelling
-│   └── utils/            # Shared helpers
+│   └── utils/            # Shared utilities
 ├── visualisations/       # Output charts and network graphs
 ├── report/               # Final report PDF
 └── requirements.txt
@@ -50,26 +50,24 @@ venv\Scripts\activate           # Windows
 # Install dependencies
 pip install -r requirements.txt
 
-# Set your API key (never commit this)
+# Configure local API credentials
 cp .env.example .env
 # Then add your YouTube API key to .env
 ```
 
 ## Running the Pipeline
 Run notebooks in this order:
-1. `notebooks/01_youtube_collection.ipynb`
-2. `notebooks/02_hackernews_collection.ipynb`
-3. `notebooks/03_github_collection.ipynb`
-4. `notebooks/04_network_analysis.ipynb`
-5. `notebooks/05_nlp_sentiment_topics.ipynb`
-6. `notebooks/06_synthesis_visualisation.ipynb`
+1. `notebooks/youtube_collection_cleaning.ipynb`
+2. `notebooks/github_collection_cleaning.ipynb`
+3. Network analysis notebook
+4. NLP sentiment and topic modelling notebook
+5. Synthesis and visualisation notebook
 
 ## Data Collection Dates
-- YouTube: [fill in]
-- Hacker News: [fill in]
-- GitHub: [fill in]
+- YouTube: collected 21 May 2026
+- GitHub: collected 22 May 2026
 
 ## Notes
-- API keys are never stored in this repo. Use `config.py` (gitignored).
+- API keys are never stored in submitted outputs. Use environment variables or the credential modules in `src/utils/`.
 - Raw data is gitignored due to size. See `data/samples/` for submission sample.
 - All analysis implemented in Python. See `requirements.txt` for dependencies.
