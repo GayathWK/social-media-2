@@ -4,37 +4,22 @@
 
 import os
 import sys
-
 from googleapiclient.discovery import build
+from dotenv import load_dotenv
 
-try:
-    from .youtube_credentials import YOUTUBE_API_KEY as FILE_YOUTUBE_API_KEY
-except ImportError:
-    FILE_YOUTUBE_API_KEY = ""
-
+load_dotenv()
 
 def youtubeClient():
     """
     Setup YouTube Data API v3 authentication.
-
-    To obtain an API key:
-    1. Go to https://console.cloud.google.com/
-    2. Create a project or select an existing project.
-    3. Enable "YouTube Data API v3".
-    4. Go to Credentials -> Create Credentials -> API Key.
-
-    @returns: YouTube API service object
+    Loads API key from .env file (YOUTUBE_API_KEY).
     """
-
     try:
-        apiKey = os.getenv("YOUTUBE_API_KEY") or FILE_YOUTUBE_API_KEY
-
+        apiKey = os.getenv("YOUTUBE_API_KEY")
         if not apiKey:
-            raise ValueError("Missing YouTube API key")
-
+            raise ValueError("YOUTUBE_API_KEY not found. Add it to your .env file.")
         youtube = build("youtube", "v3", developerKey=apiKey)
     except Exception as e:
         sys.stderr.write("Failed to create YouTube client: {}\n".format(str(e)))
         sys.exit(1)
-
     return youtube
