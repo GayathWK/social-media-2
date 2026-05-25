@@ -12,8 +12,8 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data - too large for git (submit samples separately)
-# data/raw/
-#data/processed/
+data/raw/
+data/processed/
 
 # Keep folder structure
 !data/raw/.gitkeep
