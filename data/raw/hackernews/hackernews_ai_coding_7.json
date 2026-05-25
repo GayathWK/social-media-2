@@ -40,7 +40,7 @@
           "parentId": 46301810,
           "author": "privalyse",
           "text": "Hi HN, I’m the creator of Privalyse. Looks like HN is back up now — happy to answer questions.<p>To make the output concrete, here’s an example from scanning an intentionally bad-practice demo app:<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;Privalyse&#x2F;privalyse-cli&#x2F;blob&#x2F;main&#x2F;examples&#x2F;bad-practice-app&#x2F;scan_results.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Privalyse&#x2F;privalyse-cli&#x2F;blob&#x2F;main&#x2F;example...</a><p>The goal is to surface privacy&#x2F;security risks (PII, secrets, GDPR-relevant issues) in a way that’s readable for developers and non-security folks, rather than raw logs.",
-          "createdAt": "2025-12-17T17:39:07+00:00",
+          "createdAt": "2025-12-17",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -106,7 +106,7 @@
           "parentId": 35152851,
           "author": "phkahler",
           "text": "Not to be confused with the software development book by the same name:\n<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Code_Complete\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Code_Complete</a><p>Taking that name would not fly under trademark rules, but fortunately books are copyrighted. But then again it&#x27;s published by Microsoft Press - the publishing arm of your biggest competitor.",
-          "createdAt": "2023-03-15T13:30:42+00:00",
+          "createdAt": "2023-03-15",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -115,7 +115,7 @@
           "parentId": 35152851,
           "author": "alsodumb",
           "text": "GitHub and other companies like Amazon have the advantage of the scale in terms of dataset. What’s the guarantee that the pre trained model you have that you’ll fine tune on a company’s code base is as good as say Copilot? It makes it even hard to evaluate when you don’t have a demo to try - it’s not that hard to setup a pipeline to run your model in cloud and send invites to potential customers if you want to.",
-          "createdAt": "2023-03-14T15:36:33+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 2
         },
@@ -124,7 +124,7 @@
           "parentId": 35152851,
           "author": "anxtyinmgmt",
           "text": "So if Microsoft&#x2F;Github ever offers an on-prem version, what will be the advantage of using your product?",
-          "createdAt": "2023-03-14T15:27:31+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 3
         },
@@ -133,7 +133,7 @@
           "parentId": 35152851,
           "author": "saurabh20n",
           "text": "Congrats on the launch. I think you should share some technical details for a more substantial pitch. You are using the OSS BigCode effort and &quot;The Stack&quot; [1, 2] (as you say in another comment), which is great.<p>A few questions that might help an enterprise customer: How big is your base model? Where did you find more datasets (maybe just a hint would be sufficient)? Are you using SantaCoder [3]? Anything you can say about your fine-tuning that makes it special? Totally on board with you that HumanEval&#x2F;MBPP are not great benchmarks for real world, and do you have a suggested alternative to help me see the value?<p>The calculus for an enterprise customer might be: &quot;We could fine tune a 6B model on our internal code and internal benchmarks (say with a month of work, a few thousand in compute, 2 people on task), but I&#x27;d rather buy an off-the-shelf solution like codecomplete.ai. They give us XYZ benefits.&quot; Articulate the XYZ for a technical decision maker who will be your target audience.<p>* [1] <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;datasets&#x2F;bigcode&#x2F;the-stack\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;datasets&#x2F;bigcode&#x2F;the-stack</a><p>* [2] <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2211.15533\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2211.15533</a><p>* [3] <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;bigcode&#x2F;santacoder\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;bigcode&#x2F;santacoder</a>",
-          "createdAt": "2023-03-14T17:28:15+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -142,7 +142,7 @@
           "parentId": 35152851,
           "author": "kanyethegreat",
           "text": "&gt; Permissively Licensed: Trained only on permissively-licensed repos to avoid legal risks<p>You’re fine-tuning the model. What model are you fine-tuning? I can’t imagine you trained your own LLM from scratch, so how can you possibly guarantee the core model wasn’t trained on non-permissively licensed code?",
-          "createdAt": "2023-03-14T15:57:30+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -151,7 +151,7 @@
           "parentId": 35152851,
           "author": "enono",
           "text": "Always astonishes me how negative hacker news can be whenever people try to launch stuff. This is cool!",
-          "createdAt": "2023-03-14T16:21:48+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 6
         },
@@ -160,7 +160,7 @@
           "parentId": 35152851,
           "author": "digdugdirk",
           "text": "Any thoughts on an individual &quot;Here you go, but you&#x27;re on your own&quot; license? Something like this would be <i>massively</i> beneficial to small IT teams who have the same inability to send code to OpenAI, but could use the benefit of a smart auto-complete style system like Copilot. They wouldn&#x27;t necessarily need the custom integration - even small benefits would be seen from an initial core model. Additional integrations could be sold as piecemeal consulting engagements after the fact if need be.<p>Just a thought - there&#x27;s a vast market out there for organizations with dev teams in the 1-10 person range.",
-          "createdAt": "2023-03-14T15:32:51+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 2
         },
@@ -169,7 +169,7 @@
           "parentId": 35152851,
           "author": "sqs",
           "text": "Congrats on the launch. This seems very compelling. For anyone asking &quot;Why can&#x27;t GitHub just do this?&quot;, (1) never underestimate an extremely smart and motivated team, and (2) competition is critical and valuable.<p>Let&#x27;s celebrate when teams build products to fill big needs, instead of dismissing things because of a potential threat from a big company. If we dismiss new things, then we&#x27;ll just end up in a world where big companies get complacent and devs get less new stuff. (I know many GitHubbers, and they love seeing new stuff and are cheering for it because they can&#x27;t do everything.)",
-          "createdAt": "2023-03-14T16:00:58+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 2
         },
@@ -178,7 +178,7 @@
           "parentId": 35152851,
           "author": "blintz",
           "text": "Love the idea of running this stuff on-prem &#x2F; in house. Just not being beholden to random updates in the rules or logging policies seems like a big value add. +1 to the other commenter who mentioned they&#x27;d love to see a version for smaller teams - there might be more privacy-oriented teams out there than you&#x27;d expect. I think even a version that can run in public clouds would be meaningful.<p>Have you gotten feedback from folks using it on how it compares to Copilot in terms of usefulness? What&#x27;s the &#x27;order of magnitude&#x27; difference?",
-          "createdAt": "2023-03-14T17:11:49+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -187,7 +187,7 @@
           "parentId": 35152851,
           "author": "8note",
           "text": "This seems really cool for a company that has enough surface area of software where chances are somebody has already built the thing you need and instead of building a copy yourself, you can integrate with the existing system",
-          "createdAt": "2023-03-14T22:29:23+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -196,7 +196,7 @@
           "parentId": 35152851,
           "author": "clbrmbr",
           "text": "Will you train on accepted&#x2F;regected and other responses from devs rather than just the final code, so that clients lose something when moving to a similar tool which will pop up tomorrow?",
-          "createdAt": "2023-03-14T15:30:19+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -205,7 +205,7 @@
           "parentId": 35152851,
           "author": "DeathArrow",
           "text": "Have you benchmarked it against Copilot?<p>Training data is only your own data, because that might not achieve a great accuracy?<p>Does it work with any programming language?",
-          "createdAt": "2023-03-14T16:19:57+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -214,7 +214,7 @@
           "parentId": 35152851,
           "author": "nikaspran",
           "text": "How does this compare with <a href=\"https:&#x2F;&#x2F;www.tabnine.com&#x2F;enterprise\" rel=\"nofollow\">https:&#x2F;&#x2F;www.tabnine.com&#x2F;enterprise</a>, which is also self-hosted, trained on permissively licensed repositories and supports training on private repos?",
-          "createdAt": "2023-03-14T19:15:33+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -223,7 +223,7 @@
           "parentId": 35152851,
           "author": "s-xyz",
           "text": "This is definitely the case in our company:<p>&quot;Many large companies can’t use products like GitHub Copilot because of the security and privacy risks, so we’re building a self-hosted version that’s fine tuned to the company’s codebase.&quot;",
-          "createdAt": "2023-03-15T12:01:16+00:00",
+          "createdAt": "2023-03-15",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -232,7 +232,7 @@
           "parentId": 35152851,
           "author": "precompute",
           "text": "&gt; Trained only on permissively-licensed repos to avoid legal risks<p>Nice.<p>Slightly unrelated, but are there any languages that use mostly non-permissive licenses that might have gimped your dataset for that language?",
-          "createdAt": "2023-03-16T09:48:23+00:00",
+          "createdAt": "2023-03-16",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -241,7 +241,7 @@
           "parentId": 35152851,
           "author": "bastardoperator",
           "text": "Actual Copilot for Enterprise:<p><a href=\"https:&#x2F;&#x2F;github.blog&#x2F;2023-02-14-github-copilot-for-business-is-now-available&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;github.blog&#x2F;2023-02-14-github-copilot-for-business-i...</a>",
-          "createdAt": "2023-03-14T16:56:21+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -250,7 +250,7 @@
           "parentId": 35152851,
           "author": "codemakerai",
           "text": "I think this a problem that is worth solving as not only the biggest companies are concerned with security, many SaaS and tech companies are concerned about source code of product become compromised.",
-          "createdAt": "2023-03-15T04:10:32+00:00",
+          "createdAt": "2023-03-15",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -259,7 +259,7 @@
           "parentId": 35152851,
           "author": "apetuskey",
           "text": "Excited to try this looks really good! Been looking for something like this for our Pynecone code base!",
-          "createdAt": "2023-03-14T22:17:53+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -268,7 +268,7 @@
           "parentId": 35152851,
           "author": "Double_a_92",
           "text": "Does the &quot;fine-tuning&quot; also happen on-premise or do you need to access the Code?",
-          "createdAt": "2023-03-15T09:50:44+00:00",
+          "createdAt": "2023-03-15",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -277,7 +277,7 @@
           "parentId": 35152851,
           "author": "doctoboggan",
           "text": "Can you let us know which &quot;open source foundation model&quot; you use?",
-          "createdAt": "2023-03-14T16:27:39+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -286,7 +286,7 @@
           "parentId": 35152851,
           "author": "ninjaa",
           "text": "Congrats Lydia &amp; Max! Great demo videos",
-          "createdAt": "2023-03-14T16:22:21+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -295,7 +295,7 @@
           "parentId": 35152851,
           "author": "teddyh",
           "text": "&gt; <i>Trained only on permissively-licensed repos to avoid legal risks</i><p>Do any of those “permissive” licences require attribution?  Do they all grant a patent license?",
-          "createdAt": "2023-03-14T18:28:46+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -304,7 +304,7 @@
           "parentId": 35152851,
           "author": "aunch",
           "text": "Codeium already has this enterprise option, with self-hosting, fine-tuning, and even things like search on top of autocomplete and way more IDEs: <a href=\"https:&#x2F;&#x2F;codeium.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;codeium.com&#x2F;</a><p>How are you different?",
-          "createdAt": "2023-03-14T17:07:00+00:00",
+          "createdAt": "2023-03-14",
           "depth": 1,
           "childCommentCount": 1
         }
@@ -334,7 +334,7 @@
           "parentId": 46707409,
           "author": "mrosoff",
           "text": "This feels less about typing speed and more about workflow compression. You just dictate your thoughts, edit and the it takes action for you?<p>Pretty neat idea!",
-          "createdAt": "2026-01-21T16:48:08+00:00",
+          "createdAt": "2026-01-21",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -343,7 +343,7 @@
           "parentId": 46707409,
           "author": "janice1999",
           "text": "You want companies to pay you to process their customers voices and private data, but I don&#x27;t see a privacy policy or even what jurisdiction you operate in. Your Terms and Conditions is literally a placeholder. That&#x27;s a huge red flag.",
-          "createdAt": "2026-01-21T21:52:54+00:00",
+          "createdAt": "2026-01-21",
           "depth": 1,
           "childCommentCount": 1
         }
@@ -372,7 +372,7 @@
           "parentId": 43894886,
           "author": "miming99",
           "text": "Website is buggy and can&#x27;t get api key when you click on &quot;Get Rdivay API Key&quot; button from vs code chat window.",
-          "createdAt": "2025-05-05T23:39:06+00:00",
+          "createdAt": "2025-05-05",
           "depth": 1,
           "childCommentCount": 1
         }
@@ -403,7 +403,7 @@
           "parentId": 47538125,
           "author": "dabinat",
           "text": "You could provide code to enterprise customers for a fee, with contractural restrictions on how they can use it.<p>You could also have trusted third parties see the code and vouch for it.<p>Or you may decide that the 5% asking for this feature aren’t worth it. You don’t have to capture every customer.",
-          "createdAt": "2026-03-27T02:35:00+00:00",
+          "createdAt": "2026-03-27",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -412,7 +412,7 @@
           "parentId": 47538125,
           "author": "gotwaz",
           "text": "Think about what your own needs are. Moats are only required till the need is meet.",
-          "createdAt": "2026-03-27T01:57:00+00:00",
+          "createdAt": "2026-03-27",
           "depth": 1,
           "childCommentCount": 1
         }
@@ -441,7 +441,7 @@
           "parentId": 46996368,
           "author": "aura-guard",
           "text": "One thing I haven&#x27;t seen discussed much is enforcement at the tool-call boundary, specifically the moment between &#x27;the model wants to call this tool&#x27; and &#x27;the tool actually executes.&#x27; Most safety approaches focus on content (output filtering, prompt injection) or infrastructure (sandboxing, permissions). But there&#x27;s a gap for runtime behavior: detecting that the agent is stuck in a jitter loop (rephrasing the same query slightly each time), that a side-effect tool fired twice with near-identical args, or that the model is stalling with apologetic non-progress text. I&#x27;ve been building something in this space and found that deterministic checks (HMAC signatures on tool+args, overlap coefficients on outputs) catch most of these without needing another LLM call.",
-          "createdAt": "2026-02-13T19:36:03+00:00",
+          "createdAt": "2026-02-13",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -476,7 +476,7 @@
           "parentId": 45165897,
           "author": "antonly",
           "text": "&gt; TheAuditor solves ALL of this. It&#x27;s not a &quot;nice to have&quot; - it&#x27;s the missing piece that makes AI development actually trustworthy.<p>&gt; I&#x27;ve built the tool that makes AI assistants production-ready. This isn&#x27;t competing with SonarQube&#x2F;SemGrep. This is creating an entirely new category: AI Development Verification Tools.<p>Wow, that&#x27;s a lot of talk for a tool that does regex searches and some AST matching, supporting only python and js (these things are not mentioned in the main project README as far as I can tell?).<p>The actual implementation details are buried in an (LLM written?) document: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;TheAuditorTool&#x2F;Auditor&#x2F;blob&#x2F;main&#x2F;ARCHITECTURE.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;TheAuditorTool&#x2F;Auditor&#x2F;blob&#x2F;main&#x2F;ARCHITEC...</a><p>My favourite part is the &quot;Pipeline System&quot;, which outlines a &quot;14-phase analysis pipeline&quot;, but does not number these stages.<p>It reads a bit like the author is hiding what the tool actually does, which is sad, because there might be some really neat ideas in there, but they are really hard to make out.",
-          "createdAt": "2025-09-08T09:38:03+00:00",
+          "createdAt": "2025-09-08",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -485,7 +485,7 @@
           "parentId": 45165897,
           "author": "iamsaitam",
           "text": "&quot;This perfectly illustrates why I need community input. I&#x27;m not a developer - I literally can&#x27;t code. I built this entire tool using Claude over 250 hours because I needed something to audit the code that Claude was writing for me. It&#x27;s turtles all the way down!&quot; - should be in bold on a huge banner",
-          "createdAt": "2025-09-08T10:03:09+00:00",
+          "createdAt": "2025-09-08",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -494,7 +494,7 @@
           "parentId": 45165897,
           "author": "enjoytheview",
           "text": "A security project vibe coded by someone who admittedly does not have a security or even software engineering background, what could go wrong!",
-          "createdAt": "2025-09-08T10:04:52+00:00",
+          "createdAt": "2025-09-08",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -503,7 +503,7 @@
           "parentId": 45165897,
           "author": "grim_io",
           "text": "Using an established analysis tool like sonarcube is probably the way to go.<p>There is no difference between human made and AI made bad code, so I don&#x27;t think we need specialized tools for that.",
-          "createdAt": "2025-09-08T10:04:34+00:00",
+          "createdAt": "2025-09-08",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -512,7 +512,7 @@
           "parentId": 45165897,
           "author": "lewdwig",
           "text": "I have noticed that LLMs are actually pretty decent at redteaming code, so I’ve made it a habit of getting them to do that for code they generate periodically. A good loop is (a) generate code, (b) add test coverage for the code (to 70-80%) (c) redteam the code for possible performance&#x2F;security concerns, (d) add regression tests for the issues uncovered and then fix the code.",
-          "createdAt": "2025-09-08T10:06:41+00:00",
+          "createdAt": "2025-09-08",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -521,7 +521,7 @@
           "parentId": 45165897,
           "author": "quibono",
           "text": "&gt; Don&#x27;t create a venv before installing TheAuditor<p>That&#x27;s a strange ask in the Python ecosystem - what&#x27;s the reason for this?<p>Also, what&#x27;s the benefit of ESLint&#x2F;Ruff&#x2F;MyPy being utilised by this audit tool? I&#x27;m not sure I understand the benefit of having an LLM in between you and Ruff, for example.",
-          "createdAt": "2025-09-08T09:30:35+00:00",
+          "createdAt": "2025-09-08",
           "depth": 1,
           "childCommentCount": 2
         },
@@ -530,7 +530,7 @@
           "parentId": 45165897,
           "author": "pogue",
           "text": "Can someone recommend some alternatives to a tool like this?",
-          "createdAt": "2025-09-08T13:14:47+00:00",
+          "createdAt": "2025-09-08",
           "depth": 1,
           "childCommentCount": 1
         }
@@ -566,7 +566,7 @@
           "parentId": 40456457,
           "author": "toobulkeh",
           "text": "There&#x27;s definitely not enough of these solutions being open-sourced. Definitely makes it more accessible to compliance or restricted environments. More AI should go this route. Definitely will be trying it out in my next build.",
-          "createdAt": "2024-05-23T16:51:15+00:00",
+          "createdAt": "2024-05-23",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -575,7 +575,7 @@
           "parentId": 40456457,
           "author": "randfish",
           "text": "VERY much like this part: &quot;integrates directly into your GitHub workflow, transforming Figma designs into deployable code and understanding your entire codebase.&quot; Getting on the waitlist.",
-          "createdAt": "2024-05-23T18:01:40+00:00",
+          "createdAt": "2024-05-23",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -584,7 +584,7 @@
           "parentId": 40456457,
           "author": "telaandrews2",
           "text": "Agents that make front end development easier go a long way to making bootstrapped entrepreneurship more accessible. Love that this is open source!",
-          "createdAt": "2024-05-23T17:15:00+00:00",
+          "createdAt": "2024-05-23",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -593,7 +593,7 @@
           "parentId": 40456457,
           "author": "jefflub",
           "text": "Very cool! How hard is it to add more technologies? I&#x27;d love something like this that could write my API endpoints in my Rails app.",
-          "createdAt": "2024-05-23T19:59:57+00:00",
+          "createdAt": "2024-05-23",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -602,7 +602,7 @@
           "parentId": 40456457,
           "author": "deep_origins",
           "text": "Excited to see JACoB in the wild! Very much appreciate the ability to support local models with Ollama.",
-          "createdAt": "2024-05-23T20:12:22+00:00",
+          "createdAt": "2024-05-23",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -611,7 +611,7 @@
           "parentId": 40456457,
           "author": "cajohn0205",
           "text": "Excited to try this out with new wireframes. Most figma to code solutions so far have let me down",
-          "createdAt": "2024-05-23T16:18:21+00:00",
+          "createdAt": "2024-05-23",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -620,7 +620,7 @@
           "parentId": 40456457,
           "author": "PiersonMarks",
           "text": "Very cool. Looking forward to using it this upcoming week.",
-          "createdAt": "2024-05-24T04:15:26+00:00",
+          "createdAt": "2024-05-24",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -629,7 +629,7 @@
           "parentId": 40456457,
           "author": "l0gr1thm1k",
           "text": "Awesome to see this go live!",
-          "createdAt": "2024-05-27T15:37:42+00:00",
+          "createdAt": "2024-05-27",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -712,7 +712,7 @@
           "parentId": 36326525,
           "author": "javidlakha",
           "text": "Congratulations on the launch! (I&#x27;m a beta user.) Audit trails, access controls and security certifications are big headaches when developing in regulated industries. Having these already set up has made it easier for us to experiment with and build on LLM APIs.",
-          "createdAt": "2023-06-14T16:54:57+00:00",
+          "createdAt": "2023-06-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -721,7 +721,7 @@
           "parentId": 36326525,
           "author": "pseudonymouspat",
           "text": "Go Ravin and Jack! We&#x27;re not at sufficient scale to really get use of this product, but would love to try it down the road. Are you using Foundry for data integration and ACLs?",
-          "createdAt": "2023-06-14T18:08:57+00:00",
+          "createdAt": "2023-06-14",
           "depth": 1,
           "childCommentCount": 2
         },
@@ -730,7 +730,7 @@
           "parentId": 36326525,
           "author": "aiappreciator",
           "text": "This seems like a very promising product, a ChatGPT interface, enterprise version, is a large gap in the market.<p>However, this part in your advertising, sounds very dubious:&quot;Credal can be deployed fully on-premise for Large Enterprises, including the large language models themselves&quot;<p>What do you mean the LLMs themselves? Open source I can understand, how are you going to move GPT-4 to on prem? OpenAI is not giving you the weights.",
-          "createdAt": "2023-06-14T22:22:52+00:00",
+          "createdAt": "2023-06-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -739,7 +739,7 @@
           "parentId": 36326525,
           "author": "kriro",
           "text": "Congrats, I think this will be really successfull and you got a very early food in the door.<p>Do you consider self hosted LLMs a competitor of sorts? I suppose your premise is if a company uses Google Docs they will also likely never host internal LLMs, right?",
-          "createdAt": "2023-06-14T16:32:42+00:00",
+          "createdAt": "2023-06-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -748,7 +748,7 @@
           "parentId": 36326525,
           "author": "mritchie712",
           "text": "Going thru the SOC2 process myself[0].<p>As I expected, we&#x27;re hearing from customers they won&#x27;t use a product that passes the contents of their database tables into an AI model (although some AI products are doing this). So the problem Credal is solving makes sense. Have you considered building an open source Python package for solving just this bit of the problem?<p>Any tips on the SOC2? Did you use something like Drata &#x2F; Vanta?<p>0 - <a href=\"https:&#x2F;&#x2F;www.definite.app&#x2F;\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;www.definite.app&#x2F;</a>",
-          "createdAt": "2023-06-14T14:53:38+00:00",
+          "createdAt": "2023-06-14",
           "depth": 1,
           "childCommentCount": 2
         },
@@ -757,7 +757,7 @@
           "parentId": 36326525,
           "author": "deet",
           "text": "Looks awesome and will make many enterprises feel more comfortable using AI.<p>I suspect your intuition about moving emphasis from redaction to unified access control and audit logging over time is right.<p>The &quot;AI Chief of Staff&quot; sounds interesting though -- can you share a bit more about what you showed to companies and received lukewarm response to?",
-          "createdAt": "2023-06-14T18:28:22+00:00",
+          "createdAt": "2023-06-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -766,7 +766,7 @@
           "parentId": 36326525,
           "author": "rishsriv",
           "text": "This is so sorely needed. I used the app after the PH launch and loved how easy the self-serve was!<p>Do you have plans to let users define &quot;types&quot; of data that can be redacted (like monetary terms in a contract, code embedded in documents etc)? Also, any plans on making this an API that other developers could build on top of?",
-          "createdAt": "2023-06-14T16:02:18+00:00",
+          "createdAt": "2023-06-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -775,7 +775,7 @@
           "parentId": 36326525,
           "author": "alokjnv10",
           "text": "That look what i need for data privacy for my chat with pdf tool Documind. <a href=\"https:&#x2F;&#x2F;documind.chat\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;documind.chat</a>",
-          "createdAt": "2023-06-14T14:56:48+00:00",
+          "createdAt": "2023-06-14",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -784,7 +784,7 @@
           "parentId": 36326525,
           "author": "version_five",
           "text": "Very cool. The demo was really impressive, this feels like it could be a very successful product. All the best!",
-          "createdAt": "2023-06-16T15:06:08+00:00",
+          "createdAt": "2023-06-16",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -793,7 +793,7 @@
           "parentId": 36326525,
           "author": "gaut",
           "text": "This looks awesome. Congrats on the launch!",
-          "createdAt": "2023-06-14T15:37:25+00:00",
+          "createdAt": "2023-06-14",
           "depth": 1,
           "childCommentCount": 1
         }
@@ -822,7 +822,7 @@
           "parentId": 37238648,
           "author": "jondwillis",
           "text": "I’m preparing for bringing a generative Agent app into production. Currently I am using langsmith for observability and shopping around for benchmarks and automated test suites. To be honest, the automated evaluation  feature is PART of my product. So, i’m wondering if you have an API or SDK for interacting with the evaluator (such that I could show results in my own UI)",
-          "createdAt": "2023-08-24T12:14:00+00:00",
+          "createdAt": "2023-08-24",
           "depth": 1,
           "childCommentCount": 1
         }
@@ -854,7 +854,7 @@
           "parentId": 37065734,
           "author": "aphexcx",
           "text": "As an aider user for the past two months (it writes half of my code), being able to use it in the Rift vscode extension is a huge upgrade to my daily workflow. (It&#x27;s me, I&#x27;m the real 10x engineer)",
-          "createdAt": "2023-08-09T18:40:36+00:00",
+          "createdAt": "2023-08-09",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -863,7 +863,7 @@
           "parentId": 37065734,
           "author": "jdownie01",
           "text": "Can&#x27;t wait to build even more on top of rift!",
-          "createdAt": "2023-08-09T17:51:10+00:00",
+          "createdAt": "2023-08-09",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -872,7 +872,7 @@
           "parentId": 37065734,
           "author": "swyx",
           "text": "been great seeing Rift grow over the past few weeks. excited to have all the coding agents finally in my IDE!",
-          "createdAt": "2023-08-09T17:43:07+00:00",
+          "createdAt": "2023-08-09",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -881,7 +881,7 @@
           "parentId": 37065734,
           "author": "brentable",
           "text": "yes",
-          "createdAt": "2023-08-09T19:56:21+00:00",
+          "createdAt": "2023-08-09",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -924,7 +924,7 @@
           "parentId": 47032993,
           "author": "holg",
           "text": "Sounds interesting, will give it a try, thx for sharing the Code as well",
-          "createdAt": "2026-02-16T10:29:27+00:00",
+          "createdAt": "2026-02-16",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -964,6 +964,355 @@
         "url": "https://github.com/fctr-id/okta-ai-agent"
       },
       "comments": []
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 21,
+      "story": {
+        "by": "syumei",
+        "descendants": 0,
+        "id": 33314210,
+        "score": 1,
+        "text": "I have developed a framework named AIJack to simulate various attacks against machine learning models, mainly based on PyTorch and sklearn. Currently, I have implemented more than 20 algorithms! I am looking forward to your feedback!<p>code: https:&#x2F;&#x2F;github.com&#x2F;Koukyosyumei&#x2F;AIJack<p>documentation: https:&#x2F;&#x2F;koukyosyumei.github.io&#x2F;AIJack&#x2F;intro.html",
+        "time": 1666600390,
+        "title": "Let's Hijack AI! Security and Privacy Risk Simulator for Machine Learning",
+        "type": "story"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 22,
+      "story": {
+        "by": "gabriel_oauth",
+        "descendants": 7,
+        "id": 48248801,
+        "kids": [
+          48249487,
+          48248952,
+          48249563,
+          48249608,
+          48253425,
+          48248984,
+          48252279
+        ],
+        "score": 7,
+        "text": "Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder.\nWhy was claw-coder created? Answer: To solve the problem of privacy and security. When you use an agent that is configured with a cloud model like codex, cursor, Claude etc. You are not just getting the agent but you are giving up your codebase to train an llm which is a bit concerning and this reduces trust in the technology called AI but now another problem comes in performance when you switch to a local model that is not made for that workflow you lose performance, speed, and it becomes really a tradeoff so that&#x27;s where claw-coder comes in it not only runs on your machine but all the code, rag, knowledge graph etc info is kept local making the privacy problem solved but now what about performance.<p>Performance: Local llms are not built to do the cool things cloud models do because the model sizes are not even capable of building real apps like the 8b models, 13b, even 1b so the solution I came up with was to give these small models access to tools and features that make it actually work well in coding performance.<p>So what does claw-coder have access to: A knowledge graph: A knowledge graph is an interconnected network of real-world entities—such as people, places, concepts, or events—and the relationships between them. It organizes information into a readable web of meaning rather than static lists, allowing both humans and AI to understand context. So how does this help an AI, it gives the AI the ability to tell relationships between code in your codebase, a cloned unknown repo and so forth this increases performance of local llms by far in coding tasks and reasoning abilities. Rag: We have ever had of RAG at some point but there is a catch the context window of local llms can&#x27;t bear large codebases and repos so RAG isn&#x27;t optional by storing vectors in a vector store you enable the AI to actually know what the code means and what each piece does to the other letting you load millions of lines into the vector store without blowing up the context window.<p>Tools: So we have discussed the tiny but powerful ways to improve local llm performance but an agent to be an agent it needs to take action this is where exposing tools to the local llm helps so what tools have been implemented into claw-coder. 1. search_tool This enables the ai agent to actually search up to date info so that it doesnt hallucinate on info it doesn&#x27;t know which is common in local llms. 2. Docker execution This agent has a special folder called workspace where it does its work without destroying your desktop but this is not enough to protect your desktop from being destroyed by cheap code so this is where docker comes in I have implemented docker containers of various languages where the agent can validate its own code this is powerful because all llms not only local ones generate code they can&#x27;t even confirm works because they are just powerful predictors so enabling it to run its code can surprisingly increase the usefulness of the generated code because it now knows it works or not even for html and css the ai agent has been given a helpful vision llm to actually explain what rendered in the browser. This is the surprising power of giving an llm a docker execution tool.<p>We have looked at a lot of how claw-coder is different enabling local llms to actually do real work. But how do you actually try it out yourself: Claw-coder is closed source because it is going through heavy testing but that doesnt kill transparency and since we are testing it doesn&#x27;t stop people from trying it on real codebase and giving feedback to get started use:<p>brew tap gabriel-c70&#x2F;claw then brew install claw-coder",
+        "time": 1779552385,
+        "title": "Show HN: I built a RAG and knowledge graph agent that runs locally",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 48249487,
+          "parentId": 48248801,
+          "author": "shaurya-sethi",
+          "text": "hi gabriel, the problem you are trying to solve is valid, but both claude-code and codex natively support local models ran through ollama. i&#x27;ve tried doing this before, and SLMs still fail to do basic tasks because they are put in a harness that has too many features and tools.<p>i&#x27;ve had really good success though in using them in minimal harnesses like pi-coding-agent. without an open-source repo it would be difficult to guess&#x2F;assume what your approach is, but i hope you&#x27;re thinking in the same direction and not trying to reinvent the wheel.<p>best,\nshaurya",
+          "createdAt": "2026-05-23",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 48248952,
+          "parentId": 48248801,
+          "author": "gabriel_oauth",
+          "text": "Do AI agents ability to reason about code increase when given access to a Knowledge Graph",
+          "createdAt": "2026-05-23",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 48249563,
+          "parentId": 48248801,
+          "author": "jkwn",
+          "text": "&quot;ever had of RAG&quot;<p>showing a brew tap before the code is strange, in the least...",
+          "createdAt": "2026-05-23",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 48249608,
+          "parentId": 48248801,
+          "author": "jabeer",
+          "text": "will it help in token consumption?",
+          "createdAt": "2026-05-23",
+          "depth": 1,
+          "childCommentCount": 2
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 23,
+      "story": {
+        "by": "gmontard",
+        "descendants": 1,
+        "id": 35816226,
+        "kids": [
+          35816300
+        ],
+        "score": 7,
+        "text": "Hi HN,<p>I&#x27;m Guillaume, the founder of Bearer, an Open Source code security scanning tool. Despite the buzz around generative AI (which, as a reader of HN, you&#x27;ve likely encountered), we&#x27;ve also heard concerns from security teams.<p>When using OpenAI’s developer APIs (and other LLMs), considering how Generative AI model works, essentially the more you give, the better you receive, we essentially open the door to “overshare” information. For example, If you are building an AI assistant into your travel booking app, sending sensitive data as customer information becomes highly probable. Though, as with any shared data, this does present important security and privacy risks that we can’t overlook, hence the fear of security teams.<p>To address these risks, we must have explicit policies and a culture of privacy and security within the organization. We should treat generative AI models like any other third-party dependency, assessing them for vulnerabilities and safeguarding customer data. Of course, having appropriate tooling also helps.<p>That&#x27;s why we&#x27;ve added a new set of rules to Bearer CLI, our open-source static analyzer, that explicitly checks for OpenAI usage. Combined with our sensitive data detection capability, this feature can alert you and your team if your code is sending sensitive data it shouldn&#x27;t be.<p>You can find a link to Bearer CLI and the specific OpenAI ruleset in the following URLs:<p>Bearer CLI: https:&#x2F;&#x2F;github.com&#x2F;bearer&#x2F;bearer\nOpenAI&#x27;s rule for JavaScript: https:&#x2F;&#x2F;docs.bearer.com&#x2F;reference&#x2F;rules&#x2F;javascript_third_parties_openai&#x2F;<p>Please feel free to test it with your code and share any feedback with us below. We welcome contributions to improve detection and add new rules to further enhance the security of your code.",
+        "time": 1683211715,
+        "title": "Detecting sensitive data shared with OpenAI",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 35816300,
+          "parentId": 35816226,
+          "author": "cfabianski",
+          "text": "I&#x27;m Cédric, CTO @ Bearer<p>I hope you will find this useful but I really enjoyed writing this one to help protect us (users) better.\nLet me know if there is anything you would like to improve.<p>Link to the Rule <a href=\"https:&#x2F;&#x2F;github.com&#x2F;bearer&#x2F;bearer-rules&#x2F;blob&#x2F;main&#x2F;javascript&#x2F;third_parties&#x2F;openai.yml\">https:&#x2F;&#x2F;github.com&#x2F;bearer&#x2F;bearer-rules&#x2F;blob&#x2F;main&#x2F;javascript&#x2F;...</a>\nLink to the Recipe <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Bearer&#x2F;bearer&#x2F;blob&#x2F;main&#x2F;pkg&#x2F;classification&#x2F;db&#x2F;recipes&#x2F;openai.json\">https:&#x2F;&#x2F;github.com&#x2F;Bearer&#x2F;bearer&#x2F;blob&#x2F;main&#x2F;pkg&#x2F;classificatio...</a>",
+          "createdAt": "2023-05-04",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 24,
+      "story": {
+        "by": "linktothenew",
+        "descendants": 7,
+        "id": 44730896,
+        "kids": [
+          44724720,
+          44726385,
+          44735259,
+          44724213
+        ],
+        "score": 5,
+        "text": "Hello HN, we&#x27;re Andrew and Stephen from Keyboard (<a href=\"https:&#x2F;&#x2F;www.keyboard.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.keyboard.dev&#x2F;</a>).<p>After building AI tools for the past year, we recently made a YouTube video on building MCP servers and realized MCP is a total game-changer. It essentially lets AI do anything by connecting to your apps. But the deeper we dove, the clearer it became that security and privacy were complete afterthoughts. Coming from backgrounds at Okta and Stripe, this made us pretty uncomfortable.<p>We kept seeing the same pattern: every app needs its own MCP server, each storing sensitive tokens, with minimal security controls. It felt like we were back to the early days of OAuth implementations. Functional, but scary.<p>How Keyboard fixes this:<p>- Isolated execution: Your API keys live in your own GitHub Codespace secrets, Bearer OAuth tokens in encrypted files on your machine. Your credentials stay in your trust radius<p>- Ephemeral environments: Codespaces can be destroyed&#x2F;recreated, limiting blast radius<p>- Built-in access controls: GitHub&#x27;s enterprise-grade security model protects your credentials<p>- Zero-trust architecture: Only you can access your API keys and execution environment<p>What makes this different:<p>- Real code execution: Claude can run JavaScript&#x2F;Node.js with npm packages and your API credentials<p>- Reusable workflows: Save complex scripts as &quot;Keyboard Shortcuts&quot; for instant reuse<p>- Universal integration: One setup connects Linear, Slack, Google Workspace, GitHub, and more<p>- Auto-environment management: Codespaces created&#x2F;managed automatically as needed<p>The GitHub Codespace approach came from experimental work with interactive documentation. We realized Codespaces might be the most secure place to execute these tasks - isolated, ephemeral, with enterprise-grade controls.<p>We need your help: If this resonates, give us a star on GitHub! We&#x27;re looking for early users and contributors who want to help make MCP more powerful and more secure.<p>We&#x27;d love your feedback, especially if you&#x27;ve been experimenting with MCP yourself!<p>If you want to try it here is the quickstart: <a href=\"https:&#x2F;&#x2F;docs.keyboard.dev&#x2F;getting-started&#x2F;quickstart\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.keyboard.dev&#x2F;getting-started&#x2F;quickstart</a>",
+        "time": 1753849638,
+        "title": "Show HN: Give Claude a GitHub Codespace to automate all your apps via MCP",
+        "type": "story",
+        "url": "https://github.com/keyboard-dev/keyboard-local"
+      },
+      "comments": [
+        {
+          "commentId": 44724720,
+          "parentId": 44730896,
+          "author": "YoungGato",
+          "text": "Dope concept! If keyboard could connect our entire app at Potarix we could go completely hands off and it would streamline our flow!",
+          "createdAt": "2025-07-29",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 44726385,
+          "parentId": 44730896,
+          "author": "mifydev",
+          "text": "Looks great! How does it match intent to the set of tools, do you have a library of them?",
+          "createdAt": "2025-07-29",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 44735259,
+          "parentId": 44730896,
+          "author": "Ourmada_RCL",
+          "text": "Good thinking leveraging Codespaces; convenience and safety.",
+          "createdAt": "2025-07-30",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 25,
+      "story": {
+        "by": "GabrielBlessed",
+        "descendants": 3,
+        "id": 48246659,
+        "kids": [
+          48249188,
+          48246682,
+          48248774
+        ],
+        "score": 5,
+        "text": "Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder.<p>Why was claw-coder created?\nAnswer: To solve the problem of privacy and security. When you use an agent that is configured with a cloud model like codex, cursor, Claude etc. You are not just getting the agent but you are giving up your codebase to train an llm which is a bit concerning and this reduces trust in the technology called AI but now another problem comes in performance when you switch to a local model that is not made for that workflow you lose performance, speed, and it becomes really a tradeoff so that&#x27;s where claw-coder comes in it not only runs on your machine but all the code, rag, knowledge graph etc info is kept local making the privacy problem solved but now what about performance.<p>Performance:\nLocal llms are not built to do the cool things cloud models do because the model sizes are not even capable of building real apps like the 8b models, 13b, even 1b so the solution I came up with was to give these small models access to tools and features that make it actually work well in coding performance.<p>So what does claw-coder have access to:\nA knowledge graph:\nA knowledge graph is an interconnected network of real-world entities—such as people, places, concepts, or events—and the relationships between them. It organizes information into a readable web of meaning rather than static lists, allowing both humans and AI to understand context.\nSo how does this help an AI, it gives the AI the ability to tell relationships between code in your codebase, a cloned unknown repo and so forth this increases performance of local llms by far in coding tasks and reasoning abilities.\nRag:\nWe have ever had of RAG at some point but there is a catch the context window of local llms can&#x27;t bear large codebases and repos so RAG isn&#x27;t optional by storing vectors in a vector store you enable the AI to actually know what the code means and what each piece does to the other letting you load millions of lines into the vector store without blowing up the context window.<p>Tools:\nSo we have discussed the tiny but powerful ways to improve local llm performance but an agent to be an agent it needs to take action this is where exposing tools to the local llm helps so what tools have been implemented into claw-coder.\n1. search_tool\nThis enables the ai agent to actually search up to date info so that it doesnt hallucinate on info it doesn&#x27;t know which is common in local llms.\n2. Docker execution\nThis agent has a special folder called workspace where it does its work without destroying your desktop but this is not enough to protect your desktop from being destroyed by cheap code so this is where docker comes in I have implemented docker containers of various languages where the agent can validate its own code this is powerful because all llms not only local ones generate code they can&#x27;t even confirm works because they are just powerful predictors so enabling it to run its code can surprisingly increase the usefulness of the generated code because it now knows it works or not even for html and css the ai agent has been given a helpful vision llm to actually explain what rendered in the browser. This is the surprising power of giving an llm a docker execution tool.<p>We have looked at a lot of how claw-coder is different enabling local llms to actually do real work.\nBut how do you actually try it out yourself:\nClaw-coder is closed source because it is going through heavy testing but that doesnt kill transparency and since we are testing it doesn&#x27;t stop people from trying it on real codebase and giving feedback to get started use:<p>brew tap gabriel-c70&#x2F;claw\nthen brew install claw-coder",
+        "time": 1779534343,
+        "title": "Show HN: I built a powerful RAG and knowledge graph agent that runs locally",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 48249188,
+          "parentId": 48246659,
+          "author": "jeroen_stulen",
+          "text": "I totally get the privacy and security risks that come with AI coding agents, and especially with something shaped like claw-coder. The part that leaves a question mark for me is “closed source because we’re testing heavily”;that’s normally the argument for opening the source, not against it. More eyes, more bugs found, more reason to trust it.",
+          "createdAt": "2026-05-23",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 48246682,
+          "parentId": 48246659,
+          "author": "GabrielBlessed",
+          "text": "Do AI agent&#x27;s ability to reason about code become more powerful when given access to knowledge graph.",
+          "createdAt": "2026-05-23",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 48248774,
+          "parentId": 48246659,
+          "author": "man_research",
+          "text": "Cool agent man",
+          "createdAt": "2026-05-23",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 26,
+      "story": {
+        "by": "novitzmann",
+        "descendants": 0,
+        "id": 41801218,
+        "score": 4,
+        "text": "Introducing Docwire SDK, an advanced C++20 data processing library. Our SDK is a powerful tool built for developers who need a reliable and fast way to process various file types in their applications. It supports a wide range of formats (PDF, XML, DOCX, PST, RTF, and almost 100 more) and allows to perform tasks such as document parsing, metadata extraction, and data export, all while maintaining a focus on security and performance.\nIf you’ve ever had to write your own file processing logic, you’ll appreciate how Docwire SDK abstracts away the complexities and provides a streamlined API for handling these tasks—so you can focus on building awesome features instead of reinventing the wheel!\nWhy Docwire SDK Stands Out:\n Full C++20 Support\nDocwire SDK is written in modern C++20, leveraging features like move semantics, smart pointers, and lambdas to optimize performance and make the codebase more robust. This ensures better memory management, higher efficiency, and a cleaner API for developers.\n Powerful Document Parsing and Exporting\nWith Docwire SDK, you get out-of-the-box support for handling a variety of document formats. Whether it’s extracting metadata from PDFs, parsing complex XML structures, or exporting documents to HTML or EML, the SDK handles these operations with ease. Plus, with a flexible architecture, you can extend and customize the functionality to suit your specific needs.\n Performance Optimizations\nWe&#x27;ve put a strong focus on optimizing performance, especially when handling large datasets or nested documents. Docwire SDK uses techniques like caching, memory buffers, and efficient data streams to ensure your applications run smoothly, even when working with massive files.\n Local AI-Driven Processing\nOne of the standout features of Docwire SDK is its integration with locally run AI models. You can perform natural language processing tasks (like sentiment analysis, document classification, and entity recognition) without sending data to external servers. This not only enhances performance but also ensures your sensitive data stays private.\nCross-Platform and CI-Ready\nDocwire SDK is designed for cross-platform use, with built-in support for macOS, Linux, and Windows. We also offer seamless integration with CI pipelines, allowing you to automate builds and run tests on multiple platforms (including macOS 13, macOS 14, Ubuntu 24.04, etc.).\nEasy Integration and Customization\nWe’ve made sure that integrating Docwire SDK into your project is straightforward, with detailed documentation and examples to guide you through. Plus, with built-in support for dependency management tools like vcpkg, getting started is as simple as a few commands.\nModular Architecture\nDocwire SDK is split into multiple libraries, allowing you to only include the features you need for your specific project. This approach makes the SDK highly customizable and lightweight, so you can build efficient applications without unnecessary overhead.\nSecurity and Privacy\nIn a world where data privacy is paramount, we’ve made it a priority to offer features that ensure secure document processing. Since our SDK runs locally, your data never leaves your environment, and you can avoid potential data leaks or security breaches associated with cloud-based solutions.\n Who Can Benefit from Docwire SDK?\nDocwire SDK is perfect for:\nEnterprise developers working with complex data formats and large documents.\nAI-ML developers looking to integrate locally run NLP models into C++ applications.\nSecurity-conscious teams who want to ensure their data never leaves their internal infrastructure.\nAny C++ developer who needs a robust, high-performance document processing solution that doesn’t require reinventing the wheel.\n How to Get Started?\nHead over to our GitHub repo, where you’ll find everything you need—from installation instructions to code examples and detailed documentation.\nWe’d Love Your Feedback—don’t hesitate to reach out.",
+        "time": 1728581807,
+        "title": "Docwire SDK – C++20 library for advanced data processing",
+        "type": "story"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 27,
+      "story": {
+        "by": "viewer_midoria",
+        "descendants": 2,
+        "id": 44710037,
+        "kids": [
+          44710511,
+          44710323
+        ],
+        "score": 3,
+        "text": "The tool lets you upload your schema, auto selects the tables required for the query and instantly starts generating SQL code for any database without ever needing access to the data itself.<p>Unlike other tools, there’s no need to give up database access. It also lets you rework existing sql queries.<p>Honestly, I built this for myself. In my last interview, I totally bluffed about being an advanced SQL expert… but I didn’t know a thing. On my first day, they handed me their database and told me to sort out marketing and user data on Metabase. So, I built this tool just to survive the job.<p>Now, I’m curious if any of you could use something like this, too. The tool also explains its logic step-by-step, so you can present your work confidently (and actually understand what’s going on).<p>There are two main use cases I see:<p>For companies that don’t want to connect their database to an AI tool for security or privacy reasons.<p>For folks like me, who need to write SQL like a pro, but would rather not admit they’re learning on the job.<p>If this post gets 1,001 upvotes, I’ll launch it.<p>P.S. It’s been three months, and I’m doing great at the job!",
+        "time": 1753704488,
+        "title": "Is there demand for a tool that turns natural language to SQL without database?",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 44710511,
+          "parentId": 44710037,
+          "author": "Urahandystar",
+          "text": "Is it a billion dollar business? Probably not you should launch it anyway it would be fun for you to see it in the wild and how many people interact with it. \nYou may also learn a thing or two when user interact with it in the wild.",
+          "createdAt": "2025-07-28",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 44710323,
+          "parentId": 44710037,
+          "author": "jonahbenton",
+          "text": "LLMs, even local ones, are perfectly good at this exact task.",
+          "createdAt": "2025-07-28",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 28,
+      "story": {
+        "by": "buttersmoothAI",
+        "descendants": 0,
+        "id": 46050263,
+        "score": 3,
+        "text": "Hey HN! I&#x27;m Michael, co-founder of AI Guardian.<p>We built this because we kept shipping AI-suggested code that broke in production. Copilot&#x2F;Cursor&#x2F;ChatGPT are amazing, but they don&#x27;t know your context, security requirements, or performance constraints.<p>*What AI Guardian does:*\n- 8 specialized &quot;guardians&quot; validate different aspects:\n  • Bias detection (algorithmic fairness)\n  • Security validation (vulnerability scanning)\n  • Performance analysis (efficiency checks)\n  • Context verification (requirements matching)\n  • Drift monitoring (model behavior tracking)\n  • Trust validation (safety, explainability)\n  • + 2 more specialized guards<p>*How it works:*\n1. You write code with AI assistance\n2. Before committing, guardians analyze the changes\n3. Each guardian provides pass&#x2F;fail + specific feedback\n4. You fix issues BEFORE they hit production<p>*Current status:*\n- Beta with 500 developers\n- Founding 100 program open: $299 + $20&#x2F;month forever\n- After 100 spots: $99&#x2F;month regular pricing<p>We analyzed 10,000 AI code suggestions and found 70% needed fixes. Full methodology and data in the repo.<p>*I&#x27;ll be here all day to answer questions.* We&#x27;re skeptical engineers ourselves - happy to discuss technical implementation, privacy, how the guardians work, etc.",
+        "time": 1764102027,
+        "title": "Hey HN I'm Michael, co-founder of AI Guardian",
+        "type": "story"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 29,
+      "story": {
+        "by": "rctstudio2018",
+        "descendants": 4,
+        "id": 46677860,
+        "kids": [
+          46687487,
+          46679826,
+          46679621
+        ],
+        "score": 2,
+        "text": "Claude Cowork is a fascinating idea for non-devs, but I wanted a version that was open-source, lightweight, and strictly model-agnostic.<p>So I spent the last 24 hours with Claude Code and here it comes:<p>Native Rust, Zero-Wrappers: This isn&#x27;t just another agent wrapper. It’s a ground-up implementation in Rust. No heavy dependencies, no Python bloat, and no reliance on OpenCode&#x2F;AgentSDK. Just raw performance and a tiny binary.<p>Docker Sandboxing: Since agents execute code, security is paramount. Open Cowork runs commands inside a transient Docker container.<p>BYOK (Bring Your Own Key): Use OpenAI, Anthropic, or run entirely offline with Ollama&#x2F;Local LLMs. You own the keys and the privacy.<p>Skills, and MCPs: It can already handle complex document tasks (PDF, Excel, etc.) out of the box.<p>The Development Story: The most interesting part is that I had zero Rust experience before this weekend.<p>It was a surreal experience: an AI agent (Claude Code) helping me build a faster, secure, and open-source version of &quot;itself.&quot;<p>The project is live on GitHub:<a href=\"https:&#x2F;&#x2F;github.com&#x2F;kuse-ai&#x2F;kuse_cowork\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;kuse-ai&#x2F;kuse_cowork</a><p>It&#x27;s still very early and experimental, any feedback is welcome ：）",
+        "time": 1768822793,
+        "title": "Show HN: Kuse Cowork – An open source, BYOK alternative to Claude Cowork",
+        "type": "story",
+        "url": "https://github.com/kuse-ai/kuse_cowork"
+      },
+      "comments": [
+        {
+          "commentId": 46687487,
+          "parentId": 46677860,
+          "author": "Nicole9",
+          "text": "Cool. Another AI project written in Rust! The local model has been a great idea for privacy and compliance! Which local models do you think can support this kind of agent? I suppose you need at least a 140B model to work well?",
+          "createdAt": "2026-01-20",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 46679621,
+          "parentId": 46677860,
+          "author": "kxbnb",
+          "text": "Love the security-first approach with Docker sandboxing - that&#x27;s often an afterthought in agent wrappers. The BYOK model is compelling too for teams with compliance requirements.<p>Curious: how are you thinking about policy enforcement for what the agent can actually do within the sandbox? Like limiting which MCP tools it can call or what parameters are valid?<p>We&#x27;re working on governance&#x2F;guardrails for MCP pipelines at keypost.ai - would be interested to explore if there&#x27;s complementary overlap. Congrats on shipping!",
+          "createdAt": "2026-01-19",
+          "depth": 1,
+          "childCommentCount": 1
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 30,
+      "story": {
+        "by": "suneelak",
+        "descendants": 4,
+        "id": 42033014,
+        "kids": [
+          42039902,
+          42047704
+        ],
+        "score": 1,
+        "text": "After many months of effort, trying to build an open source alternative for GitHub Copilot, while still retaining the same native user experience it offers, we&#x27;re happy to ship Flexpilot. (<a href=\"https:&#x2F;&#x2F;flexpilot.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;flexpilot.ai&#x2F;</a>)<p>You can try the VS Code extension here - <a href=\"https:&#x2F;&#x2F;marketplace.visualstudio.com&#x2F;items?itemName=flexpilot.flexpilot-vscode-extension&amp;ssr=false#review-details\" rel=\"nofollow\">https:&#x2F;&#x2F;marketplace.visualstudio.com&#x2F;items?itemName=flexpilo...</a><p>Flexpilot requires VS Code 1.95 or higher.<p>While we loved GitHub copilot and the experience it offered, we wanted to use other LLM&#x27;s to code effectively using VS Code and not just OpenAI. Also, there are lots of concerns around privacy and security at enterprises to send their codebases to the cloud. Several other coding assistants did not have the same native experience as GitHub Copilot and were only web views and we wanted to try and build something that will give us the best of both worlds - flexibility to choose LLM&#x27;s (Cloud or on-prem) and native user experience, all within VS Code.<p>Flexpilot offers you the ability to choose from a variety of LLM providers such as OpenAI, Claude, Mistral, Gemini, AzureOpenAI, Groq or even other OpenAI compatible API providers. For instance, you can run Llama 3.2 or CodeLlama using Ollama on your local machine and inference it on VS Code using Flexpilot.<p>Not only in panel chat or inline chat, Flexpilot allows you to choose any LLM of choice in Panel, Inline, Code completions, quick chat, commit messages, Chat summaries etc.<p>Our repo is open source and you can find the details here - <a href=\"https:&#x2F;&#x2F;github.com&#x2F;flexpilot-ai&#x2F;vscode-extension\">https:&#x2F;&#x2F;github.com&#x2F;flexpilot-ai&#x2F;vscode-extension</a><p>Happy to answer any questions on tech stack, comparisons with other coding assistants, etc.<p>Please try Flexpilot and let us know your thoughts!",
+        "time": 1730641245,
+        "title": "Show HN: Open-Source Alternative for GitHub Copilot",
+        "type": "story",
+        "url": "https://marketplace.visualstudio.com/items?itemName=flexpilot.flexpilot-vscode-extension"
+      },
+      "comments": [
+        {
+          "commentId": 42039902,
+          "parentId": 42033014,
+          "author": "thedragula",
+          "text": "What&#x27;s your strategy for maintaining the &quot;native&quot; VS Code experience across different LLM providers, given that they might return responses in different formats? How do you standardize the interface while preserving each model&#x27;s unique capabilities?",
+          "createdAt": "2024-11-04",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 42047704,
+          "parentId": 42033014,
+          "author": "sree2024",
+          "text": "Very friendly for beginners.",
+          "createdAt": "2024-11-05",
+          "depth": 1,
+          "childCommentCount": 1
+        }
+      ]
     }
   ]
 }

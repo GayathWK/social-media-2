@@ -1,0 +1,26 @@
+{
+  "total_records": 3322,
+  "num_topics": 6,
+  "sentiment_distribution": {
+    "positive": 2082,
+    "negative": 797,
+    "neutral": 443
+  },
+  "topic_distribution": {
+    "AI coding tools and agents": 899,
+    "Vibe coding and developer workflow": 654,
+    "Claude and AI model discussion": 527,
+    "GitHub Copilot, open source and licensing": 508,
+    "APIs, files and technical implementation": 396,
+    "Companies, data and AI systems": 338
+  },
+  "average_sentiment": 0.2901,
+  "average_sentiment_by_topic": {
+    "AI coding tools and agents": 0.3365,
+    "APIs, files and technical implementation": 0.4042,
+    "Claude and AI model discussion": 0.2526,
+    "Companies, data and AI systems": 0.3276,
+    "GitHub Copilot, open source and licensing": 0.171,
+    "Vibe coding and developer workflow": 0.2608
+  }
+}
