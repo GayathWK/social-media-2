@@ -4,25 +4,44 @@
 import os
 import sys
 import time
+from pathlib import Path
 
 import requests
 
 try:
-    from .github_credentials import GITHUB_TOKEN as FILE_GITHUB_TOKEN
+    from dotenv import load_dotenv
 except ImportError:
-    FILE_GITHUB_TOKEN = ""
+    def load_dotenv():
+        for start in (Path.cwd().resolve(), Path(__file__).resolve()):
+            for path in (start, *start.parents):
+                env_path = path / ".env"
+                if not env_path.exists():
+                    continue
+                for line in env_path.read_text(encoding="utf-8").splitlines():
+                    line = line.strip()
+                    if not line or line.startswith("#") or "=" not in line:
+                        continue
+                    key, value = line.split("=", 1)
+                    os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+                return True
+        return False
 
+load_dotenv()
 
 def githubHeaders():
     """
     Build GitHub REST API headers.
 
-    Token options:
-    1. Set environment variable GITHUB_TOKEN, or
-    2. Put the token in githubCredentials.py.
+    Set GITHUB_TOKEN in the environment or in a local .env file.
     """
 
-    token = os.getenv("GITHUB_TOKEN") or FILE_GITHUB_TOKEN
+    token = os.getenv("GITHUB_TOKEN", "").strip()
+
+    if token.startswith("AIza"):
+        raise ValueError(
+            "GITHUB_TOKEN looks like a Google/YouTube API key. "
+            "Use a GitHub personal access token instead, or leave it blank."
+        )
 
     headers = {
         "Accept": "application/vnd.github+json",
@@ -60,6 +79,12 @@ def githubGet(url, params=None):
                 time.localtime(int(reset)),
             ) if reset else "unknown"
             sys.stderr.write(f"GitHub rate limit exceeded. Reset time: {reset_time}\n")
+
+        if response.status_code == 401:
+            raise ValueError(
+                "GitHub returned 401 Unauthorized. The configured GITHUB_TOKEN is missing, "
+                "expired, or not a GitHub personal access token."
+            )
 
         response.raise_for_status()
         return response.json()
