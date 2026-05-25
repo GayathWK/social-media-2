@@ -26,7 +26,7 @@
           "parentId": 44148317,
           "author": "byoung2",
           "text": "I think the notion of what a programmer is will change. Programmers used to write punch cards, and then they wrote machine code, then code that had to be compiled, then interpreted code, and so on. It may just be that programmers will be paid to wrangle AI, or it may be that you use your skills to build tools out of AI agents. That&#x27;s what excites me at the moment is building things that use AI agents to automate manual processes, and selling the service to others. This is more interesting than working for a big company as a software engineer.",
-          "createdAt": "2025-06-01T02:55:25+00:00",
+          "createdAt": "2025-06-01",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -35,7 +35,7 @@
           "parentId": 44148317,
           "author": "sargstuff",
           "text": "&gt; i find myself building some new niche tool almost daily.  so the notion of ai &quot;replacing programmers&quot; seems kinda odd because most of my friends and I just still build stuff and jump in to tweak code here and there. our desire to build stuff and be on our IDEs every day still hasnt gone anywhere.<p>From scratch, try something in range of 1 million or more lines of code for basic functionality. aka OS, database management system, video editor, etc.",
-          "createdAt": "2025-06-01T03:12:39+00:00",
+          "createdAt": "2025-06-01",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -44,7 +44,7 @@
           "parentId": 44148317,
           "author": "austin-cheney",
           "text": "Why do people keep asking this? This question pops up on here almost everyday and the answers remain the same.",
-          "createdAt": "2025-06-01T02:51:01+00:00",
+          "createdAt": "2025-06-01",
           "depth": 1,
           "childCommentCount": 5
         }
@@ -91,7 +91,7 @@
           "parentId": 43246130,
           "author": "bitbasher",
           "text": "I&#x27;ve tried to calculate this.<p>I used copilot for 14 days and every time I used copilot and found it benefits me (saved me time), I wrote a check mark on a sheet of paper. Every time I tried to use it and it led me down a rabbit hole or simply didn&#x27;t do much, I wrote a minus sign.<p>In the end there were roughly the same number of checks and minuses. Granted-- it wasn&#x27;t the best experiment in the world and quite subjective.",
-          "createdAt": "2025-03-03T20:21:09+00:00",
+          "createdAt": "2025-03-03",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -100,7 +100,7 @@
           "parentId": 43246130,
           "author": "_odey",
           "text": "I don&#x27;t use copilot but Claude integrated in Spacemacs through gptel.<p>On difficult things (new conceprs I don&#x27;t already know): -100% efficiency. I just end up reading the manual&#x2F;code and figure out  things by myself.<p>On day to day things: +20% efficiency, mainly because it&#x27;s a faster search&#x2F;reminder.<p>On simple things (like boilerplate): +300% efficiency. It eliminates the tedious, boring bits for me so I have more time and brainpower to focus on the first category.<p>How I reached these numbers? gut feeling.<p>How I get consistent results? I add project files as context and then write as detailed prompt as I possibly and reasonably can (this does take time). Rubbish in =&gt; rubbish out, so it&#x27;s important to prompt well. I&#x27;ve found out that I need multiple successive prompts to get good results with refinments, rewriting in place always gave me poor results.<p>Overall, it&#x27;s a boost but since nowadays I tend to spend my time in the first category mainly, I don&#x27;t end up getting that much out of it. The 10% people claim seems right to me.<p>I guess I&#x27;m more motivated to do the boring bits as I&#x27;m not the one actually doing them, just reviewing, and they fly by faster, but how do you even quantify that? enjoyment points?",
-          "createdAt": "2025-03-04T07:48:06+00:00",
+          "createdAt": "2025-03-04",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -109,7 +109,7 @@
           "parentId": 43246130,
           "author": "t_believ-er873",
           "text": "I think that AI won&#x27;t replace programmers, at least for now. All those codes written by AI still need review and more attention within security. Here is a good article about Copilot: <a href=\"https:&#x2F;&#x2F;gitprotect.io&#x2F;blog&#x2F;github-copilot-introduction-an-ai-assisted-coding&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;gitprotect.io&#x2F;blog&#x2F;github-copilot-introduction-an-ai...</a>",
-          "createdAt": "2025-03-04T08:26:04+00:00",
+          "createdAt": "2025-03-04",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -118,7 +118,7 @@
           "parentId": 43246130,
           "author": "PaulHoule",
           "text": "10%-ish is about right.  In Fred Brook&#x27;s <i>No Silver Bullet</i> essay he makes the point that software development has multiple phases,  say:<p>* requirements gathering<p>* design<p>* coding<p>* testing<p>* deployment<p>and suppose these all make an equal contribution.  If you managed to make a tool that can do the coding in 0% of the time you still have to do 80% of the work!",
-          "createdAt": "2025-03-03T20:53:12+00:00",
+          "createdAt": "2025-03-03",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -146,7 +146,7 @@
           "parentId": 38840952,
           "author": "jqpabc123",
           "text": "Because simulating logic with statistics generally produces a flawed result that needs to be painstakingly reviewed and verified and altered.  Most competent programmers find this to be more tedious and boring than just writing code.",
-          "createdAt": "2024-01-02T12:45:11+00:00",
+          "createdAt": "2024-01-02",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -174,7 +174,7 @@
           "parentId": 34595503,
           "author": "legrande",
           "text": "&gt; Given these challenges, I believe that many programmers will likely lose their jobs within 1-3 years<p>It depends. If you&#x27;re a programmer, you would be naturally skeptical of an AI dictating how a program should behave. If a human isn&#x27;t in the loop: foot, meet gun.",
-          "createdAt": "2023-01-31T18:11:26+00:00",
+          "createdAt": "2023-01-31",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -218,7 +218,7 @@
           "parentId": 40387453,
           "author": "y42",
           "text": "First: It will probably take a while... like many, many years... until AI and robotics will be able to replace human workforce. We have &quot;digital tools&quot; on our hands since 30 years, still governments suffer from manual processes. Most of the noise currently coming from this scene is hot air and buzzword bingo. Although the technology is improving very fast, this does not mean that we can adapt our work processes to this new technology in the same pace.<p>Second: If AI and robotics finally take over, this isn&#x27;t a bad thing. Of course we need to adapt our rules and lives, like introducing a &quot;robot tax&quot; or the &quot;basic income&quot;, to keep the economy flowing. But why is this bad? Sure, the transition will be hard, but this inevitable.<p>Why is everyone so mad about AI generating art or providing entertainment? You can still create art, if you like to be an artist. You can still entertain, if you want to be an entertainer. Let AI do the work to keep the world rolling and do what you want - in your free time, 24 hours a day.",
-          "createdAt": "2024-05-17T08:45:39+00:00",
+          "createdAt": "2024-05-17",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -227,7 +227,7 @@
           "parentId": 40387453,
           "author": "daviddever23box",
           "text": "News agency-style journalism is an easy target, as its primary role is to aggregate and convey information from multiple sources to the reader in a nominally unbiased, dispassionate fashion. Learned language models are ideal for this; it&#x27;s a style manual wrought large.<p>As for developers–we&#x27;ve had automated code generation for decades. And machine learning has been a part of investment data analysis for a long time.<p>Why the fear, uncertainty, and doubt? Are you creeping closer to death?",
-          "createdAt": "2024-05-17T07:55:31+00:00",
+          "createdAt": "2024-05-17",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -261,7 +261,7 @@
           "parentId": 42963279,
           "author": "eamag",
           "text": "<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=42933256\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=42933256</a>",
-          "createdAt": "2025-02-06T15:31:59+00:00",
+          "createdAt": "2025-02-06",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -270,7 +270,7 @@
           "parentId": 42963279,
           "author": "billy99k",
           "text": "Do you really want the direction of an entire company to be dictated by AI? You act as if the CEO does <i>nothing</i>, which isn&#x27;t true. One of the main jobs is networking&#x2F;maintaining relationships, which isn&#x27;t something that can be done with AI.<p>Jobs where you just sit and work all day with little human interaction will most likely be replaced by AI first.",
-          "createdAt": "2025-02-06T16:57:54+00:00",
+          "createdAt": "2025-02-06",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -279,7 +279,7 @@
           "parentId": 42963279,
           "author": "ai-christianson",
           "text": "As a similar concept, I&#x27;ve been seeing a lot of &quot;normal&quot; (non-technical) people on social media platforms putting out videos where they let ChatGPT run their life, or make ChatGPT form a company, and they act as the AI&#x27;s &quot;hands.&quot;",
-          "createdAt": "2025-02-06T16:29:23+00:00",
+          "createdAt": "2025-02-06",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -288,7 +288,7 @@
           "parentId": 42963279,
           "author": "andsoitis",
           "text": "What do you think is the job of the CEO?",
-          "createdAt": "2025-02-06T15:38:58+00:00",
+          "createdAt": "2025-02-06",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -297,7 +297,7 @@
           "parentId": 42963279,
           "author": "techapple",
           "text": "I guess this depends on the kind of CEO, but I think a lot of the CEO’s job is to be a human being &#x2F; celebrity with a perspective.<p>Is Elon Musk a better CEO because of the decisions he makes about his companies or because he gets other humans to follow him.  Probably both, but you can’t exclude the latter.",
-          "createdAt": "2025-02-06T16:38:45+00:00",
+          "createdAt": "2025-02-06",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -306,7 +306,7 @@
           "parentId": 42963279,
           "author": "krapp",
           "text": "The entire point of AI in this context is to allow capitalists to maximize profits by automating and eliminating their workforce. Why on earth would they work against their own interests by making <i>themselves</i> surplus to requirements?",
-          "createdAt": "2025-02-06T18:14:30+00:00",
+          "createdAt": "2025-02-06",
           "depth": 1,
           "childCommentCount": 1
         }
@@ -354,7 +354,7 @@
           "parentId": 43462171,
           "author": "JohnFen",
           "text": "I don&#x27;t, no, but that&#x27;s not the most interesting thing in my workplace. The most interesting thing is that despite working for a company that produces deep learning systems, none of the devs here (that I&#x27;m aware of) are using &quot;AI&quot; for production code. Almost all of us have been playing around with it, but so far haven&#x27;t found enough value there to use it for real.",
-          "createdAt": "2025-03-24T15:43:51+00:00",
+          "createdAt": "2025-03-24",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -363,7 +363,7 @@
           "parentId": 43462171,
           "author": "uberman",
           "text": "I use co-pilot for enhanced tab-completion of small blocks of code. Basically, it saves me some typing now and again. I find it guesses incorrectly a third of the time but I often still tab complete then go back and fix it. Is this &quot;using ai to write 90% of my code&quot;?<p>When I have used copilot conversation mode and requested a refactoring or provided what I felt was a clear description of my task, the result shave always been a failure that required more time to resolve than if I had just done the work myself.<p>These are issues I could see and determine where wrong. I weep for the future where these changes get pushed live because no-one knows what the vibe-coders did any more.",
-          "createdAt": "2025-03-24T15:40:07+00:00",
+          "createdAt": "2025-03-24",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -372,7 +372,7 @@
           "parentId": 43462171,
           "author": "dabinat",
           "text": "I use it mostly as glorified auto-complete. I don’t think it’s good at replacing the creative parts of coding, but it’s very good at replacing the grunt work. I use it to write the majority of my unit tests, for example. (They of course still need tweaking, but it saves me significant amounts of time.)",
-          "createdAt": "2025-03-24T15:57:51+00:00",
+          "createdAt": "2025-03-24",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -381,7 +381,7 @@
           "parentId": 43462171,
           "author": "riskyingo",
           "text": "We did some 1 month copilot test then decided not to use it.<p>I used and still use gpt 4 for some exploratory and learning with a mixed experience here too. I ask it to populate some tests here and there or to provide debugging pointers and once to help me design a logo.",
-          "createdAt": "2025-03-24T18:06:28+00:00",
+          "createdAt": "2025-03-24",
           "depth": 1,
           "childCommentCount": 0
         },
@@ -390,7 +390,7 @@
           "parentId": 43462171,
           "author": "caprock",
           "text": "Try cursor and 3.5 sonnet. It&#x27;s definitely good enough. It&#x27;s good if you give it specific functions to write or if you write a well structured plan in markdown.",
-          "createdAt": "2025-03-24T22:58:29+00:00",
+          "createdAt": "2025-03-24",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -418,7 +418,7 @@
           "parentId": 16684276,
           "author": "nicholasreed",
           "text": "Clickable: <a href=\"https:&#x2F;&#x2F;www.getasecond.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.getasecond.com</a><p>Video Links:<p>Technical Overview: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=RVRCsuoHmak\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=RVRCsuoHmak</a><p>Walkthrough of alpha: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=w4SUaWFHoog\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=w4SUaWFHoog</a>",
-          "createdAt": "2018-03-27T01:10:00+00:00",
+          "createdAt": "2018-03-27",
           "depth": 1,
           "childCommentCount": 0
         }
@@ -493,7 +493,7 @@
           "parentId": 47912500,
           "author": "thom-gtdp",
           "text": "I think the best way to learn is by doing actual projects, either personal or professional. If you need to work on a project with other people, find a remote software engineer job or open source projects to actively contribute to<p>Any senior software engineer should be able to judge if a practice is high quality, not just US Big Tech<p>The specific technology or programming language doesn&#x27;t really matter if what you want is to ship product (it would matter if you were applying to specific job offers). Have a project idea, pick a framework that can solve the problem, and build the project. Most efficient way to learn a lot of technical knowledge<p>Example of products built by solo devs: check Product Hunt, there are products launching everyday, some built by one person",
-          "createdAt": "2026-04-26T19:14:08+00:00",
+          "createdAt": "2026-04-26",
           "depth": 1,
           "childCommentCount": 1
         },
@@ -502,7 +502,7 @@
           "parentId": 47912500,
           "author": "EmeraldSky",
           "text": "I find your story really interesting.. I’d like to hear more about this housing lease fraud if you’re willing to share. Anyways, it sounds like you’re underestimating yourself, you’ve shipped unity games and websites already. I agree with the other comment regarding contributing to open source software.",
-          "createdAt": "2026-04-26T21:28:32+00:00",
+          "createdAt": "2026-04-26",
           "depth": 1,
           "childCommentCount": 1
         }
