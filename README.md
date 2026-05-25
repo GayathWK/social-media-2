@@ -1,73 +1,174 @@
 # AI Coding Assistant Trust Analysis
-**COSC 3047 — Social Media and Network Analysis, Assignment 2**
+
+**COSC 3047 - Social Media and Network Analysis, Assignment 2**
 RMIT University, Semester 1 2026
 
 ## Research Question
+
 What drives trust and distrust in AI coding assistants among developers, and how do influential users and discussion communities shape concerns around productivity, reliability, security, cost, and code ownership?
 
-## Team
+## Project Details
+
 - Group: 69
-- Members: Gayath Wethmin Kaluwahewa
 - Course: COSC 3047 (Undergraduate)
 
 ## Data Sources
-- **YouTube** — Comments from videos reviewing GitHub Copilot, Cursor, Claude Code, Codex
-- **Hacker News** — Discussion threads on AI coding tools
-- **GitHub Issues** — Public issues from microsoft/vscode-copilot-release, openai/codex, and anthropics/claude-code
 
-## Project Structure
-```
-social_media_2/
+This project uses public discussion data from three online platforms:
+
+- **YouTube**: video comments and replies about GitHub Copilot, Cursor, Claude Code, Codex, and AI coding tools.
+- **GitHub Issues**: public issues and issue comments from `microsoft/vscode-copilot-release`, `openai/codex`, and `anthropics/claude-code`.
+- **Hacker News**: public story and comment threads about AI coding tools and developer workflows.
+
+The final merged dataset used for analysis contains comment text for NLP and interaction edges for network analysis. Full raw and processed datasets are not committed because of size and redistribution limits. Representative samples are included in `data/samples/`.
+
+## Repository Structure
+
+```text
+social-media-2/
+├── collection_notebooks/
+│   ├── youtube_collection_cleaning.ipynb
+│   ├── github_collection_cleaning.ipynb
+│   └── hackerNews_collection_cleaning.ipynb
 ├── data/
-│   ├── raw/              # Raw collected data (not committed to git)
-│   │   ├── youtube/
-│   │   ├── hackernews/
-│   │   └── github/
-│   ├── processed/        # Cleaned, merged datasets
-│   └── samples/          # Representative samples for submission (≤10MB)
-├── notebooks/            
+│   ├── raw/               # Generated locally, not committed
+│   ├── processed/         # Generated locally, not committed
+│   └── samples/           # Small representative samples for submission
 ├── src/
-│   ├── collectors/       # Data collection scripts
-│   ├── network/          # Network construction and analysis
-│   ├── nlp/              # Sentiment and topic modelling
-│   └── utils/            # Shared utilities
-├── visualisations/       # Output charts and network graphs
-├── report/               # Final report PDF
-└── requirements.txt
+│   ├── nlp/               # Platform-specific NLP notebooks
+│   └── utils/             # API helper modules
+├── data_merge.ipynb       # Merges platform datasets
+├── full_text_analysis.ipynb
+├── full_network_analysis.ipynb
+├── requirements.txt
+└── README.md
 ```
 
-## Setup
+## Fresh Setup
+
+From a fresh computer, use Python 3.12 or a recent Python 3 version.
+
 ```bash
-# Clone the repo
 git clone <repo-url>
-cd ai-coding-trust-analysis
+cd social-media-2
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate        # Mac/Linux
-venv\Scripts\activate           # Windows
+python3 -m venv .venv
+source .venv/bin/activate
 
-# Install dependencies
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 
-# Configure local API credentials
+python -m ipykernel install --user --name social-media-2 --display-name "Python (social-media-2)"
 cp .env.example .env
-# Then add your YouTube API key to .env
 ```
 
-## Running the Pipeline
-Run notebooks in this order:
-1. `notebooks/youtube_collection_cleaning.ipynb`
-2. `notebooks/github_collection_cleaning.ipynb`
-3. Network analysis notebook
-4. NLP sentiment and topic modelling notebook
-5. Synthesis and visualisation notebook
+On Windows PowerShell, activate the environment with:
 
-## Data Collection Dates
-- YouTube: collected 21 May 2026
-- GitHub: collected 22 May 2026
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+In VS Code, select the notebook kernel named `Python (social-media-2)`.
+
+## Credentials
+
+Add credentials to `.env`:
+
+```text
+YOUTUBE_API_KEY=your_youtube_api_key_here
+GITHUB_TOKEN=your_github_token_here
+```
+
+`YOUTUBE_API_KEY` is required for fresh YouTube collection. `GITHUB_TOKEN` is optional for public GitHub data, but recommended because it increases API rate limits. Hacker News collection does not require credentials.
+
+Do not commit `.env`, API keys, tokens, or private account information.
+
+## Running the Full Pipeline
+
+Run notebooks in this order.
+
+1. `collection_notebooks/youtube_collection_cleaning.ipynb`
+   - Collects YouTube video metadata, top-level comments, replies, and reply edges.
+   - Requires `YOUTUBE_API_KEY`.
+   - Outputs to `data/raw/youtube/` and `data/processed/youtube/`.
+
+2. `collection_notebooks/github_collection_cleaning.ipynb`
+   - Collects GitHub issues, issue comments, labels, cleaned text, and user-issue edges.
+   - Uses `GITHUB_TOKEN` if available.
+   - Outputs to `data/raw/github/` and `data/processed/github/`.
+
+3. `collection_notebooks/hackerNews_collection_cleaning.ipynb`
+   - Collects Hacker News stories and comments using public APIs.
+   - Outputs to `data/raw/hackernews/` and `data/processed/hackernews/`.
+
+4. Optional platform-specific NLP notebooks:
+   - `src/nlp/youtube_text_analysis.ipynb`
+   - `src/nlp/github_text_analysis.ipynb`
+   - `src/nlp/hackernews_text_analysis.ipynb`
+
+5. `data_merge.ipynb`
+   - Merges YouTube, GitHub, and Hacker News into:
+     - `data/processed/combined/combined_comments.csv`
+     - `data/processed/combined/combined_edges.json`
+
+6. `full_text_analysis.ipynb`
+   - Runs VADER sentiment analysis and LDA topic modelling on the combined comments.
+   - Outputs:
+     - `data/processed/nlp/comments_with_topics.csv`
+     - `data/processed/nlp/summary_stats.json`
+     - sentiment/topic figures in `data/processed/nlp/`
+
+7. `full_network_analysis.ipynb`
+   - Builds the directed reply graph and projected community graph.
+   - Runs PageRank, in-degree, betweenness, connected component analysis, and Louvain community detection.
+   - Outputs:
+     - `data/processed/network/centrality_scores.csv`
+     - `data/processed/network/community_profiles.csv`
+     - network figures in `data/processed/network/`
+
+If the full generated dataset is supplied separately, place it back under `data/raw/` and `data/processed/` with the same paths above, then start from `data_merge.ipynb` or `full_text_analysis.ipynb` as appropriate.
+
+## Expected Final Outputs
+
+The report figures are generated by:
+
+- `full_text_analysis.ipynb`
+  - `sentiment_overview.png`
+  - `topic_overview.png`
+  - `sentiment_by_topic.png`
+  - `topic_channel_heatmap.png`
+  - `wordcloud_trust_distrust.png`
+
+- `full_network_analysis.ipynb`
+  - `degree_distribution.png`
+  - `top_users_centrality.png`
+  - `community_profiles.png`
+  - `network_graph.png`
+  - `synthesis_network_nlp.png`
+
+The final local run used `32,810` merged comments and `14,128` raw network edges before network-specific cleaning and projection.
+
+## Network Analysis Summary
+
+The network component uses two graph structures:
+
+- A directed reply graph for direct user-to-user replies, used for PageRank, in-degree, betweenness, and degree distribution.
+- An undirected projected community graph, where users are connected if they reply to each other or participate in the same discussion thread or GitHub issue, used for Louvain community detection.
+
+Nodes represent public platform users. Directed edges represent replies from one user to another. User-thread edges represent participation in a video, Hacker News story, or GitHub issue and are projected into user-user co-participation edges for community detection.
+
+## Data Samples
+
+`data/samples/` contains small representative samples:
+
+- `youtube_comments_sample.json`
+- `combined_comments_sample.json`
+- `combined_edges_sample.json`
+
+These files show the structure of the text records and network edge records without committing the full dataset.
 
 ## Notes
-- API keys are never stored in submitted outputs. Use environment variables or the credential modules in `src/utils/`.
-- Raw data is gitignored due to size. See `data/samples/` for submission sample.
-- All analysis implemented in Python. See `requirements.txt` for dependencies.
+
+- Generated raw data, processed data, model artifacts, figures, `.env`, and virtual environments are ignored by git.
+- NLTK resources are downloaded inside the notebooks. The main resources used are `stopwords`, `punkt`, `wordnet`, `omw-1.4`, `punkt_tab`, and `vader_lexicon`.
+- All assessed data processing, NLP, network construction, and visualisation are implemented in Python.

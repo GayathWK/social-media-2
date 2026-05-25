@@ -1,0 +1,282 @@
+[
+  {
+    "source": "0-BlackSpectrum-0",
+    "target": "anthropics/claude-code#13354",
+    "weight": 1,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "0000day",
+    "target": "microsoft/vscode-copilot-release#13062",
+    "weight": 2,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "0nlyDev",
+    "target": "microsoft/vscode-copilot-release#8330",
+    "weight": 1,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "0xZoharHuang",
+    "target": "openai/codex#23480",
+    "weight": 1,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "0xalank",
+    "target": "openai/codex#9544",
+    "weight": 1,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "0xbrainkid",
+    "target": "anthropics/claude-code#48679",
+    "weight": 1,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "0xbrainkid",
+    "target": "anthropics/claude-code#48725",
+    "weight": 1,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "0xbrainkid",
+    "target": "anthropics/claude-code#49090",
+    "weight": 2,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "0xbrainkid",
+    "target": "anthropics/claude-code#49094",
+    "weight": 2,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "0xbrainkid",
+    "target": "anthropics/claude-code#49116",
+    "weight": 1,
+    "platform": "github",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "1123581321",
+    "target": "enono",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "Double_a_92",
+    "target": "enono",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "PhysicalNomad",
+    "target": "enono",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "dang",
+    "target": "enono",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "dboreham",
+    "target": "incomingpain",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "dingliqing53",
+    "target": "anxtyinmgmt",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "dingliqing53",
+    "target": "digdugdirk",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "gangster_dave",
+    "target": "janice1999",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "gangster_dave",
+    "target": "mrosoff",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "jacobsenscott",
+    "target": "anxtyinmgmt",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "reply"
+  },
+  {
+    "source": "user_0-_-0",
+    "target": "hn_28402544",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "user_0-bad-sectors",
+    "target": "hn_47762901",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "user_05",
+    "target": "hn_44542880",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "user_0x696C6961",
+    "target": "hn_43735550",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "user_0xWTF",
+    "target": "hn_44966856",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "user_0x_rs",
+    "target": "hn_47854477",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "user_0xbadcafebee",
+    "target": "hn_44713757",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "user_0xbadcafebee",
+    "target": "hn_45163362",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "user_0xbadcafebee",
+    "target": "hn_47167931",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "user_0xbadcafebee",
+    "target": "hn_47932028",
+    "weight": 1,
+    "platform": "hackernews",
+    "edge_type": "user_thread"
+  },
+  {
+    "source": "",
+    "target": "@hudsonkanizawa",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  },
+  {
+    "source": "@-Engineering01-",
+    "target": "@SomeRandomUserOFYT",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  },
+  {
+    "source": "@-Engineering01-",
+    "target": "@abyrvalg809",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  },
+  {
+    "source": "@-Engineering01-",
+    "target": "@attoumak",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  },
+  {
+    "source": "@-Engineering01-",
+    "target": "@avidlearner8117",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  },
+  {
+    "source": "@-Engineering01-",
+    "target": "@cristianporcaras",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  },
+  {
+    "source": "@-Engineering01-",
+    "target": "@duytdl",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  },
+  {
+    "source": "@-Engineering01-",
+    "target": "@hudsonkanizawa",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  },
+  {
+    "source": "@-Engineering01-",
+    "target": "@indianatheart-b7i",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  },
+  {
+    "source": "@-Engineering01-",
+    "target": "@lev1ato",
+    "weight": 1,
+    "platform": "youtube",
+    "edge_type": "reply"
+  }
+]
