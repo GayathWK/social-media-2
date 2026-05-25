@@ -1,0 +1,434 @@
+{
+  "source": "hackernews",
+  "searchQuery": "AI code security privacy",
+  "storyThreads": [
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 1,
+      "story": {
+        "by": "slimebot80",
+        "descendants": 0,
+        "id": 43789822,
+        "score": 1,
+        "text": "There&#x27;s a lot of pressure to try every new flavour of LLM coding assistants.<p>Every day I see programming influencers reporting on their new favourite AI tool.<p>Everyone seems happy to let AIs soak up as much &quot;context&quot; as they can in order to get the best results.<p>My question is - how do we know what is being uploaded and accessed?<p>EG: Recently there&#x27;s been chat about Cursor moving outside of a project directory and deleting folders.<p>Which gets me thinking...  If you ask an AI to perform an action, or update some content, how do you limit the &quot;context&quot;?<p>What tooling can you use to provide fences around what AI accesses?<p>What LLM tools have the best track record on this?<p>Is everyone just asking LLMs about single files and expecting it to limit itself to related files?  How do you trust it to stick to a &quot;project&quot; folder... which is a bit of a vague concept given it&#x27;s usually just a folder on a wider filesystem that could also be accessed for &quot;context&quot;.",
+        "time": 1745551429,
+        "title": "Ask HN: AI code assistants and privacy/security",
+        "type": "story"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 2,
+      "story": {
+        "by": "privalyse",
+        "descendants": 1,
+        "id": 46301810,
+        "kids": [
+          46302761
+        ],
+        "score": 1,
+        "text": "I just released Privalyse (v0.1 Alpha). \nThe problem I faced: AI models can generate code very fast, but security and privacy context often gets lost — resulting in hardcoded API keys, PII ending up in logs, or unsafe input reaching sensitive sinks. Although reviews help, it’s easy to miss these issues when the PR volume is high.<p>Privalyse is a static analysis tool with cross-file taint tracking designed to catch privacy violations and security flaws that slip through unnoticed in AI-assisted workflows.<p>I&#x27;d love for you to give it a try! Since this is an early alpha, I&#x27;m specifically looking for:\n- Feedback on the detection rules\n- Reports on false positive patterns\n- Feature requests: What languages or frameworks should I prioritize next?",
+        "time": 1765978717,
+        "title": "Show HN: Privalyse – Catching Security Leaks in AI-Assisted Codebases",
+        "type": "story",
+        "url": "https://github.com/privalyse/privalyse-cli"
+      },
+      "comments": [
+        {
+          "commentId": 46302761,
+          "parentId": 46301810,
+          "author": "privalyse",
+          "text": "Hi HN, I’m the creator of Privalyse. Looks like HN is back up now — happy to answer questions.<p>To make the output concrete, here’s an example from scanning an intentionally bad-practice demo app:<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;Privalyse&#x2F;privalyse-cli&#x2F;blob&#x2F;main&#x2F;examples&#x2F;bad-practice-app&#x2F;scan_results.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Privalyse&#x2F;privalyse-cli&#x2F;blob&#x2F;main&#x2F;example...</a><p>The goal is to surface privacy&#x2F;security risks (PII, secrets, GDPR-relevant issues) in a way that’s readable for developers and non-security folks, rather than raw logs.",
+          "createdAt": "2025-12-17T17:39:07+00:00",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 3,
+      "story": {
+        "by": "Jet_Xu",
+        "descendants": 0,
+        "id": 42183760,
+        "score": 2,
+        "text": "Hi HN! A month ago, I shared LlamaPReview in Show HN[1]. Since then, we&#x27;ve grown to 2000+ repos (60%+ public) with 16k+ combined stars. More importantly, we&#x27;ve made significant improvements in both efficiency and review quality.<p>Key improvements in recent month:<p>1. ReAct-based Review Pipeline\nWe implemented a ReAct (Reasoning + Acting) pattern that mimics how senior developers review code. Here&#x27;s a simplified version:<p><pre><code>  ```python\n  def react_based_review(pr_context) -&gt; Review:\n    # Step 1: Initial Assessment - Understand the changes\n    initial_analysis = initial_assessment(pr_context)\n    # Step 2: Deep Technical Analysis\n    deep_analysis = deep_analysis(pr_context, initial_analysis)\n    # Step 3: Final Synthesis\n    return synthesize_review(pr_context, initial_analysis, deep_analysis)\n  ```\n</code></pre>\n2. Two-stage format alignment pipeline<p><pre><code>  ```python\n  def review_pipeline(pr) -&gt; Review:\n    # Stage 1: Deep analysis with large LLM\n    review = react_based_review(pr_context)\n    # Stage 2: Format standardization with small LLM\n    return format_standardize(review)\n  ```\n</code></pre>\nThis two-stage approach (large LLM for analysis + small LLM for format standardization) ensures both high-quality insights and consistent output format.<p>3. Intelligent Skip Analysis\nWe now automatically identify PRs that don&#x27;t need deep review (docs, dependencies, formatting), reducing token consumption by 40%. Implementation:<p><pre><code>  ```python\n  def intelligent_skip_analysis(pr_changes) -&gt; Tuple[bool, str]:\n    skip_conditions = {\n      &#x27;docs_only&#x27;: check_documentation_changes,\n      &#x27;dependency_updates&#x27;: check_dependency_files,\n      &#x27;formatting&#x27;: check_formatting_only,\n      &#x27;configuration&#x27;: check_config_files\n    }\n\n    for condition_name, checker in skip_conditions.items():\n      if checker(pr_changes):\n        return True, f&quot;Optimizing review: {condition_name}&quot;\n        \n    return False, &quot;Proceeding with full review&quot;\n  ```\n</code></pre>\nKey metrics since launch:<p><pre><code>  - 2000+ repos using LlamaPReview  \n  - 60% public, 40% private repositories  \n  - 40% reduction in token consumption  \n  - 30% faster PR processing  \n  - 25% higher user satisfaction\n</code></pre>\nPrivacy &amp; Security:<p><pre><code>  Many asked about code privacy in the last thread. Here&#x27;s how we handle it:  \n  - All PR review processing happens in-memory  \n  - No permanent storage of repository code  \n  - Immediate cleanup after PR review  \n  - No training on user code\n</code></pre>\nWhat&#x27;s next:<p><pre><code>  We are actively working on GraphRAG-based repository understanding for better in-depth code review analysis and pattern detection.\n</code></pre>\nLinks:<p><pre><code>  [1] Previous Show HN discussion: [https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=41996859]  \n  [2] Technical deep-dive: [https:&#x2F;&#x2F;github.com&#x2F;JetXu-LLM&#x2F;LlamaPReview-site&#x2F;discussions&#x2F;3]  \n  [3] Link for Install (free): [https:&#x2F;&#x2F;github.com&#x2F;marketplace&#x2F;llamapreview]\n</code></pre>\nHappy to discuss our approach to privacy, technical implementation, or future plans!",
+        "time": 1732026333,
+        "title": "Show HN: LlamaPReview – AI code reviewer trusted by 2000 repos, 40%+ effective",
+        "type": "story",
+        "url": "https://jetxu-llm.github.io/LlamaPReview-site/"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 4,
+      "story": {
+        "by": "dingliqing53",
+        "descendants": 68,
+        "id": 35152851,
+        "kids": [
+          35168044,
+          35153238,
+          35153047,
+          35155103,
+          35153602,
+          35153968,
+          35153158,
+          35153669,
+          35154789,
+          35160006,
+          35153103,
+          35153934,
+          35156954,
+          35166920,
+          35179949,
+          35154538,
+          35163759,
+          35159831,
+          35165856,
+          35154066,
+          35153977,
+          35156271,
+          35154710
+        ],
+        "score": 138,
+        "text": "Hello HN! We’re Max and Lydia, co-founders at CodeComplete AI (<a href=\"https:&#x2F;&#x2F;codecomplete.ai\">https:&#x2F;&#x2F;codecomplete.ai</a>), an AI-powered coding assistant for enterprise companies. Many large companies can’t use products like GitHub Copilot because of the security and privacy risks, so we’re building a self-hosted version that’s fine tuned to the company’s codebase.<p>We love Copilot and believe that AI will change the way developers work. Max wanted to use Copilot when he was an ML engineer at Meta, but leadership blocked him because Copilot requires sending company code to GitHub and OpenAI. We built CodeComplete because lots of other companies are in the same boat, and we want to offer a secure way for these companies to leverage the latest AI-powered dev tools.<p>To that end, our product is really meant for large engineering teams at enterprise companies who can’t use GitHub Copilot. This generally means teams with more than 200 developers that have strict practices against sending their code or other IP externally.<p>CodeComplete offers an experience similar to Copilot; we serve AI code completions as developers type in their IDEs. However, instead of sending private code snippets to GitHub or OpenAI, we use a self-hosted LLM to serve code completions. Another advantage with self-hosting is that it’s more straightforward to securely fine-tune to the company’s codebase. Copilot suggestions aren’t always tailored to a company’s coding patterns or internal libraries, so this can help make our completions more relevant and avoid adding tech debt.<p>To serve code completions, we start with open source foundation models and augment them with additional (permissively-licensed) datasets. Our models live behind your firewall, either in your cloud or on-premises. For cloud deployments, we have terraform scripts that set up our infrastructure and pull in our containers. On-prem deployments are a bit more complicated; we work with the customer to design a custom solution. Once everything’s set up, we train on your codebase and then start serving code completions.<p>To use our product, developers simply download our extension in their IDE (VS Code currently supported, Jetbrains coming soon). After authentication, the extensions provide in-line code completion suggestions to developers as they type.<p>Since we’re a self-hosted enterprise product, we don’t have an online version you can just try out, but here are two quick demos:  (1): Python completion, fine-tuned on a mock Twitter-like codebase: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;YqkqtGY4qmc\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;YqkqtGY4qmc</a>. (2) Java completion for &quot;leetcode&quot;-style problems, like converting integers to roman numerals: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;H4tGoFNC8oI\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;H4tGoFNC8oI</a>.<p>We take privacy and security seriously. By default, our deployments only send back heartbeat messages to our servers. Our product logs usage data and code snippets to the company’s own internal database so that they can evaluate our performance and improve their models over time. Companies have the option to share a subset of that data with us (e.g. completion acceptance rate, model probabilities output, latencies, etc), but we don’t require it. We never see your code or any other intellectual property.<p>We charge based on seat licenses. For enterprise companies, these contracts often demand custom scoping and requirements. In general though, our pricing will be at a premium to GitHub Copilot since there is significant technical and operational overhead with offering a self-hosted product like this.<p>Having access to these types of tools would have saved us a bunch of time in our previous jobs, so we’re really excited to show this to everyone. If you are having similar issues with security and privacy at your current company, please reach out to us at founders@codecomplete.ai! We’d love to hear your feedback.",
+        "time": 1678806976,
+        "title": "Launch HN: CodeComplete (YC W23) – Copilot for Enterprise",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 35168044,
+          "parentId": 35152851,
+          "author": "phkahler",
+          "text": "Not to be confused with the software development book by the same name:\n<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Code_Complete\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Code_Complete</a><p>Taking that name would not fly under trademark rules, but fortunately books are copyrighted. But then again it&#x27;s published by Microsoft Press - the publishing arm of your biggest competitor.",
+          "createdAt": "2023-03-15T13:30:42+00:00",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35179429,
+          "parentId": 35168044,
+          "author": "nkko",
+          "text": "It is still early enough to do a cool rebranding. Something more distinctive and non-obvious on the first association but on second.",
+          "createdAt": "2023-03-16T08:12:36+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35153238,
+          "parentId": 35152851,
+          "author": "alsodumb",
+          "text": "GitHub and other companies like Amazon have the advantage of the scale in terms of dataset. What’s the guarantee that the pre trained model you have that you’ll fine tune on a company’s code base is as good as say Copilot? It makes it even hard to evaluate when you don’t have a demo to try - it’s not that hard to setup a pipeline to run your model in cloud and send invites to potential customers if you want to.",
+          "createdAt": "2023-03-14T15:36:33+00:00",
+          "depth": 1,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 35153466,
+          "parentId": 35153238,
+          "author": "swatcoder",
+          "text": "It doesn&#x27;t make sense to treat Copilot as a competitive benchmark where Copilot isn&#x27;t even an option for policy reasons, which is what this product is targeting.<p>Does it provide net positive support to developers? Is that support worth the licensing and maintenance costs? Those would indeed benefit from a demo, but it&#x27;s also hard to demo something whose value hinges on fine-tuning.<p>More likely, they&#x27;ll need to sell low-risk, supported integrations that help an org stand up the project on their own system and evaluate its quality in situ. It&#x27;s a whole different model than retail SaaS services like Copilot.<p>This is an exciting announcement for a product meant to fill a gaping hole. The orgs that need it will just have to see how well it works for them.",
+          "createdAt": "2023-03-14T15:48:54+00:00",
+          "depth": 2,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 35153431,
+          "parentId": 35153238,
+          "author": "sebzim4500",
+          "text": "Wasn&#x27;t copilot only trained on public GitHub repos? Presumably there&#x27;s nothing stopping anyone from training on them.",
+          "createdAt": "2023-03-14T15:47:33+00:00",
+          "depth": 2,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35153047,
+          "parentId": 35152851,
+          "author": "anxtyinmgmt",
+          "text": "So if Microsoft&#x2F;Github ever offers an on-prem version, what will be the advantage of using your product?",
+          "createdAt": "2023-03-14T15:27:31+00:00",
+          "depth": 1,
+          "childCommentCount": 3
+        },
+        {
+          "commentId": 35153371,
+          "parentId": 35153047,
+          "author": "sebzim4500",
+          "text": "Sounds like they&#x27;ll finetune the model on your existing codebase. Even if Microsoft&#x2F;Github offers this functionality, it&#x27;s the kind of thing where it may be  worth paying a premium to have good customer support telling you exactly how to make use of this.<p>It&#x27;s like how there are plenty of people paying for DB software which is &#x27;worse&#x27; than mainstream free ones, but they really like the fact they can call experts who will tell them what they are doing wrong with query optimization, etc.",
+          "createdAt": "2023-03-14T15:44:07+00:00",
+          "depth": 2,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 35153530,
+          "parentId": 35153047,
+          "author": "dingliqing53",
+          "text": "Another thing is that since Microsoft&#x2F;Github are working with OpenAI&#x27;s closed source Codex model, we think it&#x27;s unlikely they&#x27;ll offer something on-prem anytime soon since they would have to reveal the model weights, and thus risk a leak (ex. Meta&#x27;s LLaMA model weights got leaked within a week)",
+          "createdAt": "2023-03-14T15:53:17+00:00",
+          "depth": 2,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 35154193,
+          "parentId": 35153047,
+          "author": "jacobsenscott",
+          "text": "At that point you would need to compete on service and price. They&#x27;ll also get the first mover lock in advantage. Once a large company deploys your product to 5000 devs you are pretty much in for life. &#x2F;me waves to jira.",
+          "createdAt": "2023-03-14T16:34:54+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35155103,
+          "parentId": 35152851,
+          "author": "saurabh20n",
+          "text": "Congrats on the launch. I think you should share some technical details for a more substantial pitch. You are using the OSS BigCode effort and &quot;The Stack&quot; [1, 2] (as you say in another comment), which is great.<p>A few questions that might help an enterprise customer: How big is your base model? Where did you find more datasets (maybe just a hint would be sufficient)? Are you using SantaCoder [3]? Anything you can say about your fine-tuning that makes it special? Totally on board with you that HumanEval&#x2F;MBPP are not great benchmarks for real world, and do you have a suggested alternative to help me see the value?<p>The calculus for an enterprise customer might be: &quot;We could fine tune a 6B model on our internal code and internal benchmarks (say with a month of work, a few thousand in compute, 2 people on task), but I&#x27;d rather buy an off-the-shelf solution like codecomplete.ai. They give us XYZ benefits.&quot; Articulate the XYZ for a technical decision maker who will be your target audience.<p>* [1] <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;datasets&#x2F;bigcode&#x2F;the-stack\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;datasets&#x2F;bigcode&#x2F;the-stack</a><p>* [2] <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2211.15533\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2211.15533</a><p>* [3] <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;bigcode&#x2F;santacoder\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;bigcode&#x2F;santacoder</a>",
+          "createdAt": "2023-03-14T17:28:15+00:00",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35156233,
+          "parentId": 35155103,
+          "author": "lumax15",
+          "text": "Great questions. We want to keep some of our technical details closer to the chest, so I won&#x27;t go into the specific technologies we&#x27;re using here.<p>I will expand a bit on fine-tuning. It&#x27;s really hard to get this right, and the iteration speed is slow. Of course these companies can build their own, but we want to save them a lot of headache.<p>So far, we haven&#x27;t found any off-the-shelf open source base model that works super well for code completions. We&#x27;ve augmented models with a huge amount of data in order to see our current performance, and we ran into a lot of pain along the way.",
+          "createdAt": "2023-03-14T18:26:59+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35153602,
+          "parentId": 35152851,
+          "author": "kanyethegreat",
+          "text": "&gt; Permissively Licensed: Trained only on permissively-licensed repos to avoid legal risks<p>You’re fine-tuning the model. What model are you fine-tuning? I can’t imagine you trained your own LLM from scratch, so how can you possibly guarantee the core model wasn’t trained on non-permissively licensed code?",
+          "createdAt": "2023-03-14T15:57:30+00:00",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35153945,
+          "parentId": 35153602,
+          "author": "lumax15",
+          "text": "We&#x27;re starting off with an open source base model that was trained on The Stack, a dataset containing only permissively-licensed code, and we&#x27;re further augmenting it with additional repositories with MIT, BSD, or Apache Licenses.",
+          "createdAt": "2023-03-14T16:20:24+00:00",
+          "depth": 2,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35153968,
+          "parentId": 35152851,
+          "author": "enono",
+          "text": "Always astonishes me how negative hacker news can be whenever people try to launch stuff. This is cool!",
+          "createdAt": "2023-03-14T16:21:48+00:00",
+          "depth": 1,
+          "childCommentCount": 6
+        },
+        {
+          "commentId": 35157370,
+          "parentId": 35153968,
+          "author": "dang",
+          "text": "Negative reactions are quicker to arise and quicker to write out, which is a double whammy that causes them to appear more quickly and dominate the thread early. Slower, positive reactions eventually show up (usually!) and in the meantime we get the odd &quot;contrarian dynamic&quot; phenom where &quot;I can&#x27;t believe how negative these comments are!&quot; objections start popping up and get upvoted to the top. Internet is weird.<p><a href=\"https:&#x2F;&#x2F;hn.algolia.com&#x2F;?dateRange=all&amp;page=0&amp;prefix=true&amp;sort=byDate&amp;type=comment&amp;query=%22contrarian%20dynamic%22%20objection%20by:dang\" rel=\"nofollow\">https:&#x2F;&#x2F;hn.algolia.com&#x2F;?dateRange=all&amp;page=0&amp;prefix=true&amp;sor...</a>",
+          "createdAt": "2023-03-14T19:52:12+00:00",
+          "depth": 2,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35156020,
+          "parentId": 35153968,
+          "author": "PhysicalNomad",
+          "text": "For real, any of these threads is guaranteed to have a ton of nitpicks and comparisons with products that are way more mature. It&#x27;s pretty sad to see specially in a so-called hacker community. Congrats on the launch!",
+          "createdAt": "2023-03-14T18:16:08+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35156411,
+          "parentId": 35153968,
+          "author": "1123581321",
+          "text": "When I read these threads I mentally prepend &quot;this is neat&quot; to all comments. Perhaps I&#x27;m too optimistic, but I think nearly any engagement with a new startup or idea is appreciation on some level.",
+          "createdAt": "2023-03-14T18:38:58+00:00",
+          "depth": 2,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 35165849,
+          "parentId": 35153968,
+          "author": "Double_a_92",
+          "text": "Because since there isn&#x27;t any public demo available, you can&#x27;t really say more than &quot;Yay, this seems interesting.&quot;<p>So it&#x27;s easier to point out obvious potential flaws.",
+          "createdAt": "2023-03-15T09:49:16+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35158552,
+          "parentId": 35153968,
+          "author": "primax",
+          "text": "Check out when Dropbox launched<p><a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=9224\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=9224</a>",
+          "createdAt": "2023-03-14T21:03:18+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35154216,
+          "parentId": 35153968,
+          "author": "lumax15",
+          "text": "Thanks enono :)",
+          "createdAt": "2023-03-14T16:36:11+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35153158,
+          "parentId": 35152851,
+          "author": "digdugdirk",
+          "text": "Any thoughts on an individual &quot;Here you go, but you&#x27;re on your own&quot; license? Something like this would be <i>massively</i> beneficial to small IT teams who have the same inability to send code to OpenAI, but could use the benefit of a smart auto-complete style system like Copilot. They wouldn&#x27;t necessarily need the custom integration - even small benefits would be seen from an initial core model. Additional integrations could be sold as piecemeal consulting engagements after the fact if need be.<p>Just a thought - there&#x27;s a vast market out there for organizations with dev teams in the 1-10 person range.",
+          "createdAt": "2023-03-14T15:32:51+00:00",
+          "depth": 1,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 35153961,
+          "parentId": 35153158,
+          "author": "rileyphone",
+          "text": "The infra costs are probably minimum $1000&#x2F;month so it doesn&#x27;t make sense to target small teams with that overhead yet. I&#x27;d expect something open source to appear hear in the next few months, though it might be based on legally iffy LLaMa weights.",
+          "createdAt": "2023-03-14T16:21:33+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35153862,
+          "parentId": 35153158,
+          "author": "dingliqing53",
+          "text": "Definitely want to offer this in the future but not currently our ICP. Like rileyphone mentioned, the cost of hosting a model is substantial. Could you please elaborate on why the small IT teams can&#x27;t send code to OpenAI? We&#x27;d love to think more about this!",
+          "createdAt": "2023-03-14T16:14:39+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35153669,
+          "parentId": 35152851,
+          "author": "sqs",
+          "text": "Congrats on the launch. This seems very compelling. For anyone asking &quot;Why can&#x27;t GitHub just do this?&quot;, (1) never underestimate an extremely smart and motivated team, and (2) competition is critical and valuable.<p>Let&#x27;s celebrate when teams build products to fill big needs, instead of dismissing things because of a potential threat from a big company. If we dismiss new things, then we&#x27;ll just end up in a world where big companies get complacent and devs get less new stuff. (I know many GitHubbers, and they love seeing new stuff and are cheering for it because they can&#x27;t do everything.)",
+          "createdAt": "2023-03-14T16:00:58+00:00",
+          "depth": 1,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 35167616,
+          "parentId": 35153669,
+          "author": "nprateem",
+          "text": "True, but it&#x27;s a bold move taking on the market leader with only a weak differentiator they could compete against over night.",
+          "createdAt": "2023-03-15T12:57:53+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35153972,
+          "parentId": 35153669,
+          "author": "lumax15",
+          "text": "Couldn&#x27;t agree more :)",
+          "createdAt": "2023-03-14T16:22:10+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35154789,
+          "parentId": 35152851,
+          "author": "blintz",
+          "text": "Love the idea of running this stuff on-prem &#x2F; in house. Just not being beholden to random updates in the rules or logging policies seems like a big value add. +1 to the other commenter who mentioned they&#x27;d love to see a version for smaller teams - there might be more privacy-oriented teams out there than you&#x27;d expect. I think even a version that can run in public clouds would be meaningful.<p>Have you gotten feedback from folks using it on how it compares to Copilot in terms of usefulness? What&#x27;s the &#x27;order of magnitude&#x27; difference?",
+          "createdAt": "2023-03-14T17:11:49+00:00",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35160006,
+          "parentId": 35152851,
+          "author": "8note",
+          "text": "This seems really cool for a company that has enough surface area of software where chances are somebody has already built the thing you need and instead of building a copy yourself, you can integrate with the existing system",
+          "createdAt": "2023-03-14T22:29:23+00:00",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35160785,
+          "parentId": 35160006,
+          "author": "lumax15",
+          "text": "Code discovery and search have been great applications of Copilot and other AI dev tools!",
+          "createdAt": "2023-03-14T23:14:50+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35153103,
+          "parentId": 35152851,
+          "author": "clbrmbr",
+          "text": "Will you train on accepted&#x2F;regected and other responses from devs rather than just the final code, so that clients lose something when moving to a similar tool which will pop up tomorrow?",
+          "createdAt": "2023-03-14T15:30:19+00:00",
+          "depth": 1,
+          "childCommentCount": 1
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI code security privacy",
+      "searchRank": 5,
+      "story": {
+        "by": "gangster_dave",
+        "descendants": 5,
+        "id": 46707409,
+        "kids": [
+          46708151,
+          46712105
+        ],
+        "score": 12,
+        "text": "Hi Hacker News! I’m David Huie. I’m launching SpeechOS, a drop-in voice input SDK for web apps.<p>I was inspired by Wispr Flow and wanted the same workflow inside business apps (CRMs, docs, forms, support tools), not just a standalone tool. It’s saved me a massive amount of time vs typing.<p>How it works: add a couple lines of JS plus an API key, and SpeechOS shows a small mic widget on every text field.<p>Live demo: <a href=\"https:&#x2F;&#x2F;www.speechos.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.speechos.ai&#x2F;</a><p>(Click a text box and the mic widget appears; click the gear icon to see settings, custom vocabulary, and snippet configuration.)<p>Users can:<p>- Dictate: speak naturally, real-time voice to polished text (punctuation, no filler&#x2F;typos)<p>- Edit: say “make it shorter”, “fix grammar”, “translate...”<p>- Command: define Siri-style app actions (for example, “submit form”, “mark complete”), and we match intent to your commands<p>It also supports:<p>- Custom vocabulary: domain terms and names (product names, acronyms, jargon) so they transcribe correctly<p>- Text snippets: saved reusable blocks of text you can insert by voice (for example, “my signature”, “disclaimer”, “my address”)<p>Why: text entry speed and accuracy still matter for productivity tools. A large-scale text entry dataset with 37,370 participants showed an average typing speed of 36.2 WPM and ~2.3% uncorrected errors. In speech research, speech recognition was about 3× faster than keyboard input and had ~20.4% lower error rate for English text entry. (<a href=\"https:&#x2F;&#x2F;hci.stanford.edu&#x2F;research&#x2F;speech&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hci.stanford.edu&#x2F;research&#x2F;speech&#x2F;</a>)<p>SpeechOS is currently in beta and free for now. Sign up at <a href=\"https:&#x2F;&#x2F;app.speechos.ai&#x2F;accounts&#x2F;signup&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;app.speechos.ai&#x2F;accounts&#x2F;signup&#x2F;</a> and enter this HN-only beta code: HN-JFc74cVC (please don’t share outside HN).<p>Links:<p>SDK repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;speechos-org&#x2F;speechos-client\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;speechos-org&#x2F;speechos-client</a><p>Demo: <a href=\"https:&#x2F;&#x2F;www.speechos.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.speechos.ai&#x2F;</a><p>Signup (code: HN-JFc74cVC): <a href=\"https:&#x2F;&#x2F;app.speechos.ai&#x2F;accounts&#x2F;signup&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;app.speechos.ai&#x2F;accounts&#x2F;signup&#x2F;</a><p>I’d love feedback on:<p>1) Where this is most valuable in your stack (notes? docs? CRM entry? support macros?)<p>2) What you’d want from voice commands&#x2F;snippets configuration<p>3) What would make you comfortable shipping this (privacy&#x2F;security, latency, pricing)<p>If you’re building anything in voice AI&#x2F;dictation, I’d be happy to swap notes (david@speechos.ai).",
+        "time": 1769010735,
+        "title": "Show HN: SpeechOS – Wispr Flow-inspired voice input for any web app",
+        "type": "story",
+        "url": "https://www.speechos.ai/"
+      },
+      "comments": [
+        {
+          "commentId": 46708151,
+          "parentId": 46707409,
+          "author": "mrosoff",
+          "text": "This feels less about typing speed and more about workflow compression. You just dictate your thoughts, edit and the it takes action for you?<p>Pretty neat idea!",
+          "createdAt": "2026-01-21T16:48:08+00:00",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 46708214,
+          "parentId": 46708151,
+          "author": "gangster_dave",
+          "text": "That&#x27;s exactly right. The aim of this product is to enable businesses to offer that service to their users. Right now, you can only get intelligent dictation by having users already come to the table with some of these apps, like Wispr Flow.",
+          "createdAt": "2026-01-21T16:52:37+00:00",
+          "depth": 2,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 46712105,
+          "parentId": 46707409,
+          "author": "janice1999",
+          "text": "You want companies to pay you to process their customers voices and private data, but I don&#x27;t see a privacy policy or even what jurisdiction you operate in. Your Terms and Conditions is literally a placeholder. That&#x27;s a huge red flag.",
+          "createdAt": "2026-01-21T21:52:54+00:00",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 46712166,
+          "parentId": 46712105,
+          "author": "gangster_dave",
+          "text": "I completely understand. This product is in beta testing with no paid customers. We&#x27;ll definitely have that in there at launch.",
+          "createdAt": "2026-01-21T21:57:41+00:00",
+          "depth": 2,
+          "childCommentCount": 1
+        }
+      ]
+    }
+  ]
+}

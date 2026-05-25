@@ -1,0 +1,122 @@
+{
+  "0": {
+    "theme": "cost",
+    "top_terms": [
+      "plugin",
+      "anthropic",
+      "additional",
+      "never",
+      "look",
+      "sandbox",
+      "connection",
+      "resume",
+      "subscription",
+      "made",
+      "tried",
+      "pro",
+      "reported",
+      "week",
+      "silently"
+    ]
+  },
+  "1": {
+    "theme": "reliability",
+    "top_terms": [
+      "session",
+      "user",
+      "agent",
+      "context",
+      "file",
+      "error",
+      "mcp",
+      "server",
+      "project",
+      "path",
+      "run",
+      "issue",
+      "prompt",
+      "state",
+      "request"
+    ]
+  },
+  "2": {
+    "theme": "productivity",
+    "top_terms": [
+      "time",
+      "problem",
+      "write",
+      "help",
+      "vibe",
+      "without",
+      "build",
+      "test",
+      "project",
+      "make",
+      "solution",
+      "ask",
+      "find",
+      "every",
+      "understand"
+    ]
+  },
+  "3": {
+    "theme": "job_displacement",
+    "top_terms": [
+      "day",
+      "software",
+      "end",
+      "job",
+      "year",
+      "back",
+      "llm",
+      "question",
+      "since",
+      "month",
+      "point",
+      "feel",
+      "company",
+      "human",
+      "product"
+    ]
+  },
+  "4": {
+    "theme": "cost",
+    "top_terms": [
+      "thread",
+      "behavior",
+      "macos",
+      "step",
+      "skill",
+      "open",
+      "file",
+      "show",
+      "terminal",
+      "reproduce",
+      "information",
+      "git",
+      "name",
+      "content",
+      "list"
+    ]
+  },
+  "5": {
+    "theme": "reliability",
+    "top_terms": [
+      "version",
+      "app",
+      "issue",
+      "window",
+      "desktop",
+      "enabled",
+      "model",
+      "bug",
+      "chat",
+      "cli",
+      "extension",
+      "system",
+      "report",
+      "detail",
+      "disabled"
+    ]
+  }
+}

@@ -1,0 +1,1550 @@
+{
+  "source": "hackernews",
+  "searchQuery": "AI software developer productivity",
+  "storyThreads": [
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 1,
+      "story": {
+        "by": "algoghostf",
+        "descendants": 0,
+        "id": 41505157,
+        "score": 1,
+        "time": 1726000141,
+        "title": "The Impact of Generative AI on Software Developer Productivity",
+        "type": "story",
+        "url": "https://medium.com/@AhmedF/the-real-impact-of-generative-ai-on-software-developer-productivity-evidence-from-field-686e3a36138a"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 2,
+      "story": {
+        "by": "msolujic",
+        "descendants": 2,
+        "id": 46534402,
+        "kids": [
+          46534558,
+          46534724
+        ],
+        "score": 5,
+        "time": 1767826508,
+        "title": "AI hampered productivity of software developers,m",
+        "type": "story",
+        "url": "https://fortune.com/article/does-ai-increase-workplace-productivity-experiment-software-developers-task-took-longer/"
+      },
+      "comments": [
+        {
+          "commentId": 46534558,
+          "parentId": 46534402,
+          "author": "Terr_",
+          "text": "The pre-paywall stuff makes it sound like this is about the 2025 METR study of time taken versus time reported. [0]<p>While the authors noted that they cant prove their experiences are broadly representative of the entire craft&#x2F;industry, IMO that&#x27;s a pretty high bar for anybody to clear.<p>[0] <a href=\"https:&#x2F;&#x2F;metr.org&#x2F;blog&#x2F;2025-07-10-early-2025-ai-experienced-os-dev-study&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;metr.org&#x2F;blog&#x2F;2025-07-10-early-2025-ai-experienced-o...</a>",
+          "createdAt": "2026-01-07",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 46534724,
+          "parentId": 46534402,
+          "author": "llmslave2",
+          "text": "&gt; When developers are allowed to use AI tools, they take 19% longer to complete issues—a significant slowdown that goes against developer beliefs and expert forecasts. This gap between perception and reality is striking: developers expected AI to speed them up by 24%, and even after experiencing the slowdown, they still believed AI had sped them up by 20%.<p>Fascinating that their perceptions basically matched their predictions, and were totally off. Take any claims of &quot;Opus makes me 10x more productive!&quot; with a massive grain of salt, considering they probably read that on X or HN and then their predictions influence their perception.",
+          "createdAt": "2026-01-07",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 3,
+      "story": {
+        "by": "Irishsteve",
+        "descendants": 0,
+        "id": 19309959,
+        "score": 1,
+        "time": 1551787355,
+        "title": "What Predicts Software Developers’ Productivity?",
+        "type": "story",
+        "url": "https://ai.google/research/pubs/pub47853"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 4,
+      "story": {
+        "by": "dboreham",
+        "descendants": 5,
+        "id": 45761979,
+        "kids": [
+          45762110,
+          45762504,
+          45762229
+        ],
+        "score": 3,
+        "text": "Lifelong AI skeptic now turned LLM proponent here. I&#x27;m almost in the Adrian Cockroft&#x2F;Joe Magerramov camp: for me today&#x27;s LLMs are by far the most productivity-increasing tool for software development since the compiler. Yes I&#x27;m so old that I remember making software without a compiler. Reinforcing my non-koolaid-consuming cred: I&#x27;ve been using LLM tools to write programs I&#x27;d never have time to write, find bugs I&#x27;d have taken much longer to track down myself, understand the design of large complex codebases I&#x27;d have previously left as mystery-meat. The new tools are helping me work through the seemingly endless pile of stuff that always needed to be done but never got done.<p>Although the media narrative and previous HN discussions focus on developer layoffs supposedly due to AI adoption, I&#x27;m wondering about the inverse perspective. Since LLM tools improve software developer productivity significantly, why haven&#x27;t we seen much better software? Why haven&#x27;t we seen startups making new useful applications? Is there something about the wider business context that precludes improved productivity being applied to increase capacity and&#x2F;or improve quality? After all when Walmart discovered how to optimize retail they didn&#x27;t use that capability to make one super-efficient store. They built stores everywhere. Are we somehow stuck in some crappyness equilibrium where there&#x27;s no overall benefit to improving software. Was that always the case but we never realized because by chance we had just enough developers to get by?",
+        "time": 1761842268,
+        "title": "Ask HN: LLMs enhance productivity so why don't we have more/better software?",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 45762110,
+          "parentId": 45761979,
+          "author": "verdverm",
+          "text": "1. Productivity (quantity) does not equal quality. How is productivity even measured? (the jury is still out on this one)<p>2. LLMs &amp; Agents do not automatically create better software. They more often prefer to write from scratch rather than use the library sitting right next to the code they reimplement. While they are good at writing narrowly scoped tasks, they are not good at large perspective work. They also make lots of mistakes, just like us.<p>3. Why haven&#x27;t we seen the things you expect? Because of (1) hype and, similar to stock market trades, people only share their wins and not their losses. (2) They are not as capable as the proffers would have you believe.",
+          "createdAt": "2025-10-30",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 45762504,
+          "parentId": 45761979,
+          "author": "incomingpain",
+          "text": "Because coding LLMs have really only been about a year or so. Do you expect the entire landscape of software to change in only a year? Most the AI activity is on fixing and improving what we already have.",
+          "createdAt": "2025-10-30",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45762229,
+          "parentId": 45761979,
+          "author": "PaulHoule",
+          "text": "Whenever some new development in software development comes around people remember this classic Fred Brooks essay<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;No_Silver_Bullet\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;No_Silver_Bullet</a><p>which points out that software development involves many different tasks,  let&#x27;s say<p><pre><code>   20%    requirements gathering\n   20%    design\n   20%    coding\n   20%    test\n   20%    deployment\n</code></pre>\nlet&#x27;s say that some huge innovation cuts the time to code down to 0.  You still have to do 80% of the work!  If a &quot;no code&quot; system is going to radically improve the situation it has to take a big chunk out of all of those things.<p>We don&#x27;t have a failing video game industry or disasters like iOS 26 because low-level coders are making little mistakes,  we are having them because of poor productivity and quality in the area of deciding what software gets made and what characteristics that software has.  If you were able to:  (a) fire everybody at Microsoft except for Satya Nadella or (b) fire Satya Nadella,  (b) would be the change that would impact what gets made,  I&#x27;m sure Satya Nadella could come up with the bad ideas on all his own in case (a).<p>---<p>The bright spot is that there&#x27;s a certain kind of person who could make AI-enhanced software for their own personal or for small group use.  If you can get the <i>business</i> out of it entirely,  AI software development could be revolutionary.  If the goal is to make polished software that serves the needs of a wide number of people you run into all the old business problems (e.g. <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Enshittification\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Enshittification</a>)",
+          "createdAt": "2025-10-30",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 5,
+      "story": {
+        "by": "palad1n",
+        "descendants": 5,
+        "id": 46510980,
+        "kids": [
+          46511270,
+          46511020
+        ],
+        "score": 6,
+        "time": 1767697946,
+        "title": "Experienced software developers assumed AI would save them a chunk of time",
+        "type": "story",
+        "url": "https://fortune.com/article/does-ai-increase-workplace-productivity-experiment-software-developers-task-took-longer/"
+      },
+      "comments": [
+        {
+          "commentId": 46511270,
+          "parentId": 46510980,
+          "author": "chrisjj",
+          "text": "The bigger surprise here is the test sample of experienced software developers &quot;expected AI to expedite their work and increase productivity&quot;. Perhaps a more scientifically selected sample would have yielded a more scientifically valid result.",
+          "createdAt": "2026-01-06",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 6,
+      "story": {
+        "by": "manjotpahwa",
+        "descendants": 2,
+        "id": 35958304,
+        "kids": [
+          35958614,
+          35958436
+        ],
+        "score": 4,
+        "time": 1684218110,
+        "title": "How generative AI is affecting the software developers life",
+        "type": "story",
+        "url": "https://github.blog/2023-05-09-how-companies-are-boosting-productivity-with-generative-ai/"
+      },
+      "comments": [
+        {
+          "commentId": 35958614,
+          "parentId": 35958304,
+          "author": "devnull3",
+          "text": "I see productivity gains in software development but no full replacement (yet). Writing code is just one part of the overall list of things that an engineer does. Infact, barring the early versions of product&#x2F;project more time is spent elsewhere in subsequent versions. With code it is more reading than writing new code. Other things on which time is spent are:<p>1. What needs to be built? What is feasible?<p>2. Investigations (bug reports, production issues, performance issues, etc)<p>3. Quality control (code reviews, writing tests)<p>I am only listing things which require considerable thinking and multi-domain skills. So LLMs (as of now) really only helps with one part of overall things to do.<p>Edit: Also, Rate of code generation with AI &gt;&gt; Rate of effective code review. So the bottlenecks will still be humans.<p>PS: About quality control: I think AI writing code and generating the test code is not desirable. If the underlying LLM has issues even the test code will have issues. Generating boilerplate is one thing but the key things about the tests (i.e. inputs&#x2F;scenario &amp; things to check) needs much better curation. This needs human intervention.",
+          "createdAt": "2023-05-16",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35958436,
+          "parentId": 35958304,
+          "author": "captaintobs",
+          "text": "It&#x27;s mostly affecting the amount of AI content I have to wade through these news aggregators...",
+          "createdAt": "2023-05-16",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 7,
+      "story": {
+        "by": "xqliu",
+        "descendants": 0,
+        "id": 41329263,
+        "score": 2,
+        "text": "Show HN: LCDP.ai v0.29.0 - An AI-powered low-code platform for rapid development<p>Hello HN community,<p>We&#x27;re excited to share the latest version of LCDP.ai, our open-source, AI-enhanced low-code development platform. With v0.29.0, we&#x27;ve made significant strides in improving developer productivity and application performance.<p>Key features:<p>1. Ant Design 5 integration: Modernized UI components for a sleeker, more responsive interface.\n2. Enhanced data visualization: New line and table charts, plus improved dashboard widgets.\n3. Claude.ai API support: Leverage advanced AI capabilities in your applications.\n4. Performance optimizations: Improved async task handling for better scalability.\n5. Arm64 architecture support: Run on Apple Silicon and other ARM-based systems efficiently.<p>We&#x27;ve also added features like custom ordering for subtables, comments on domain class fields, and anonymous invocations for dynamic services. These additions aim to provide developers with more flexibility and control over their projects.<p>Our goal with LCDP.ai is to bridge the gap between traditional coding and no-code platforms, offering a middle ground that combines the best of both worlds. We believe that by providing powerful low-code tools enhanced by AI, we can significantly reduce development time without sacrificing customization or scalability.<p>We&#x27;d love to hear your thoughts, feedback, or questions about LCDP.ai. Have you used low-code platforms before? What has been your experience? How do you see AI integration changing the landscape of software development?<p>Try it out: <a href=\"https:&#x2F;&#x2F;lcdp.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;lcdp.ai</a>\nDocumentation: <a href=\"https:&#x2F;&#x2F;docs.lcdp.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.lcdp.ai</a><p>Thank you for your time and interest!",
+        "time": 1724422874,
+        "title": "Show HN: Lcdp.ai v0.29.0 – An AI-powered low-code platform for rapid development",
+        "type": "story",
+        "url": "https://lcdp.ai/blog/introducing-lcdp-ai-v0-29-0-elevating-low-code-development-with-ai-power"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 8,
+      "story": {
+        "by": "bfioca",
+        "descendants": 9,
+        "id": 40456457,
+        "kids": [
+          40457018,
+          40457832,
+          40457293,
+          40459209,
+          40459338,
+          40456603,
+          40462743,
+          40491781
+        ],
+        "score": 40,
+        "text": "Hi, we&#x27;re Kevin, Chris, and Brian, the creators of JACoB (Just Another Coding Bot), an open-source AI coding agent designed to streamline the development process. As veteran developers, we know that while AI isn&#x27;t perfect, it can be a valuable tool for tasks like code reviews, converting designs to React components, and writing high-quality GitHub issues. We’ve been building JACoB over the past year to assist with our real work, and today we’re open sourcing it under an Apache 2.0 license. Our goal is to create the first fully open-source tool that matches the quality and polish of many closed-source alternatives.<p>JACoB focuses on specific, time-consuming tasks that AI handles well, like generating code from Figma designs, fixing simple bugs, and writing boilerplate code like API endpoints. You can even converse with JACoB to refine existing GitHub issues or help write new ones. It integrates seamlessly into your workflow, from GitHub issues to pull requests, ensuring all code passes tests before finalizing.<p>JACoB is available on GitHub today, where you can customize it to your needs, such as running with local models. We&#x27;re also developing a hosted version - sign up for the waitlist at <a href=\"https:&#x2F;&#x2F;jacb.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;jacb.ai</a>. Currently, JACoB works best with JavaScript or TypeScript projects, especially with frameworks like Next.js.<p>To evaluate JACoB’s real-world abilities, we created our own benchmark arena since none existed for design-to-code tools. JACoB outperformed eight popular tools and human-written code, scoring an ELO of 1183, over 100 points higher than the nearest competitor. More details on how we achieved this are available in the technical whitepaper found in the repo.<p>AI is transforming software development, and we believe developers should lead this change, not large corporations. JACoB is our contribution to that future, respecting your privacy and security while remaining transparent and open.\nWe&#x27;d love your feedback. Visit our GitHub repo to try it out and find more demo videos and a link to our technical whitepaper. <a href=\"https:&#x2F;&#x2F;github.com&#x2F;jacob-ai-bot&#x2F;jacob\">https:&#x2F;&#x2F;github.com&#x2F;jacob-ai-bot&#x2F;jacob</a><p>Let&#x27;s build the future of AI in software development together. We’re excited to hear your thoughts and answer any questions!",
+        "time": 1716480347,
+        "title": "Show HN: JACoB – Open-Source AI Coding Agent for Real-World Productivity",
+        "type": "story",
+        "url": "https://github.com/jacob-ai-bot/jacob"
+      },
+      "comments": [
+        {
+          "commentId": 40457018,
+          "parentId": 40456457,
+          "author": "toobulkeh",
+          "text": "There&#x27;s definitely not enough of these solutions being open-sourced. Definitely makes it more accessible to compliance or restricted environments. More AI should go this route. Definitely will be trying it out in my next build.",
+          "createdAt": "2024-05-23",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 40457832,
+          "parentId": 40456457,
+          "author": "randfish",
+          "text": "VERY much like this part: &quot;integrates directly into your GitHub workflow, transforming Figma designs into deployable code and understanding your entire codebase.&quot; Getting on the waitlist.",
+          "createdAt": "2024-05-23",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 40457293,
+          "parentId": 40456457,
+          "author": "telaandrews2",
+          "text": "Agents that make front end development easier go a long way to making bootstrapped entrepreneurship more accessible. Love that this is open source!",
+          "createdAt": "2024-05-23",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 40459209,
+          "parentId": 40456457,
+          "author": "jefflub",
+          "text": "Very cool! How hard is it to add more technologies? I&#x27;d love something like this that could write my API endpoints in my Rails app.",
+          "createdAt": "2024-05-23",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 40459338,
+          "parentId": 40456457,
+          "author": "deep_origins",
+          "text": "Excited to see JACoB in the wild! Very much appreciate the ability to support local models with Ollama.",
+          "createdAt": "2024-05-23",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 40456603,
+          "parentId": 40456457,
+          "author": "cajohn0205",
+          "text": "Excited to try this out with new wireframes. Most figma to code solutions so far have let me down",
+          "createdAt": "2024-05-23",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 40462743,
+          "parentId": 40456457,
+          "author": "PiersonMarks",
+          "text": "Very cool. Looking forward to using it this upcoming week.",
+          "createdAt": "2024-05-24",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 40491781,
+          "parentId": 40456457,
+          "author": "l0gr1thm1k",
+          "text": "Awesome to see this go live!",
+          "createdAt": "2024-05-27",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 9,
+      "story": {
+        "by": "obilgic",
+        "descendants": 2,
+        "id": 46094221,
+        "kids": [
+          46095065,
+          46094392
+        ],
+        "score": 2,
+        "text": "I’m curious whether there’s a meaningful way to quantify how much AI tools (ChatGPT, Claude, Copilot, etc.) are affecting software development productivity worldwide.<p>Obviously, metrics like “number of repos created,” “number of commits,” or “lines of code changed” are not quality indicators — but could they still reveal directional trends? For example:<p>Are new repos being created at a faster rate than previous years?<p>Are commits per developer increasing?<p>Is the total volume of code changes growing noticeably on platforms like GitHub or GitLab?<p>Has anyone seen research, datasets, or attempts to measure this kind of global shift? Are there better proxies for AI-driven productivity gains (or losses) in software engineering?",
+        "time": 1764482044,
+        "title": "Ask HN: How can we measure AI's impact on global developer productivity?",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 46095065,
+          "parentId": 46094221,
+          "author": "gregjor",
+          "text": "As you note, the software industry lacks meaningful definitions of &quot;productivity.&quot; We talk about it as if we agree on what it means, but can&#x27;t measure it or compare it across teams, projects, or business domains.<p>Studies I&#x27;ve seen thrown around come from companies such as Microsoft and OpenAI and Anthropic, all of which have deep vested interests in pushing the AI productivity narrative, so I hesitate to trust them. Digging in, their data seems either anecdotal or based on the kinds of mostly-useless metrics you listed above.<p>We won&#x27;t know for years, maybe decades, whether AI tools benefit or hinder software development. Probably some combination. I think the most serious follow-on effect of AI in software development will come from the short-sighted decision to hire fewer junior programmers, which will lead to a shortage of experienced senior programmers. Executives and investors won&#x27;t feel that pain for a while, they can cash in their shares and options today. Supply and demand will raise salaries for senior programmers, and the shortage will impose delays and opportunity costs. Those costs may outweigh whatever short-term and I think superficial gains AI tools may offer now.",
+          "createdAt": "2025-11-30",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 46094392,
+          "parentId": 46094221,
+          "author": "efortis",
+          "text": "Not an answer, but here’s an interesting talk between Scott Hanselman and Mark Russinovich from Microsoft discussing the senior boost vs. the junior 1.5X slowdown.<p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=A6l23fVG-UE\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=A6l23fVG-UE</a>",
+          "createdAt": "2025-11-30",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 10,
+      "story": {
+        "by": "fgfm",
+        "descendants": 11,
+        "id": 38710600,
+        "kids": [
+          38714332,
+          38715428,
+          38714962,
+          38718222
+        ],
+        "score": 49,
+        "text": "Hello there, I&#x27;m FG (short for François-Guillaume)! I’m building Quack Companion (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;quack-ai&#x2F;companion\">https:&#x2F;&#x2F;github.com&#x2F;quack-ai&#x2F;companion</a>), a tool designed to bridge the gap between project maintainers and contributors in open-source software (OSS).<p>If you&#x27;ve ever contributed to OSS, you&#x27;re familiar with the challenge: diving into a new codebase, aligning with maintainers&#x27; expectations, and making meaningful contributions can be daunting. For maintainers, managing a flood of contributions and providing guidance while maintaining quality is overwhelming. As a contributor to PyTorch &amp; an OSS author, I’ve been on both sides over the years. This challenged me to become a better engineer &amp; team player, seeking ways to facilitate smooth collaborative software development.<p>This is where Quack steps in, as your AI companion for software team alignment. For developers, it&#x27;s like having a seasoned mentor guiding you through the intricacies of a new codebase, offering live in-line hints based on the project’s guidelines to craft high-quality pull requests. For maintainers, it’s a practical toolset to identify and address workflow inefficiencies and align contributions effectively with project objectives.<p>As code generation gets commoditized, aligning these diverse efforts becomes critical if you wish to convert individual productivity boosts into team velocity. Quack AI is here to solve this alignment, and make collaborative software development scale without losing any efficiency.<p>We&#x27;re committed to keeping the service accessible and free for OSS communities while we plan to generate revenue from the enterprise suite. The platform (React, Next JS), the IDE extension (VSCode) and the backend API (Python, FastAPI) are licensed under Apache 2.0. You can find a short demo here [1] and the GitHub project here [2].<p>Our roadmap includes:<p>* offering autocompletion and code chat in the IDE, making the contribution process even more intuitive and seamless;<p>* finalizing the transition of the community version to hostable OSS models;<p>* identifying ambiguities or unspecified aspects of a given project’s guidelines;<p>* developing a Fitbit-like feature for your software development productivity to identify bottlenecks in your workflow.<p>This is still the early days, but we&#x27;ve seen how sharing a &quot;public design doc&quot; with the community can significantly improve the outcome! How was your experience of managing inbound as maintainers? What were your personal hacks to mitigate those challenges? We&#x27;d love to hear about how it has impacted your developer life or if you have any feedback about the above.<p>Cheers!<p>[1] Demo video: <a href=\"https:&#x2F;&#x2F;dub.sh&#x2F;quack-demo\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;dub.sh&#x2F;quack-demo</a><p>[2] Open Source repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;quack-ai&#x2F;companion\">https:&#x2F;&#x2F;github.com&#x2F;quack-ai&#x2F;companion</a><p>Our documentation: <a href=\"https:&#x2F;&#x2F;docs.quackai.com&#x2F;\">https:&#x2F;&#x2F;docs.quackai.com&#x2F;</a>",
+        "time": 1703090590,
+        "title": "Show HN: Quack Companion – VSCode extension for OSS contribution assistance",
+        "type": "story",
+        "url": "https://github.com/quack-ai/companion"
+      },
+      "comments": [
+        {
+          "commentId": 38714332,
+          "parentId": 38710600,
+          "author": "mdaniel",
+          "text": "OSS communities ... on GitHub only, seems to be the rest of that sentence: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;quack-ai&#x2F;companion&#x2F;blob&#x2F;77281d882ff7b90fe89fe489eabc6aaa2f184f69&#x2F;src&#x2F;util&#x2F;session.ts#L11\">https:&#x2F;&#x2F;github.com&#x2F;quack-ai&#x2F;companion&#x2F;blob&#x2F;77281d882ff7b90fe...</a><p>there is also a tiny mention of it in the readme, but it&#x27;s often hard to know how many times that&#x27;s &quot;shorthand&quot; for &quot;git based code forges&quot; versus, as in this case, &quot;we use the github api and others are on the backlog&quot;<p>In case others went sniffing around looking for &quot;does this use an OpenAI key?&quot; the answer is yes but it&#x27;s in the Python side: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;quack-ai&#x2F;contribution-api#configuration\">https:&#x2F;&#x2F;github.com&#x2F;quack-ai&#x2F;contribution-api#configuration</a>",
+          "createdAt": "2023-12-20",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 38715428,
+          "parentId": 38710600,
+          "author": "zzzeek",
+          "text": "If a contributor comes to my project with a pull request that an AI wrote using copyrighted, unknown licensed-and-attributed code it sucked off of GitHub, that PR is rejected immediately and I would strongly consider banning the &quot;contributor&quot; as well.   A lot of OSS maintainers are tuning into this new reality so I would advise caution to contributors looking to have tools write their code for them.",
+          "createdAt": "2023-12-21",
+          "depth": 1,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 38714962,
+          "parentId": 38710600,
+          "author": "pyduan",
+          "text": "Do you have an estimate for typical token usage for a developer who&#x27;d use it as part of their workflow? I&#x27;d imagine the costs can rack up fairly quickly if you&#x27;re not careful.",
+          "createdAt": "2023-12-20",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 38718222,
+          "parentId": 38710600,
+          "author": "wiseowise",
+          "text": "&gt; the function name should start with a verb<p>You lost me there.",
+          "createdAt": "2023-12-21",
+          "depth": 1,
+          "childCommentCount": 1
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 11,
+      "story": {
+        "by": "jorgeoguerra",
+        "descendants": 33,
+        "id": 45722635,
+        "kids": [
+          45723688,
+          45725228,
+          45725533,
+          45725904,
+          45728367,
+          45723850,
+          45724967,
+          45728007,
+          45724101,
+          45724163,
+          45727561,
+          45724607,
+          45724563,
+          45725857,
+          45723848,
+          45724618,
+          45723801
+        ],
+        "score": 86,
+        "text": "Hey HN! We’re Jorge and Will from Lotas (<a href=\"https:&#x2F;&#x2F;www.lotas.ai&#x2F;\">https:&#x2F;&#x2F;www.lotas.ai&#x2F;</a>), and we’ve built Erdos, a secure AI-powered data science IDE that’s fully open source (<a href=\"https:&#x2F;&#x2F;www.lotas.ai&#x2F;erdos\">https:&#x2F;&#x2F;www.lotas.ai&#x2F;erdos</a>).<p>A few months ago, we shared Rao, an AI coding assistant for RStudio (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44638510\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44638510</a>). We built Rao to bring the Cursor-like experience to RStudio users. Now we want to take the next step and deliver a tool for the entire data science community that handles Python, R, SQL, and Julia workflows.<p>Erdos is a fork of VS Code designed for data science. It includes:<p>- An AI that can search, read, and write across all file types for Python, R, SQL, and Julia. Also, for Jupyter notebooks, we’ve optimized a jupytext system to allow the AI to make faster edits.<p>- Built-in Python, R, and Julia consoles accessible to both the user and AI<p>- Plot pane that tracks and organizes plots by file and time<p>- Database pane for connecting to and manipulating SQL or FTP data sources<p>- Environment pane for viewing variables, packages, and environments<p>- Help pane for Python, R, and Julia documentation<p>- Remote development via SSH or containers<p>- AI assistant available through a single-click sign-in to our zero data retention backend, bring your own key, or a local model<p>- Open source AGPLv3 license<p>We built Erdos because data scientists are often second-class citizens in modern IDEs. Tools like VS Code, Cursor, and Claude Code are made for software developers, not for people working across Jupyter notebooks, scripts, and SQL. We wanted an IDE that feels native to data scientists, while offering the same AI productivity boosts.<p>You can try Erdos at <a href=\"https:&#x2F;&#x2F;www.lotas.ai&#x2F;erdos\">https:&#x2F;&#x2F;www.lotas.ai&#x2F;erdos</a>, check out our source code on our GitHub (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;lotas-ai&#x2F;erdos\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;lotas-ai&#x2F;erdos</a>), and let us know what features would make it more useful for your work. We’d love your feedback below!",
+        "time": 1761581338,
+        "title": "Show HN: Erdos – open-source, AI data science IDE",
+        "type": "story",
+        "url": "https://www.lotas.ai/erdos"
+      },
+      "comments": [
+        {
+          "commentId": 45723688,
+          "parentId": 45722635,
+          "author": "Centigonal",
+          "text": "This is a good idea, although IMO source control, compute, and MLOps integration are bigger but less flashy pain points for data scientists than AI in notebooks.<p>If you&#x27;re going to market Erdos as open source, then IMO there should be a github link somewhere on your website.",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 45725228,
+          "parentId": 45722635,
+          "author": "buppermint",
+          "text": "Very cool. Any plans to add support for local models? This has what has prevented us from adopting Positron so far. We have sensitive data and sending to third party APIs is not an option (regardless of their stated retention policies).",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45725533,
+          "parentId": 45722635,
+          "author": "puppycodes",
+          "text": "Looks interesting but i&#x27;m unclear what makes it &quot;more accurate&quot;?",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45725904,
+          "parentId": 45722635,
+          "author": "thom",
+          "text": "Give me this, but with a very efficient, opinionated path to put models into production. Give me accessible PM and customer friendly documentation about features and model choices at every stage. Make it reusable and easy to modify. Make it robust and scalable at inference time, with metrics and dashboards tracking performance over time. This seems like optimising the bit that&#x27;s already fun, but I see a lot of value in hand-holding a department through all the stodgy boring bits and getting high quality analysis repeatably into customer hands.",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 45728367,
+          "parentId": 45722635,
+          "author": "agnosticmantis",
+          "text": "This looks very cool, I’m gonna try it later today.<p>Out of curiosity, why the name Erdos? AFAIK Erdos was neither a statistician, data scientist nor AI researcher.<p>He sure solved many probability&#x2F;combinatorics problems and famously had many many collaborators.",
+          "createdAt": "2025-10-28",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45723850,
+          "parentId": 45722635,
+          "author": "SamTinnerholm",
+          "text": "I can&#x27;t tell how this differs to Cursor from your website. How is it different?",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45724967,
+          "parentId": 45722635,
+          "author": "johannesf",
+          "text": "Have you done any fine-tuning or prompt-customization for the R-specific work? I&#x27;ve found the models worse on R when compared to Python, especially for more complex tasks. This looks cool, thanks for sharing!",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45728007,
+          "parentId": 45722635,
+          "author": "anigbrowl",
+          "text": "Apple Silicon only, might be worth mentioning on the download link.",
+          "createdAt": "2025-10-28",
+          "depth": 1,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 45724101,
+          "parentId": 45722635,
+          "author": "shuwan",
+          "text": "I think Rao is more appealing to me since Positron already has that kind of integration, while RStudio doesn’t. Plus, Posit probably won’t ever add an AI Chat feature to RStudio anyway.",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45724163,
+          "parentId": 45722635,
+          "author": "harvey9",
+          "text": "Do you have the option to run on a local model? Lots of firms don&#x27;t want data or prompts going outside the local network",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45727561,
+          "parentId": 45722635,
+          "author": "sosodev",
+          "text": "Does it support OpenRouter? I tried configuring OpenRouter as a &quot;local model&quot; but it seems to silently fail.",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45724607,
+          "parentId": 45722635,
+          "author": "mritchie712",
+          "text": "We started with a product like this at Definite (<a href=\"https:&#x2F;&#x2F;www.definite.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.definite.app&#x2F;</a>), but it became clear there weren&#x27;t enough people willing to spend real money on a product like it when Cursor &#x2F; VS Code already have good coverage on data science.",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45724563,
+          "parentId": 45722635,
+          "author": "vednig",
+          "text": "I see Google acquiring Iotas in the future, that&#x27;s how good it gets",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 45725857,
+          "parentId": 45722635,
+          "author": "mkl",
+          "text": "The choice of name seems pretty bizarre.  The famous Erdos [1] was a mathematician, not data scientist, computer scientist, or statistician.<p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Paul_Erd%C5%91s\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Paul_Erd%C5%91s</a>",
+          "createdAt": "2025-10-27",
+          "depth": 1,
+          "childCommentCount": 2
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 12,
+      "story": {
+        "by": "yuanhao",
+        "descendants": 8,
+        "id": 43068027,
+        "kids": [
+          43068350,
+          43068305,
+          43068688,
+          43068335
+        ],
+        "score": 3,
+        "text": "I quit my job 6 months ago because my family of four travels a lot and bosses couldn&#x27;t handle me working async (although I delivered very well).<p>I&#x27;m also kind of tired of working for someone else. I did SEO for 10 years very profitably and it was a dream life.<p>I was going to take at least one year off to take care of my health and my little one (she&#x27;s 3) but as my wife correctly pointed out, I go crazy when I don&#x27;t do something that exercises my brain.<p>Lost 30 pounds, and been doing a lot of hiking, sports, salsa, which is great, but it&#x27;s not enough. Finally I understand why rich people seldom retire.<p>I&#x27;m reasonably productive (big fan of Cal Newport, Deep Work, Slow Productivity).<p>The dream is to have a profitable SaaS but it&#x27;s been overwhelming to see the amount of stuff out there.<p>My strengths are FE and I can handle design and marketing reasonably okay. Don&#x27;t want to brag but likely 90 or 95% top talent doing FE , based on the CTOs and investors we used to work with. I was Eng Manager at some point but hated the endless meetings.<p>I&#x27;m also over the fence with everything related to AI (I think it&#x27;s powerful, but it&#x27;s a double-edged sword to build in such a competitive industry that I don&#x27;t find that enticing and I am not too knowledgeable of).<p>What would you do in my position if you had 3 years of runway?<p>That&#x27;s if we continue spending as we are now (very comfortable living), but it could be extended to 4-5 years if we decide to live a bit on a tighter budget, provided I find a mission on what to build or do.<p>I know myself, and by the time I only have 1 year of runway I&#x27;m going to start stressing out. So I have some time.<p>---<p>EDIT: My ideas so far.<p>1) Try a few micro SaaS ideas. Fail a lot and figure it out. FAFO.<p>2) Grow my socials so I have a bigger network. It&#x27;s going well but I&#x27;m just not a big fan of all the shallow work.<p>3) Try one or two BIG SaaS ideas. Slow and steady, focus on quality. Very enjoyable but the risk of failing miserably haunts me.<p>4) Work on open source projects. I have a few that I started and have a tiny bit of traction. If nothing can be done for profit, use it as leverage to find a great job in the future and learn a ton",
+        "time": 1739714316,
+        "title": "Ask HN: I'm a software developer with 3 years of runway. What do I build?",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 43068350,
+          "parentId": 43068027,
+          "author": "HaQT11",
+          "text": "First and foremost, I&#x27;d identify a problem that I care about or have domain knowledge in and focus on solving that problem. Maybe it&#x27;s something related to your current interests - hiking, sports, salsa, etc. But, based on the problem you pick, it&#x27;ll become clear if SaaS or Open Source or a different approach makes the best sense. Growing your network is generally a good idea, but depending on the problem you end up tackling maybe the audience you built is different than the clients you need to attract.<p>But, if you nail down a good problem",
+          "createdAt": "2025-02-16",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 43068305,
+          "parentId": 43068027,
+          "author": "rpicard",
+          "text": "The short answer is build something people want. It’s really good advice from YC, and applies whatever your goals are (big software company or smaller niche businesses).<p>I’d just focus on finding problems and solving them, while getting people to pay to use them. Don’t overthink it!<p>You could also look for some part time contracting work in the meantime to keep an income and stay in touch with a professional network.<p>Congrats on the weight loss and fitness, that’s huge.",
+          "createdAt": "2025-02-16",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 43068688,
+          "parentId": 43068027,
+          "author": "beardyw",
+          "text": "When I was financially comfortable and not busy I did my very worst work and ultimately wasted my time. I didn&#x27;t come up with a solution, but I think aggressive timelines which you always keep to are probably the answer.",
+          "createdAt": "2025-02-16",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 43068335,
+          "parentId": 43068027,
+          "author": "jqpabc123",
+          "text": "Short cut to figuring it all out --- tech is only about half of the total equation needed to produce a successful and profitable product.<p>If tech alone was enough, Linux would be on everyone&#x27;s desktop.<p>The reason it is not is because those involved are for the most part disconnected from and disinterested in the social and humanistic aspects of creating a &quot;product&quot;.<p>I suggest a division of talents. \nStep away from keyboard and start looking to form an informal partnership with someone who has contacts and inside knowledge of some specific industry.<p>You focus on the tech, they focus on the business and &quot;humanistic&quot; stuff and you split the profits.<p>This is what I did over 25 years ago and I have been running my own successful business ever since.",
+          "createdAt": "2025-02-16",
+          "depth": 1,
+          "childCommentCount": 1
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 13,
+      "story": {
+        "by": "turnwrighthere",
+        "descendants": 0,
+        "id": 47137164,
+        "score": 3,
+        "time": 1771941088,
+        "title": "Let Developers Cook",
+        "type": "story",
+        "url": "https://jaylol.com/2026/02/23/ai-and-software-engineering-productivity/"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 14,
+      "story": {
+        "by": "ohjeez",
+        "descendants": 2,
+        "id": 39853123,
+        "kids": [
+          39856179,
+          39857766
+        ],
+        "score": 2,
+        "text": "You can’t throw a broken slipstick without reading another article about the ways software engineers use (or should use) generative AI to write their applications. Most of them promise better developer productivity. And plenty of people are adopting it: according to a StackOverflow 2023 developer survey, 70% of developers are using or are planning to use AI tools in their development process.<p>But “Yeah, let’s jump on board!” doesn’t mean that every developer should dive right in, or do it in the same way. Despite its value, generative AI isn’t ideal in all situations – particularly when programmers make wrong assumptions about its use. So I’m writing a blog post that aims to debunk the mistaken beliefs so that you can use generative AI the right way.<p>So:<p>* What is the biggest misconception you have encountered regarding using generative AI to improve programming productivity?<p>* What&#x27;s the issue with it? Why is it a problem, and (if appropriate) what should the right path be?",
+        "time": 1711641463,
+        "title": "Ask HN: Biggest misconceptions about using generative AI in programming?",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 39856179,
+          "parentId": 39853123,
+          "author": "Doctor-R",
+          "text": "Is the generated code correct? Was the training input code correct? Did the AI understand what you were asking? Did you specify the problem correctly, with all of the boundary conditions?<p>If AI programming is so good, why are there so many zero-day bugs in Windows?",
+          "createdAt": "2024-03-28",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 39857766,
+          "parentId": 39853123,
+          "author": "blackbear_",
+          "text": "&gt; What is the biggest misconception you have encountered regarding using generative AI to improve programming productivity?<p>That typing is the bottleneck and that all we need is a way to type faster.",
+          "createdAt": "2024-03-28",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 15,
+      "story": {
+        "by": "codingismycraft",
+        "descendants": 0,
+        "id": 43049256,
+        "score": 2,
+        "text": "Some people are convinced that AI will replace programming expertise\noverlooking fundamentals like good coding, proper testing, and robust quality\nassurance. Although AI may seem capable of generating code in many scenarios,\nit still falls far short of replacing the skilled human expert.<p>It&#x27;s interesting how a manager who isn&#x27;t a professional programmer—with coding\nexperience limited to some academic work and a few simple &#x27;say hello&#x27;\nscripts—can have such strong opinions about AI soon replacing junior\ndevelopers. I think that this view reveals the underlying hope to completely\neliminate the need for programmers, testers and in some cases even devops (!)\naltogether.<p>Programming isn’t just about writing code—it&#x27;s about designing systems,\nplanning for future changes, avoiding vendor lock-in, and ensuring everything\nworks together seamlessly. The art and science of writing testable code that\ncan be effectively quality assured, is one of the pillars of writting successful\nsoftware, yet it often gets overlooked in favor of quickly produced, bug-ridden\ncode full of niche edge cases from AI-generated solutions.<p>In the end of the day, AI is a tool to assist programmers, not a substitute for\nsolid coding and testing practices. Using AI to generate testing data, create\nsmall functions with clear definitions and no side effects, and document code\nand procedures can be incredibly useful and boost developer productivity.\nHowever, this doesn&#x27;t mean that AI-produced code should automatically be\nintegrated into a codebase, replacing the programmer&#x27;s skill, experience, and\njudgment—a practice that could quickly lead to software nightmares and\ndisasters.",
+        "time": 1739546660,
+        "title": "Nope, AI cannot replace human programmers yet",
+        "type": "story"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 16,
+      "story": {
+        "by": "dennisy",
+        "descendants": 2,
+        "id": 44191815,
+        "kids": [
+          44192327
+        ],
+        "score": 1,
+        "text": "I’m a software developer and repeat founder who’s genuinely excited about what AI can do for our industry. In past projects, I’ve relied on AI coding assistants (e.g., GitHub Copilot, ChatGPT, Claude Code) to help me write boilerplate, generate suggestions, and speed up routine tasks. But every time I lean on these tools, I notice myself understanding concepts less deeply and becoming a bit “lazy” about fundamental problem-solving. To counter that, I’ve habitually limited my AI usage—kind of like how I allow myself only 30 minutes per day on Hacker News.<p>However, I’m now pulling together a new startup, and the stakes have changed. Speed-to-market isn’t just a fun challenge anymore; it’s a competitive necessity. If I don’t use AI to accelerate development, I risk falling behind. At the same time, I worry that over-reliance on AI will stunt my learning curve and leave me unable to debug tricky issues or refactor in a meaningful way.\nHas anyone else experienced this tension between “true learning” and “rapid launch”?<p>I’m not advocating for an “AI doom” mentality far from it. I want to embrace AI’s productivity gains, but I also want to make sure I’m still learning, able to debug, able to build robust architecture and improving as an engineer. If you’ve navigated this trade-off (particularly in a high-stakes startup environment), I’d love to hear:\n- What concrete strategies or workflows you put in place.\n- How you measure your own “proficiency” so you know you’re not losing the fundamentals.\n- Any pitfalls you ran into by either over-relying or under-relying on AI tools.<p>Thanks in advance for sharing your experiences and advice!",
+        "time": 1749132152,
+        "title": "Ask HN: Balancing AI-Assisted Development with Deep Learning as a Founder",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 44192327,
+          "parentId": 44191815,
+          "author": "elemcontrib",
+          "text": "I think you could adjust your mindset on this issue.<p>AI is a tool.<p>If you already have the fundamentals neccessary to call yourself a software developer, ie. architecture, algorithms, language coding standards and style guides, UX, maintainability, robustness, correctness etc. then AI is just accelerating that for you, not exempting you from it.<p>If you need to scratch a learning itch then that&#x27;s something else, and AI can help there too. Just ask it.<p>I also think if your product idea is so sensitive to a launch timeline that precludes manual coding not to fail, then you have a bigger problem.",
+          "createdAt": "2025-06-05",
+          "depth": 1,
+          "childCommentCount": 1
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 17,
+      "story": {
+        "by": "ChiefTinkeer",
+        "descendants": 0,
+        "id": 47278435,
+        "score": 1,
+        "text": "The Tinker Index is a composite metric that tracks developer ecosystem activity across multiple platforms. It measures whether the rise of AI-assisted coding tools is translating into measurably increased software development output.",
+        "time": 1772819241,
+        "title": "Show HN: Tinker Index – My index tracking impact of AI on developer productivity",
+        "type": "story",
+        "url": "https://www.tinkerindex.com"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 18,
+      "story": {
+        "by": "sarmadgulzar",
+        "descendants": 15,
+        "id": 40775127,
+        "kids": [
+          40779390,
+          40776032,
+          40778960,
+          40798874,
+          40779025
+        ],
+        "score": 19,
+        "text": "I built Watchlist to solve a problem that&#x27;s been nagging at me (and I suspect many others): YouTube&#x27;s addictive nature and its impact on productivity.<p>The Problem:<p>YouTube is an incredible source of knowledge, but its homepage is an unending scroll of rabbit holes. The algorithm is designed to maximize watch time, often at the expense of our intentions and productivity. I found myself wasting hours, jumping from video to video, and then blaming myself for the lack of self-control.<p>The Solution:<p>Watchlist! Watchlist is essentially YouTube playlists on steroids. Here&#x27;s how it works:<p>1. Create custom &quot;lists&quot; for different topics (e.g., AI, Science, Programming)\n2. Add relevant channels to each list\n3. Watchlist automatically adds new uploads from these channels to your lists\n4. Set custom notification schedules for each list (e.g., every morning at 8 AM, every Sunday at 5 PM)\n5. Receive email or push notifications (your choice) when there are new unwatched videos<p>The result? You stay updated on the content you care about without falling into the YouTube homepage trap.<p>Tech Stack:<p>Built with Python, JavaScript, Supabase &amp; Google Cloud Run. (Took six weeks)<p>Why I Built This:<p>As an electrical engineer turned software developer, I&#x27;ve always been fascinated by programming. This project combines my love for coding with a real-world problem I&#x27;ve experienced firsthand.<p>Try It Out:<p>To make it as easy as possible for you to try Watchlist, I&#x27;ve set up a 1-click dummy login:<p><a href=\"http:&#x2F;&#x2F;watchlist.so&#x2F;login&#x2F;dummy\" rel=\"nofollow\">http:&#x2F;&#x2F;watchlist.so&#x2F;login&#x2F;dummy</a><p>This generates a dummy email and password for you, valid for 14 days. Although this account has full access, please note some restrictions:<p>- You cannot reset the password\n- Email notifications are disabled\n- Data cannot be migrated to another account\n- The account will be deactivated after 14 days<p>For those who prefer a proper account, you can register normally at: <a href=\"https:&#x2F;&#x2F;watchlist.so&#x2F;signup\" rel=\"nofollow\">https:&#x2F;&#x2F;watchlist.so&#x2F;signup</a><p>Feedback:<p>I&#x27;ve seen many people struggle with YouTube addiction without realizing the root cause. If you&#x27;ve faced similar issues or have thoughts on this approach, I&#x27;d love to hear your feedback. Your thoughts and suggestions are crucial for improving Watchlist. There&#x27;s a dedicated feedback page at:<p><a href=\"https:&#x2F;&#x2F;watchlist.so&#x2F;settings&#x2F;feedback\" rel=\"nofollow\">https:&#x2F;&#x2F;watchlist.so&#x2F;settings&#x2F;feedback</a><p>I&#x27;m eager to hear your experiences and ideas! Thanks!<p>PS: This is my first Show HN. So, please excuse me if I made any mistakes. I tried my best to follow the guidelines.",
+        "time": 1719231421,
+        "title": "Show HN: I Built a Tool to Break Free from YouTube's Addictive Algorithm",
+        "type": "story",
+        "url": "https://watchlist.so"
+      },
+      "comments": [
+        {
+          "commentId": 40779390,
+          "parentId": 40775127,
+          "author": "Brian_K_White",
+          "text": "Or just turn off history.",
+          "createdAt": "2024-06-24",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 40776032,
+          "parentId": 40775127,
+          "author": "sarmadgulzar",
+          "text": "A quick demo of how Watchlist works: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;NqgZelLWsPs\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;NqgZelLWsPs</a>",
+          "createdAt": "2024-06-24",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 40778960,
+          "parentId": 40775127,
+          "author": "toomuchtodo",
+          "text": "Could you support using the Internet Archive as the content source as well?",
+          "createdAt": "2024-06-24",
+          "depth": 1,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 40798874,
+          "parentId": 40775127,
+          "author": "davidbanham",
+          "text": "Feedly allows subscribing to YouTube channels.",
+          "createdAt": "2024-06-26",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 40779025,
+          "parentId": 40775127,
+          "author": "unholiness",
+          "text": "A tool love in this realm is the Unhook Chrome Extension[0]. It simply removes the recommended videos. No home feed, no sidebar, no clickbait. Just a search bar and place to browse your subscriptions. Huge improvement.<p>[0]<a href=\"https:&#x2F;&#x2F;chromewebstore.google.com&#x2F;detail&#x2F;unhook-remove-youtube-rec&#x2F;khncfooichmfjbepaaaebmommgaepoid\" rel=\"nofollow\">https:&#x2F;&#x2F;chromewebstore.google.com&#x2F;detail&#x2F;unhook-remove-youtu...</a>",
+          "createdAt": "2024-06-24",
+          "depth": 1,
+          "childCommentCount": 2
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 19,
+      "story": {
+        "by": "coderinsan",
+        "descendants": 0,
+        "id": 41037874,
+        "score": 4,
+        "text": "Accelerate developer productivity and code security with our open-source AI <a href=\"https:&#x2F;&#x2F;github.com&#x2F;codeintegrity-ai&#x2F;mutahunter\">https:&#x2F;&#x2F;github.com&#x2F;codeintegrity-ai&#x2F;mutahunter</a><p>TLDR;\nMutahunter is an open-source tool that boosts developer productivity by accurately identifying code bugs and generating test cases to specifically test against these code bugs.<p>Problem:\nEveryone wants to ship code faster, but as code grows more complex so does software testing. Software teams spend 40% of their dev time software testing.  Software testing is the biggest bottleneck to shipping code and the recent Crowdstrike incident has shown has shown that there are catastrophic consequences from skipping good software testing.<p>Solution:<p>Use Mutahunter to generate unit tests for your codebase, that specifically target the code vulnerabilities. By targeting the exact weaknesses in the code, we boost developer productivity.<p>What makes us different?<p>Unlike copilots which blindly generates test cases for your code, Mutahunter makes use of our mutation testing engine to generate unit tests that specifically target the vulnerabilities in your code\nWe are open-source and support all major languages.\nWe can be used locally or can be integrated into any CI&#x2F;CD runner as part of your existing workflow.\nYou can use Mutahunter with your own LLM APIs for privacy. \nAsk:<p>Try Mutahunter and  our repo! <a href=\"https:&#x2F;&#x2F;github.com&#x2F;codeintegrity-ai&#x2F;mutahunter\">https:&#x2F;&#x2F;github.com&#x2F;codeintegrity-ai&#x2F;mutahunter</a><p>If there’s a use case you’d like to build with Mutahunter, feel free to email us at contact@codeintegrity.ai",
+        "time": 1721672841,
+        "title": "Show HN: Using old school mutation testing to boost LLM based unit test gen",
+        "type": "story"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 20,
+      "story": {
+        "by": "arthur_sav",
+        "descendants": 0,
+        "id": 45876436,
+        "score": 2,
+        "text": "Hey HN!<p>I noticed there wasn&#x27;t a good central place for Black Friday software deals this year, so I built one: blackfridayappdeals.com<p>*It&#x27;s completely free to submit your deal* - no paid tiers, no featured spots, just a simple form where you can add your Black Friday&#x2F;Cyber Monday offer.<p>The site organizes deals by category (Productivity, Developer Tools, Design, AI Tools, etc.) and includes search functionality so people can easily find what they&#x27;re looking for. I&#x27;m planning to promote it through various channels to drive traffic to all the submitted deals.<p>*Why I built this:*\n- Last year, I struggled to find a comprehensive list of SaaS deals\n- Most deal sites charge hundreds of dollars just to get listed\n- I wanted to help indie makers and small SaaS companies get visibility without breaking the bank<p>*What you get:*\n- Free listing with your deal details\n- Category-based organization\n- Search visibility\n- Traffic from deal hunters actively looking for Black Friday offers\n- UTM tracking so you can measure the traffic you get from the site<p>Deals will go live on November 14th, giving people time to browse before Black Friday hits on November 28th.<p>If you&#x27;re running a Black Friday promotion for your app or SaaS, feel free to submit it here: <a href=\"https:&#x2F;&#x2F;forms.gle&#x2F;GfUHvao2wPGjbyrr9\" rel=\"nofollow\">https:&#x2F;&#x2F;forms.gle&#x2F;GfUHvao2wPGjbyrr9</a><p>Happy to answer any questions!",
+        "time": 1762785413,
+        "title": "Show HN: Promote your tool for Black Friday 2025",
+        "type": "story",
+        "url": "https://blackfridayappdeals.com/"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 21,
+      "story": {
+        "by": "cyrusradfar",
+        "descendants": 0,
+        "id": 45919361,
+        "score": 1,
+        "text": "I recall onboarding a US-based software engineer in 2018-19 was estimated at ~$80–120K (salary, lost productivity, and ramp time). A recent research publication from DX (AI-Assisted Engineering: Q4 Impact Report) [1] offers updated data that reframes how we think about onboarding.<p>Here are three relevant facts from the report:<p>1. <i>Onboarding speed improvement</i>:<p><pre><code>  Engineers using AI coding assistants daily \n  reached their 10th merged pull request \n  in about 49 days, compared to about \n  91 days for engineers not using \n  new AI-powered tools.\n   </code></pre>\n2. <i>Time savings per engineer</i>:<p><pre><code>  Developers using AI tools report saving \n  about 3.6 hours per week.\n</code></pre>\n3. High adoption of AI tools<p><pre><code>  Over 90% of developers across the \n  sample use AI tools at least monthly. \n</code></pre>\nCurious how y&#x27;all feel about this info from where you&#x27;re sitting.<p>Few immediate caveats:<p><pre><code>  - I definitely feel that DX has a biased sample \n    because eng orgs that use them are surely forward\n    thinking and the leadership value developer\n    productivity.\n   \n  - The 10th merged PR is a DX metric, \n    so it&#x27;s possible that&#x27;s not the best or \n    there&#x27;s a better metric design.\n</code></pre>\nQuestions for the community:<p>1. Call the BS, what&#x27;s not true in your world?<p>2. What tools &amp; processes do you swear by, what have you found that doesn&#x27;t move the needle?<p>3. Is Onboarding even a problem to focus on and what&#x27;s a definition of good enough for that process?<p>---<p>References<p>1: DX Report: https:&#x2F;&#x2F;getdx.com&#x2F;uploads&#x2F;ai-assisted-engineering-q4-impact-report.pdf",
+        "time": 1763061936,
+        "title": "Ask HN: What tools or processes accelerate engineer onboarding?",
+        "type": "story"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 22,
+      "story": {
+        "by": "immortalloom",
+        "descendants": 199,
+        "id": 35083093,
+        "kids": [
+          35083460,
+          35083374,
+          35086912,
+          35086499,
+          35083413,
+          35084661,
+          35084107,
+          35084175,
+          35085210,
+          35084958,
+          35090660,
+          35085306,
+          35084802,
+          35084968,
+          35085544,
+          35085611,
+          35083623,
+          35084246,
+          35085451,
+          35085790,
+          35084873,
+          35084204,
+          35088792,
+          35085831,
+          35086658,
+          35088268,
+          35091779,
+          35090396,
+          35086856,
+          35089800,
+          35088547,
+          35086730,
+          35089007,
+          35087614,
+          35084372,
+          35083355,
+          35085085,
+          35086745,
+          35083634,
+          35083546,
+          35083833,
+          35084904,
+          35084463,
+          35085007,
+          35084690,
+          35088370,
+          35083500,
+          35097883,
+          35101680,
+          35084891,
+          35086383,
+          35084244,
+          35084189,
+          35089355,
+          35089113,
+          35088680,
+          35086770,
+          35085528,
+          35084630,
+          35083225
+        ],
+        "score": 260,
+        "text": "Hi folks!  I’m Eric Rowell, and I’m really excited to share what I’ve been working on: <a href=\"https:&#x2F;&#x2F;www.second.dev\">https:&#x2F;&#x2F;www.second.dev</a>. Second is a developer platform that connects your GitHub account to a bot that can generate new web applications or add features to existing ones. You log in and configure the features you want, and this prompts a bot to create and modify code files using a combination of compilers and GPT-3, then raise a pull request or commit the changes directly to a repo.<p>You can use Second to create a brand new web application, or you can connect it to an existing web application. They run in the cloud and connect directly to your Github, so you don’t have to install anything. Here’s a demo video: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IR9JUxznEC0\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IR9JUxznEC0</a>.<p>Disclaimer! Second is still very much in alpha, so if you want to connect a Second bot to an existing repo, please only use test repos!<p>I’ve been building for the web for over a decade, including developing the Yahoo video player, architecting the LinkedIn homepage, and leading data visualization efforts at Workday. I’ve created several popular open source projects like KineticJS, BigOCheatSheet, and El Grapho. Most recently I was the co-founder and CTO of a no-code platform for enterprise companies.<p>Over the last few years, I’ve become obsessed with the idea of enabling developers to create large volumes of high quality software fast.  Today, developers utilize libraries, frameworks, new languages, DSLs, no-code platforms, and most recently IDE code assistants like GitHub CoPilot.  These are all great, but I think we can do better.  Wouldn’t it be cool if you could just tell a bot to go off and implement a full-stack feature, sort of like having your own dedicated second developer up in the cloud?<p>There are too many things that humans are writing code for that they shouldn’t be. This includes commodity features and integrations like authentication, forgot-password flows, subscription billing, database setup, CRUD pages, collections, data tables, etc. Human developers should be focused on the code that is special to the product. Bots should take care of the gruntwork.<p>Moreover, the world needs more software than there are engineers to build it all. Web applications are complex enough that traditional no-code and low-code solutions, which output runtimes, are not viable. The output must be source code. Unlike no-code tools which try to offload software development onto non-programmers (which works ok, but only up to a rather low complexity ceiling), Second is a higher-level programming tool, meaning it raises the level of abstraction for <i>engineers</i>, which is how most gains in programming productivity have been achieved over the years. Second produces source code that can be modified at any time by developers, with no “special” parts of the code base that are off limits.<p>So how is it possible to create multi-file full-stack features using GPT-3 when token limits are still really small, i.e. 4k tokens?  Well, we can lean on one of the most common strategies for complex problems in computer science—divide and conquer.  Rather than trying to construct one giant prompt to get one giant response, I’m using imperative programming to model the general approach to each full-stack module, using GPT-3 to figure out what files should be created, modified, and where they should go, and then using a combination of compilers and GPT-3 to generate and modify each file piecemeal.<p>Thus far, five YC companies have used Second to build their initial web application foundation. Customers have used Second to set up ticket management systems, CRMs, workflow screens, interfaces on top of generative AI and LLMs, etc. The Starter plan is free and our paid plan is $299&#x2F;project&#x2F;month.  I’m currently running a promotion and taking 50% off, which ends tomorrow.  A project is tied to a specific Github repo.<p>I would love for you to try out Second and let me know what you think!  Please be gentle, it is very early. I’m looking for early feedback to figure out what features should be built next. Thanks!",
+        "time": 1678379445,
+        "title": "Launch HN: Second (YC W23) – AI bots that add features to web apps",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 35083460,
+          "parentId": 35083093,
+          "author": "shubhamjain",
+          "text": "From the video, Second looks more like a UI wrapped over a boilerplate generators that have existed for quite a while. It&#x27;s a pretty powerful one, and that can be very useful in itself but how is AI involved here? If it is, was it needed in the first place? I was expecting the inputs to be more along, &quot;give me an app to manage a restaurant&quot;, but the inputs are modules (Forgot password, billing), which are generic pieces of software. For $299&#x2F;month, it sounds like a very expensive deal to me.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 5
+        },
+        {
+          "commentId": 35083374,
+          "parentId": 35083093,
+          "author": "cornholio",
+          "text": "It&#x27;s not entirely clear to me why would I want a non-deterministic language model like Chat-GPT commit into my source tree. That sounds like a generator of complexity and code pollution I won&#x27;t be able to control.<p>I want to commit my list of requirements in a well specified format and then generate a binary reproducible version of the site that is 100% stable for a certain version of the tool. If I don&#x27;t like that output, I commit another requirement and the CI loop will take care of generating those .css etc., they are build artifacts not source files.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35086912,
+          "parentId": 35083093,
+          "author": "W0lfEagle",
+          "text": "Bug&#x2F;security risk: Something unexpected just happened when giving this a try. Hoping there&#x27;s just a default string left in the project and some bad error handling.\n1. Created new account in Second linked to my personal github account\n2. Created project &quot;newproject&quot; in Second selecting link to exisitng repo\n3. Success message &quot;git clone <a href=\"https:&#x2F;&#x2F;github.com&#x2F;&lt;not_my_profile&gt;&#x2F;newproject\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;&lt;not_my_profile&gt;&#x2F;newproject</a>&quot;\n4. Create new project now shows the same &lt;not_my_profile&gt; account in the Select GitHub Account select field.\n5. Stuck with no log out button<p>edit: delete cookies, private window fresh login with personal account details still showing &lt;not_my_profile&gt;",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35086499,
+          "parentId": 35083093,
+          "author": "joshuabaker2",
+          "text": "This looks very cool, would love to see something like this take off - boilerplate code is such a hassle to stand up for each new project. Does this work with existing hand-made repos or is it mostly intended to work with projects that it generated?<p>I&#x27;m imagining it would be quite challenging to add in e.g. an auth system to an existing backend service and have it match the same coding paradigm as the rest of the app but maybe there&#x27;d be some way of annotating your code with comments to make it easier on this system to understand what it&#x27;s looking at?<p>Suggestion: the PRs should be draft PRs, otherwise it&#x27;ll probably be very noisy for teams.<p>Also, have you thought about doing any integrations with Replit? They are a yc company too and seem to be going all-in on AI and I think the bulk of their user-base is students and junior developers so there might be some synergy there.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35083413,
+          "parentId": 35083093,
+          "author": "swyx",
+          "text": "ooh, a YC solo founder. congrats on launching!<p>1. your video demo&#x27;s music is way too loud. blasted my apartment in the early morning and added nothing to the demo. i&#x27;d take a shitty loom video with your narration saying whats happening over this.<p>2. you&#x27;ll have to overcome quite a lot of skepticism that this works beyond an initial demo. your video shows a very standard greenfield setup that doesnt really need AI to do. how does it handle more interesting change requests of an existing app? how does it handle fullstack changes? how does it handle design? if you could include sample output (or links to generated diffs) on your landing page you might start to deal with that cynicism.<p>3. how are you thinking about defensibility? if this works it can be easily copied.<p>4. beyond this, the business model challenge i would fear for you is this is really a use-once-and-done tool. 299&#x2F;mo is not really high enough to sustain a biz for that. i guess you&#x27;re very focused on making it a recurring need but you have your work cut out for you. good luck.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35084661,
+          "parentId": 35083093,
+          "author": "s1k3s",
+          "text": "I honestly recommend you to add the available bots on the homepage. The fact that I have to play a video to see what you support is kind of weird. And even in the video, I have to pause it and zoom in on a screen that wasn&#x27;t even made to showcase this. It&#x27;s really hard to get an understanding of what the product actually does. And since you&#x27;re trying to sell to tech people, I think you should prioritize this over the rest of the stuff you show on that landing.<p>Seems nice, good luck!",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35084107,
+          "parentId": 35083093,
+          "author": "DeathArrow",
+          "text": "Can I use this with .NET on the backend and Vue.js on the front-end?<p>Is it capable to generate microservices in a microservice based app? If yes, can it add endpoints to the gateway and generate helm charts for deployment in Kubernetes? Can it use the default inter service communication in the project, i.e. REST API, gRPC, AMPQ?<p>Is it capable of using an external identity provider?<p>Can it use Keycloak?<p>Can it cache data in Redis instead of just writing it to DB?<p>If my data layer consists in a repository that reads and writes to sharded databases can it do the same?<p>If I am using CQRS and event sourcing in the code, can it do the same?",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35084175,
+          "parentId": 35083093,
+          "author": "mehlmao",
+          "text": "What license is applied to code generated by Second? Will Second accept liability if its bot generates code violating the GPL or other licenses? How about for damages arising from vulnerable or insecure code?",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35085210,
+          "parentId": 35083093,
+          "author": "Areibman",
+          "text": "Congrats on the launch!<p>Some thoughts:<p>- Options are severely limited. Only Next.js and MUI? If there&#x27;s only 1 stack, doesn&#x27;t feel like there&#x27;s any AI in going on<p>- Would be nice to see some live template sites without having to connect my GitHub and run them manually.<p>- This feels like cookiecutter, but for multiple languages and a nice wrapper. The GPT bit doesn&#x27;t interest me (well, from a technical standpoint it does)<p>- You&#x27;re running up against the hundreds of template sites that already exist. What&#x27;s the unique selling point? The configurability?",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35084958,
+          "parentId": 35083093,
+          "author": "atleta",
+          "text": "While I have been expecting AI to replace programmers for a while, the thing I was never sure about whether this will manifest itself as a business for some companies or whether it means the end of people creating apps altogether.<p>Another risk for building businesses on AI in general is that unlike with software that anyone can build (e.g. for a niche), AI solutions seem to be costly because they require a lot of data and a lot of processing power (at least to train) so you&#x27;ll end up using someone else&#x27;s AI. And the real magic is the AI not whatever you build around it so it can be pulled from under you while the AI itself keeps developing and obviously it can make the thin layer built around it irrelevant. I know that AI companies, at least OpenAI will sell the vision that they will be like AWS (amazon) and other similar cloud providers, but I just don&#x27;t see this as a realistic scenario. It can only happen if AI gets stuck near the level where it is now for a substantial period. Say, at least a decade. Where it&#x27;s good enough to be included in SaaS (and maybe other) software products but it&#x27;s not good enough yet to do away with all software products or at least the need for companies building software products.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 3
+        },
+        {
+          "commentId": 35090660,
+          "parentId": 35083093,
+          "author": "siquick",
+          "text": "&gt; There are too many things that humans are writing code for that they shouldn’t be. This includes commodity features and integrations like authentication, forgot-password flows, subscription billing, database setup, CRUD pages, collections, data tables, etc. Human developers should be focused on the code that is special to the product. Bots should take care of the gruntwork.<p>This isn’t grunt work in 99% of web applications - this is THE work.",
+          "createdAt": "2023-03-10",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35085306,
+          "parentId": 35083093,
+          "author": "dzonga",
+          "text": "excellent resume, and congrats on the launch.<p>however, i&#x27;m bearish on AI tools not cz i&#x27;m vested as a software dev &#x2F; eng.<p>but because we can&#x27;t make software that work. if humans with massive processing power compared to AI can&#x27;t make software that works. AI produced software will even be worse.<p>right now Software from the big companies - Google, Microsoft, Apple etc is a mess. and these firms spend a lot on engineering talent.<p>not only is majority of software these days slow, it&#x27;s also buggy as hell. and I can only think AI software will be worse worse worse.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35084802,
+          "parentId": 35083093,
+          "author": "lhorie",
+          "text": "Are you using this to build the product itself? Seems like a prime candidate for dogfood.<p>If yes, where has it been useful, and if not, what does it not handle well?",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35084968,
+          "parentId": 35083093,
+          "author": "zomgbbq",
+          "text": "FYI you have an onboarding bug. If you don&#x27;t complete the Github onboarding after creating an account there&#x27;s no way to recover.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35085544,
+          "parentId": 35083093,
+          "author": "elwell",
+          "text": "Does no one have latent fears from being asked to make tweaks to atrocious Dreamweaver-generated websites?",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 35085611,
+          "parentId": 35083093,
+          "author": "k2052",
+          "text": "I had a similarish vision&#x2F;idea about 7ish years ago <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Hactar-js&#x2F;hactar\">https:&#x2F;&#x2F;github.com&#x2F;Hactar-js&#x2F;hactar</a> I was way too early though and it didn&#x27;t work well. I have recoded it probably half a dozen times since then and the latest prototype attempt used GPT as the core tech.<p>The biggest hurdle I found was that it just wasn&#x27;t deterministic enough. You can work around this with mixing and matching custom compilers into the workflow but then you run into a &quot;only works with a limited set of components and frameworks&quot; problem; and at that point it is basically a boilerplate tool with extra steps.<p>I found a workflow with prompts + some Emacs wizardy to make them runnable with a few keystrokes got me 99% of the same feature set without any of the headaches of trying to fully automate it so I stopped work on it. A prompt library and an editor extension is hard to find a userbase for though so I have yet to open source or launch anything.<p>I&#x27;m still not sure if these sort of tools are too early or the exact right time to be built. They won&#x27;t work well yet, but maybe the issues can be worked out when LLMs tooling matures, maybe not, hard to say. Watching closely to see what happens in the space!",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35083623,
+          "parentId": 35083093,
+          "author": "davidb_",
+          "text": "Agreed with the comments on the demo video music. It was startling.<p>I&#x27;m pretty skeptical still as all your demo has shown is similar to what a boilerplate tool might do, but with more unknowns. You have to start somewhere, though, and I think you&#x27;re on a decent path.<p>I&#x27;ve been experimenting with chatgpt to do similar workflows to what you&#x27;re describing for your vision of Second. From my experiments, it seems your demo may be approaching close to the current limits of gpt models. Fine-tune training on my existing code base and requirements may help, but I still feel like we&#x27;re a very long way away from your vision for Second. Maybe even far enough away that it won&#x27;t ever be realized.<p>Still, you&#x27;ve already built a much better workflow than my experiments have yielded so far, and I think it is a very exciting proposition.<p>Feel free to disregard, but I think I&#x27;d approach the business differently than you have - raise your prices drastically and instead of a dev-facing tool to start, make your offering more like an agency. Hire devs and designers to build the client work and sales people to find more deals. Have devs and designers use your tool, providing feedback. Restrict modes of communication to AI-parseable docs between the client and devs&#x2F;designers. Collect data as you iterate through as many projects as you can find and staff to deliver. Then train&#x2F;fine-tune LLMs on that whole dataset. Iterate on your tool throughout this whole process. Even better if you could embed yourself&#x2F;your tool into existing agencies and dev shop firms, but that seems like it could be difficult to navigate.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35084246,
+          "parentId": 35083093,
+          "author": "bumille",
+          "text": "Why are you trying to put the rest of us out of a job?<p>Projects like this are just going to cause economic harm to other software developers. It&#x27;s punching down on others in the industry, and it&#x27;s not good.<p>As a coder who also makes art, I feel like these companies wielding these new AI tools are screwing me twice over. Maybe it&#x27;s time to retrain as a plumber or electrician, because any industry that has a large digital component is getting increasingly fucked.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 2
+        },
+        {
+          "commentId": 35085451,
+          "parentId": 35083093,
+          "author": "rkuodys",
+          "text": "Honestly was waiting for something like this (or at least the version I imagined it would be)\nIn my imagination - what I&#x27;d like to have as a lead of a small dev team - basically to write AI&#x2F;Bot whatever, what is the issue, and for THAT tool to fix me the issue. \nComing from non-tech company, where software development is not core business, we struggle to hire _good_ developers to give them a enough _interesting_ work for them to stick around, and freelancers is too much of a hassle. So some assistance that would do 2 things: create basic features and find and fix bugs based on description of an issue. I would gladly pay 300 and more for this. \nFrom the demo though - it seems quite a bit of time to wait, but definitely looking forward for it.<p>Also, the way I&#x27;d like to to work (or how I imagine it should work) - I define in text what I want, how I want it, including design part n stuff, and then basically I would submit issues to the bot to fix things for me. That&#x27;s the future I&#x27;m waiting for<p>NB. Angular is not supported at the moment, right?",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35085790,
+          "parentId": 35083093,
+          "author": "dimal",
+          "text": "Cool idea, but I&#x27;m confused about the demo. Sure, it generated a lot of code. Does that code actually work and do what you asked? It would be helpful to show the app it created actually running. And the music... lower energy at a lower volume would be better. I had to mute it in order to get through the video. Something a little less in-your-face.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35084873,
+          "parentId": 35083093,
+          "author": "ar9av",
+          "text": "Wow, this sounds really interesting! I&#x27;m curious, how does Second determine what features to add to an existing web application? Is there a way to customize the bot&#x27;s behavior to suit specific needs?<p>Also, what kind of applications can Second generate? Is it limited to certain types of web applications, or can it handle a wide range of projects?",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35084204,
+          "parentId": 35083093,
+          "author": "chandan_maruthi",
+          "text": "A an engineer and founder I can say this makes a ton of sense. There are often tons of generic screen very app needs to build that are just not worth the time building custom, I can imagine myself using Second for such screens that are not core to my functionality but essential to complete the product story. Kudos for the work Eric.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35088792,
+          "parentId": 35083093,
+          "author": "ICodeSometimes",
+          "text": "Fascinating, i personally can&#x27;t see myself using for anything more than setting up a project though, maybe you can provide an examples page where you show how useful it is for existing large scale projects?<p>also regarding the customers you&#x27;ve already onboarded, possibly worth it to make case study blogs?",
+          "createdAt": "2023-03-10",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35085831,
+          "parentId": 35083093,
+          "author": "efishnc",
+          "text": "What could be nice is the developer providing some unit tests, and Second using those to ensure the PR is functional, re-generating if not.<p>Given a set of tests, I guess you could try to generate the code as well, though I could imagine it might overfit on the given tests and create a &quot;hack&quot; solution.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35086658,
+          "parentId": 35083093,
+          "author": "ggregoire",
+          "text": "On existing projects, how do you know&#x2F;verify that the modifications made by GPT-3 actually work? Do the commits need to be manually tested by a developer?<p>Or does it work only on generic projects (e.g. bootstrapped with next.js) where the bot already knows the files to modify? (hence it always works)",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35088268,
+          "parentId": 35083093,
+          "author": "somethingAlex",
+          "text": "I duplicated a repo to test this out on and signed up, only to find that all I could try out was Authentication. That&#x27;s probably one of the features most dependent on which library or identity provider you are using and they only have one library for now.<p>Wish I could have actually tried this out.",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35091779,
+          "parentId": 35083093,
+          "author": "anjit6",
+          "text": "Interesting project. I would love to hear your thoughts on these questions:<p>(a) If it&#x27;s about modules, currently, people tend to use some open source projects or buy existing solutions (for example, SaaS dashboards). Is the core value the code copied into the repo?<p>(b) Does the code written by the bot match the repo style? Not just the file names and variable&#x2F;functions names, but the overall code architecture, including database integration?<p>(c) I&#x27;m guessing most people would ask for similar modules (forgot password, subscription, billing, profile settings etc.). Will you generate the code every time through prompts or re-using (or mapping) some existing code previously developed for other customers?",
+          "createdAt": "2023-03-10",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 35090396,
+          "parentId": 35083093,
+          "author": "eashish93",
+          "text": "There&#x27;s is no AI in it. It just a wrapper to configure boilerplate. There are lots of SaaS boilerplate out there like this (gravity, nodewood). I don&#x27;t know how simple app like this got approved in YC which has 1-2% acceptance rate.",
+          "createdAt": "2023-03-10",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35086856,
+          "parentId": 35083093,
+          "author": "dgwight",
+          "text": "Working with someone else’s code is always slower. As a mostly solo developer, I’m curious if a tool like this could speed me up vs writing code myself and using code I’ve written in the past. I think even in with a small team, specific devs can have complete ownership over different chunks of code.<p>Having AI write a chunk of your codebase may be kinda like having someone else write it, but then leave the project. Plenty of companies work like this, but they move much slower. Anyways I’m sure tools like this will have a market, but I’m not sure they make sense to be adopted by the fastest moving companies",
+          "createdAt": "2023-03-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 35089800,
+          "parentId": 35083093,
+          "author": "MagicMoonlight",
+          "text": "So GPT could cut you off and launch their own and you would be fucked?",
+          "createdAt": "2023-03-10",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 23,
+      "story": {
+        "by": "architectdrone",
+        "descendants": 5,
+        "id": 48136636,
+        "kids": [
+          48140256,
+          48145694,
+          48141580,
+          48137109,
+          48145882,
+          48137477,
+          48162826
+        ],
+        "score": 8,
+        "text": "I can&#x27;t help but come to the conclusion that almost everyone&#x27;s life has gotten worse as a result of AI.<p>I&#x27;m a software engineer working for a huge company. We have access to AI tools, which is cool, and it saves me time in the sense that it is quicker to write code. Yet, despite writing code taking time, I never thought that it was a <i>tedious</i> usage of time. As a developer, the times that I got to actually sit down and start banging out code were some of the most fun times I&#x27;ve had at my job. And, of course, I got paid for it :). So I&#x27;ll have to give AI *0 pts* there because it made things easier which I didn&#x27;t think were very hard.<p>Of course, the company isn&#x27;t going to just give me productivity improving software and say &quot;alright buddy you finished all your work early, here&#x27;s a gold star sticker, now go play outside&quot;. They expect me now to accomplish wayyyy more now that I have access to AI. I genuinely think I&#x27;m having to do more work <i>after</i> AI than I had to <i>before</i> AI, doing all of the innumerable things that go along with a programming task outside of coding. My job has gotten harder, not in a &quot;fun challenge&quot; way but rather in a &quot;grueling race to the bottom&quot; way, so I&#x27;m going to have to give AI *-1 points* there.<p>I&#x27;m bitching about it but at least I still have a job, which is more than what can be said for some of my colleagues, who were laid off because of AI. (They wanted to raise more money and had the bright idea that they could fill in the gaps in their workforce with AI). It&#x27;s not just my company, lots of companies are saying that they are firing their workers and replacing them with AI. Of course, despite me having a job still, the Sword of Damocles is still hanging over my head. Management believes in a not-so-secret-way that we <i>all</i> can and will be replaced. I genuinely feel a sense of contempt from upper management that I&#x27;ve never felt before. So, AI gets *-1 points* for job security&#x2F;career advancement.<p>Not that anyone cares about this anymore, but the AI writes shitty code. It screws up the codebase. It&#x27;s almost impossible to read AI code after a few iterations of vibe-coding. This fills me with a deep sense of dread. I guess I&#x27;m a luddite for thinking that code quality matters, regardless, it matters to <i>me</i>, so I give AI *-1 points* there.<p>Then, my personal&#x2F;home life. I open social media and it&#x27;s slop, slop everywhere. What bums me out is that I feel like an idiot for engaging with anything. Wow, a beautiful painting, someone must have put a lot of heart and thought into that, nope, it&#x27;s AI, you fucking idiot, you moron. The worst is when someone posts a picture that&#x27;s like &quot;this is what <i>real</i> human art looks like, isn&#x27;t it better?&quot; and I say &quot;yes, it is better&quot; and they&#x27;re like SIKE! that&#x27;s AI too, bitch! And, I liked it less after knowing it was AI? &quot;but it&#x27;s the same painting, you hypocrite&quot; says the greasiest, smelliest tech bro on earth, but the worst part is, he&#x27;s right. So, I give the AI *-1 points* for the death of anything having meaning I guess.<p>With labor being cheaper because of AI, surely that means that the products I consume are going to be cheaper, right? Well, not that I can tell. AI gets *0 points* here.<p>One area in which AI <i>has</i> improved my life is as a research partner for various interests that I have. I&#x27;ve recently been reading some fairly complicated books of philosophy and there&#x27;s some parts of the books where I have no idea what the author is talking about or trying to say. So, I ask Claude and it does a pretty good job of explaining what&#x27;s going on, and I am able to go back and understand it. Way to go Claude, AI gets *+1 points* here.<p>For those keeping score at home with my frankly arbitrary scoring rubric, the final score is *-3*, meaning AI is a net negative in my life. What do you think, fellow nerds? Has AI made life better? Has it made life worse? What&#x27;s your AI Positivity Score(tm)?",
+        "time": 1778771616,
+        "title": "Have LLMs made anyone's life substantially better?",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 48140256,
+          "parentId": 48136636,
+          "author": "threecheese",
+          "text": "1. I am full of anxiety about layoffs (engineering role), my org is shifting at a rate and in ways I’ve never experienced, and the job market is scary;<p>2. I have dropped all of my hobbies and most of my homeowner responsibilities to go all in on AI, to make sure I stay ahead of [1];<p>3. I am spending a lot of time in Claude Code, Jupyter, and more things like this;<p>4. I am creating a bunch of interesting coding projects (see [3]), which is cool - stuff I wouldn’t have had time for before and that I’ll probably use a few times more;<p>5. I’ve set up some fun hardware to hack on LLMs and do ML stuff (3, 4), which is cool and aligns with my interests but it’s not fun at all because I’m forced to do it;<p>6. I’m on antidepressants and anti anxiety medication now, which is nice;<p>7. I’ve lost some weight which is nice, but I didn’t mean to.\n It’s going great, if wealth was measured in repositories I’d be bill gates.",
+          "createdAt": "2026-05-14",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 48145694,
+          "parentId": 48136636,
+          "author": "geopsist",
+          "text": "imo helped in a matter of things professionally, as i managed to increase my output  by reducing blockers (seeing this not from an eng pov but from a growth&#x2F;marketing perspective). Have definitely increase anxiety that i am left behind and i don&#x27;t know the best and latest.",
+          "createdAt": "2026-05-15",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 48141580,
+          "parentId": 48136636,
+          "author": "marysminefnuf",
+          "text": "you can print out llm written blogs to use as toilet paper. other than the papercuts id imagine thats all they are good for lol.",
+          "createdAt": "2026-05-14",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 48137109,
+          "parentId": 48136636,
+          "author": "SlightlyLeftPad",
+          "text": "I think we’re in a bit of a renaissance period honestly. For the wealthy elite, it likely will be significantly better, pushing their wealth and status even higher. We’re already seeing that. For everyone else, we’ll see increasing economic inequality and a return to hard manual labor which will likely be a significant destabilizing factor.<p>The average person’s life was arguably not better after other revolutionary periods. The back breaking labor after the agricultural revolution; not better. The high pollution and dangerous manual labor after the industrial revolution; not better.<p>Will AI have similar outcomes? Remains to be seen.",
+          "createdAt": "2026-05-14",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 48145882,
+          "parentId": 48136636,
+          "author": "beardyw",
+          "text": "Yes. Investors in AI.",
+          "createdAt": "2026-05-15",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 24,
+      "story": {
+        "by": "PraiseAsuquo",
+        "descendants": 1,
+        "id": 44816926,
+        "kids": [
+          44816948
+        ],
+        "score": 3,
+        "text": "*Sylvio AI* is an intelligent, all-in-one developer companion app that brings together powerful AI tools to streamline software development, content creation, debugging, documentation, and learning—all in one place. Whether you&#x27;re a solo indie hacker, student, or experienced developer, Sylvio AI helps you ideate, build, and polish your projects faster and smarter with zero setup or cost.<p>---<p>##   1. *Who is the App For?*<p>* *Developers* (from beginners to experienced engineers)\n* *Students* learning programming and computer science\n* *Startup founders &#x2F; indie hackers*\n* *Technical writers &#x2F; educators*\n* *Freelancers &#x2F; dev content creators*\n* *Product managers &amp; DevOps professionals* (for planning and documenting)<p>---<p>##  2. *What Are Its Benefits?*<p>* Saves *time* by automating repetitive dev tasks\n* Helps you *learn* and understand concepts (e.g., regex, errors, snippets)\n* Boosts *productivity* through centralized tools\n* Improves *code quality* and project documentation\n* Simplifies *project planning and communication*\n* Offers *one-click generation* for common dev tasks like README.md, changelogs, boilerplate, etc.\n* 100% *free and ready-to-use*<p>---<p>##  3. *What Problem Does It Solve, and How?*<p>###  Problem:<p>Developers constantly jump between ChatGPT, Stack Overflow, GitHub, code snippet sites, name generators, planning boards, and more—fragmented workflows slow down productivity and creativity.<p>###  Solution:<p>Sylvio AI *centralizes all essential developer tools in one smart platform*, giving you focused, pre-built tools tailored specifically for developer workflows.<p>Examples:<p>* Instead of prompting ChatGPT 10 different times, generate a README, app name, changelog, and boilerplate instantly from your project description.\n* Copy-paste an error message, and Sylvio explains it and offers real-time fixes.\n* Convert code across languages (e.g., JS → Python) with one click.\n* Create flashcards and summaries from tech docs to study or teach.<p>---<p>##  4. *Why Not Just Use ChatGPT Instead?*<p>Using ChatGPT is flexible, but:<p>| ChatGPT                      | Sylvio AI                                                                |\n| ---------------------------- | ------------------------------------------------------------------------ |\n| Requires prompting skill     | Comes with structured tools&#x2F;templates                                    |\n| General-purpose              | Built specifically for devs                                              |\n| No memory or project context | Organizes tools per project                                              |\n| Manual formatting            | Auto-generates docs&#x2F;boilerplate in clean formats                         |\n| No bundling                  | Combines tools into workflows (e.g., App Planner → README → Boilerplate) |<p>*Sylvio AI* offers *context-aware*, plug-and-play tools that eliminate the need to engineer prompts or babysit the model—everything is *purpose-built* and fast.",
+        "time": 1754510257,
+        "title": "Show HN: Sylvio AI – Your Smartest Quiet Teammate",
+        "type": "story",
+        "url": "https://www.sylvioai.xyz"
+      },
+      "comments": [
+        {
+          "commentId": 44816948,
+          "parentId": 44816926,
+          "author": "PraiseAsuquo",
+          "text": "As a developer myself, I kept running into the same frustrations:<p>Repetitive prompt tweaking<p>Switching between tools to get one small dev task done<p>Lack of truly free, useful AI tools that actually help ship code faster<p>That’s why I built Sylvio AI — a focused, fast, and free AI-powered toolkit for devs. It gives you:<p>Instant prompt engineering\n Flashcard-style code learning\n Summarizers and dev tool generators\n All powered by open, free models (no OpenAI key needed!)<p>This is just the beginning. Sylvio AI is a tool I wish I had — so I built it for all of us.\nGive it a spin, share your feedback, and let’s make dev workflows smarter, together<p>— Praise Asuquo",
+          "createdAt": "2025-08-06",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 25,
+      "story": {
+        "by": "TerrenceTian",
+        "descendants": 4,
+        "id": 44133072,
+        "kids": [
+          44134533,
+          44135670,
+          44134239,
+          44133077
+        ],
+        "score": 9,
+        "text": "Built a Flutter app that limits you to 3 daily tasks. No feature bloat, no subscriptions, just focus on what matters. Born from a Reddit discussion about simple living.<p>The Problem<p>Most productivity apps suffer from feature creep. They start simple but gradually add calendars, teams, AI assistants, notifications, analytics, and eventually become the very complexity they promised to solve. I was drowning in a 20-item daily to-do list when I found a Reddit thread in r&#x2F;simpleliving discussing the &quot;three tasks rule.&quot;<p>The Solution<p>3 Tasks Per Day does exactly what the name suggests. Each day, you choose three tasks that matter most. That&#x27;s it.<p>Core features:<p>1. Plan 3 tasks per day (morning&#x2F;afternoon&#x2F;evening)\n2. Optional calendar sync with device reminders\n3. Task completion with subtle celebration\n4. Future planning with calendar view\n5. Dark&#x2F;light themes\n6. Privacy-first (no accounts, local storage)<p>Intentionally missing:<p>1. Teams&#x2F;collaboration\n2. Complex project management\n3. Time tracking\n4. Detailed analytics\n5. Subscription monetization<p>Technical Implementation<p>Stack:<p>1. Flutter (iOS&#x2F;Android)\n1. Local storage with SharedPreferences\n3. Device calendar integration via device_calendar plugin\n4. Local notifications via flutter_local_notifications<p>Key decisions:<p>1. No backend&#x2F;server – everything local\n1. No user accounts – privacy by design\n3. Single-platform focus – mobile-first experience\n4. Calendar integration optional – not everyone wants it<p>The Psychology<p>Research backs the &quot;Rule of 3&quot;:<p>1. Cognitive load theory: working memory handles 2-4 items optimally\n2. Completion psychology: finishing tasks releases dopamine, builds momentum\n3. Decision fatigue: fewer choices = better decisions<p>When you complete 3 meaningful tasks vs. half-finishing 15 random ones, the psychological difference is profound.<p>Development Journey<p>Started as a personal productivity experiment after that Reddit thread. Friends noticed I seemed less stressed, more focused. Built MVP in Flutter because:<p>1. Cross-platform with single codebase\n2. Native performance for smooth UX\n3. Rich ecosystem for device integrations<p>Beta tested with the original Reddit community who kept saying &quot;don&#x27;t add more features, keep it simple.&quot; That feedback shaped the entire product philosophy.<p>Business Model<p>1. Freemium: Core features free forever\n2. Premium: Advanced calendar features, themes\n3. No subscription trap – one-time purchase philosophy\n4.Privacy-first monetization (no data selling)<p>What&#x27;s Next<p>Currently live on iOS App Store, Android coming soon. Considering:<p>1. Apple Watch companion (because glancing at 3 tasks makes sense)\n2. Simple widget for home screen\n3. Export functionality for data portability<p>Not considering:<p>1. Web version (mobile context is key)\n2. Team features (individual focus is the point)\n3. AI integration (human intention &gt; algorithmic suggestions)<p>Metrics That Matter<p>Instead of DAU&#x2F;MAU, I track:<p>1. Daily completion rate (3&#x2F;3 tasks)\n2. User retention without growth hacking\n3. Qualitative feedback about stress reduction<p>Early users report completing more meaningful work while feeling less overwhelmed. That&#x27;s the real success metric.<p>Try It<p>Available at 3tasksperday.com and iOS App Store. The app is intentionally simple – if you&#x27;re looking for complex project management, this isn&#x27;t it. If you want to focus on what truly matters each day, it might be exactly what you need.\nBuilt by a developer who was tired of productivity theater and wanted something that actually works.<p>Questions for HN:<p>What&#x27;s your experience with productivity app bloat?\nDo you think intentional limitation is undervalued in software design?\nHow do you balance feature requests vs. product focus?",
+        "time": 1748581743,
+        "title": "Tasks Per Day – A minimalist productivity app that works",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 44134533,
+          "parentId": 44133072,
+          "author": "lekker-kapsalon",
+          "text": "I use Moleskine Classic Daily Planner notebook, it has a page per day and I keep it open on my table. I find it more enjoyable to use pen and paper and this way I don’t need to grab my phone in the morning.",
+          "createdAt": "2025-05-30",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 44135670,
+          "parentId": 44133072,
+          "author": "leo_dard",
+          "text": "Love the focus on simplicity with 3 Tasks Per Day .<p>I’m curious, though: couldn’t a simple Notion template achieve the same &quot;three tasks rule&quot; with a basic table or list?",
+          "createdAt": "2025-05-30",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 44134239,
+          "parentId": 44133072,
+          "author": "freetinker",
+          "text": "Great app, love the privacy policy too.<p>How’re you planning to monetize this? Or just giving it away free?",
+          "createdAt": "2025-05-30",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 44133077,
+          "parentId": 44133072,
+          "author": "TerrenceTian",
+          "text": "<a href=\"https:&#x2F;&#x2F;3tasksperday.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;3tasksperday.com&#x2F;</a>",
+          "createdAt": "2025-05-30",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 26,
+      "story": {
+        "by": "olaoludeji",
+        "descendants": 0,
+        "id": 40040384,
+        "score": 1,
+        "text": "As software development races forward, the journey from code creation to production can often feel like navigating a minefield. With each line of code carrying the potential for bugs and errors, development teams face a daunting challenge in ensuring the reliability and stability of their software. Yet, despite the availability of sophisticated code analytics tools designed to mitigate these risks, many teams continue to grapple with the issue of low adoption. What lies at the heart of this reluctance, and how can we bridge the gap between intention and action?<p>One of the primary reasons for the low adoption of code analytics tools lies in the prevalence of false positives – instances where the tool incorrectly flags code snippets as problematic or buggy when, in reality, they are perfectly functional. This phenomenon can lead to frustration and distrust among developers, who may disregard or overlook the tool&#x27;s findings altogether.<p>Moreover, the complexity and learning curve associated with many code analytics tools deter adoption among development teams. Intimidating interfaces, cumbersome setup processes, and unclear documentation all contribute to a lack of enthusiasm for incorporating these tools into existing workflows. Additionally, the perceived time investment required to integrate and configure these tools may outweigh the perceived benefits in the eyes of some developers.<p>However, the importance of code analytics cannot be overstated. These tools play a crucial role in ensuring code quality, identifying potential bugs and vulnerabilities, and facilitating collaboration among team members. By analyzing code patterns, identifying potential performance bottlenecks, and providing actionable insights, code analytics tools empower developers to write cleaner, more efficient code and deliver higher-quality software products.<p>Enter artificial intelligence (AI) – a game-changer in the realm of code analytics. With AI-powered code analytics tools, developers can harness the power of machine learning algorithms to automate the detection and analysis of code issues. These tools can sift through vast codebases, identify patterns, and provide intelligent recommendations for improvement, all without the need for manual intervention.<p>The potential of AI-driven code analytics is boundless. Imagine a future where development teams can leverage sophisticated AI models to conduct comprehensive code reviews, identify potential security vulnerabilities, and optimize performance with unparalleled accuracy and efficiency. By harnessing the collective intelligence of machine learning algorithms, developers can unlock new levels of productivity and innovation, propelling their software projects to new heights.<p>To address the challenge of low adoption of code analytics tools, it is essential to prioritize usability, simplicity, and accuracy. Developers need tools that seamlessly integrate into their existing workflows, provide clear and actionable insights, and deliver tangible value without adding unnecessary complexity. By investing in user-friendly interfaces, robust documentation, and AI-driven capabilities, we can empower development teams to embrace code analytics as a cornerstone of their software development process, paving the way for a future where buggy code is a relic of the past, and flawless software reigns supreme.<p>https:&#x2F;&#x2F;www.mimrr.com&#x2F;blog&#x2F;from-bugs-to-brilliance-revolutionizing-code-analytics-with-a-i",
+        "time": 1713188157,
+        "title": "From Bugs to Brilliance: Revolutionizing Code Analytics with A.I",
+        "type": "story"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 27,
+      "story": {
+        "by": "tpae",
+        "descendants": 7,
+        "id": 44798849,
+        "kids": [
+          44799325,
+          44802160,
+          44798886,
+          44821297,
+          44798905,
+          44799204
+        ],
+        "score": 17,
+        "text": "Hey HN! Dinoki is a 6MB native AI assistant with pixel pets that live on your desktop. Built for power users who want privacy, performance – and a bit of fun.<p>See it in action: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=V_pv2BU0CZA\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=V_pv2BU0CZA</a><p>What makes it different:<p>- 6MB native app (SwiftUI for macOS, WPF for Windows) – starts instantly<p>- Zero telemetry – your API keys and data stay local<p>- Pixel art companions with physics-based behaviors<p>- Flexible AI support – OpenAI, Anthropic, OpenRouter (300+ models), or Ollama (offline)<p><i>Why pixel pets in an AI assistant?</i> Beyond being fun, pixel art is incredibly efficient – minimal CPU usage for animations while adding personality to your workspace. After months of testing, users tell us the companions make long work sessions feel less isolating. They develop behaviors, respond to your activity, and yes, they bounce around thanks to physics-based movement.<p>The serious features:<p>- 20+ productivity tools: web research, Slack automation, screenshot OCR<p>- MCP (Model Context Protocol) support for custom integrations<p>- Agent mode for autonomous task execution<p>- Persistent conversation memory<p>- Instant startup (not Electron!)<p>Real use cases from our users:<p>- Developer running local RAG with Qwen3 via Ollama – a private knowledge base with a pixel companion<p>- Home lab enthusiast who set up an AI server for their family – each member has their own Dinoki instance<p>- Remote engineers using Agent mode to monitor Slack channels while their pixel buddy reflects their mood<p>- Researchers who love that their sensitive data never leaves their machine, yet they get GPT-4-level assistance<p>Pricing:<p>- Free: Full chat, one Dinoki character, bring-your-own provider<p>- Pro ($25 lifetime): All 4 characters, automation tools, multi-instance support<p>We&#x27;re a two-person team that believes AI tools should be powerful, private, and enjoyable to use. The 6MB size isn&#x27;t just a flex—it&#x27;s proof that modern software doesn&#x27;t need to be bloated.<p>Happy to answer any questions about implementation, how we got the size so small, or why we think personality matters in productivity tools!<p><a href=\"https:&#x2F;&#x2F;dinoki.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;dinoki.ai&#x2F;</a><p>P.S. Something big is coming for retro pixel art fans. Current users will get it free.",
+        "time": 1754405894,
+        "title": "Show HN: Dinoki – Privacy-First Desktop AI with Pixel Pets (6MB Native)",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 44799325,
+          "parentId": 44798849,
+          "author": "dayanruben",
+          "text": "This looks fantastic! Love the combination of privacy-first design, lightweight performance, and a touch of personality with the pixel pets. The 6MB footprint is seriously impressive in an era where most apps are bloated. Excited to see tools that are both fun and functional—looking forward to trying Dinoki out!",
+          "createdAt": "2025-08-05",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 44802160,
+          "parentId": 44798849,
+          "author": "chrismessina",
+          "text": "&quot;Something big is coming for retro pixel art fans&quot;<p>I&#x27;m intrigued!",
+          "createdAt": "2025-08-05",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 44798886,
+          "parentId": 44798849,
+          "author": "youngvito",
+          "text": "Yes!",
+          "createdAt": "2025-08-05",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 44821297,
+          "parentId": 44798849,
+          "author": "RioKrauss",
+          "text": "love the size and functionality. Excited to try it out!",
+          "createdAt": "2025-08-07",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 44798905,
+          "parentId": 44798849,
+          "author": "pepesenaris",
+          "text": "love the size mindful take... bring it on!!!",
+          "createdAt": "2025-08-05",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 44799204,
+          "parentId": 44798849,
+          "author": "Nie91",
+          "text": "Wonderful!!!",
+          "createdAt": "2025-08-05",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 28,
+      "story": {
+        "by": "furaar",
+        "descendants": 0,
+        "id": 44153869,
+        "score": 4,
+        "text": "I built an all-in-one hacking dashboard. Deploy VMs within 10 seconds, install popular apps with one click, ai gateway with 23 different AI models to use (everywhere, not just on swiftor). There is a voice-chat system being pushed to production soon which allows you to chat with any deployment with 1-click-select MCP Tools.<p>Hi, I&#x27;m a software engineer and cybersecurity student who was tired of juggling Docker CL and countless browser tabs just to manage my development and study workloads. Tools such as Portainer helped a bit, but restarting containers on changes, managing secrets and assessment documents manually all got frustrating fast! I needed a unified interface to be more productive.<p>Swiftor (<a href=\"https:&#x2F;&#x2F;swiftor.io\" rel=\"nofollow\">https:&#x2F;&#x2F;swiftor.io</a>) is a cloud-native, all-in-one interface designed to be fast and seamless. It ships with Networking and Secrets manager which updates the containers automatically and assigns subdomains for the services. The Webview component automatically maps those Networking routes to quickly show the output in an iFrame - so you never have to open another browser tab again. The layout manager allows you to customize your workspace with dragable tabs and windows. The storage is a smart-centralized design which encapsulates all the vms, profile and workspace data in a master user folder. The Codemirror6 embedded Editor supports multiple language syntax for quickly manipulating any file from any deployment.<p>By default, every user has their personal workspace featuring a Note-taking and Vibecoding app, an AI search engine and Glance dashboard. The notes app is rich knowledge management software that exports to PDF, Word and HTML. Bolt.diy  for customized news, updates and metrics. Swiftor is perfect for students, developers and hackers. You can Cloud deployments ensure you can access your deployments on anything with a browser.<p>I&#x27;m selling productivity, unification and convenience. You can deploy all of these tools yourself locally but its the unified and modern interface, which is interconnected with every other component that makes it such a valuable platform. Competitors of its class provide a stripped down workspace with minimal interactivity. The future of compute is in the cloud and this is the cheapest and full control compute you will get. OSS has been a big factor for the creation of this platform and we will continue to support and priortise those community led projects to power its catalog, irrespective of the size. As a thank you, I plan to monetize the marketplace and deployments with a split-share in the future and would consider making this entire platform open-source once it&#x27;s profitable. With that you can deploy it locally with the exact same functionality.<p>Although closed source, its be a community driven project meaning YOU get to decide what happens on it. Its not perfect yet, but definitely a productive enough experience to share. I have a roadmap and I want to build it publicly from here on out. I am running this with very close profit margins, so if you like the project, consider supporting. You won&#x27;t get any cheaper compute bundled with such a seamless and powerful experience. Check it out and leave me some feedback.",
+        "time": 1748813353,
+        "title": "Show HN: Swiftor – AI Hacking Platform [cheap vms, 20 models, voice-chat, MCP]",
+        "type": "story",
+        "url": "https://swiftor.io"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 29,
+      "story": {
+        "by": "shivang2607",
+        "descendants": 1,
+        "id": 47546734,
+        "kids": [
+          47546856
+        ],
+        "score": 1,
+        "text": "In 2023, I spent six months building a recommendation engine from scratch using vector search and manual indexing. Today, an entry-level dev can prompt a &quot;weekend project&quot; that looks 90% as good.<p>While I admit that productivity is up, the &quot;signal&quot; for talent is disappearing. Just by looking at resume its incredibly hard to identify difference between a Vibe Coder and a Real Software Engineer. Resumes these days looks more or less similar, same type of skill set, same AI language.<p>Everyone is building something, and consumers are very little. We are now in Era where builders&#x27; population is exploding but real architectural understanding and prowess is going down.<p>Is there a new &quot;Proof of Work&quot; for developers? If the &quot;How&quot; is automated, does the &quot;Why&quot; become the only signal left?<p>I&#x27;m curious what everyone else thinks about this &quot;Skills Convergence&quot; we are seeing.",
+        "time": 1774637476,
+        "title": "The vanishing \"Proof of Work\" in software engineering",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 47546856,
+          "parentId": 47546734,
+          "author": "vietthan",
+          "text": "Reminds me of artists, how do artists stand out when photography can do better capture of reality (and easier, and cheaper, etc.) than artists can. Artists had to re-invent (or re-discovered, re-focused, etc.) themselves in all kinds of ways like cubism, impressionism, surrealism, etc.<p>Would coding in [brainfuck](<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Brainfuck\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Brainfuck</a>) be the marker of good engineers?<p>In the end, the criteria remains the same. The engineers that creates products other people would pay for. The engineers that can convince executives to pay them or let them do this and that freely. The engineers that are thought leaders and have wide audiences.<p>Anyway, at the micro level, I think &quot;How to How&quot; is still important. I believe in developers that can talk about their workflow in detail, how it evolved over time, etc. Really good engineers invest in the workflows of themselves and others. That&#x27;s my benchmark before and still is even now.",
+          "createdAt": "2026-03-27",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 30,
+      "story": {
+        "by": "timshell",
+        "descendants": 7,
+        "id": 41193112,
+        "kids": [
+          41193328,
+          41195041,
+          41197672,
+          41196200,
+          41209847
+        ],
+        "score": 49,
+        "text": "Hi HN, we’re Matt and Mayank of Roundtable. We’re launching RoundtableJS, an open-source library (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;roundtableAI&#x2F;roundtable-js\">https:&#x2F;&#x2F;github.com&#x2F;roundtableAI&#x2F;roundtable-js</a>) to program research surveys at scale.<p>Academic and market researchers want a DIY platform for survey research. Most existing tools are no-code, and these researchers want programmatic software that handles advanced branching logic and customization. We know this because we spent five years using open-source survey software for our academic work.<p>One of the key insights of RoundtableJS is to leverage JavaScript’s async&#x2F;await functionality for managing survey logic. In other libraries survey logic is determined via callbacks that trigger when a page is submitted (i.e., if the user answers “Yes” to Q2, show page 3), which quickly becomes a nightmare to manage and debug. Our library lets developers build the timeline in an async function which means the logic flows intuitively from top to bottom.<p>However, this fully programmable logic can be inaccessible to non-developers, and so our cloud offering (surveys.roundtable.ai) lets users program surveys using natural language by storing the library into context of an LLM (which acts as a library-specific copilot, demo link here: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;7e7f30aa96244542a62d6c6ed125f2d5?sid=1ab3682d-8165-4131-99ac-7ab17b67bf32\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;7e7f30aa96244542a62d6c6ed125f2d5?...</a>).<p>We think that being open-source will give us an edge in integrating LLMs into our platform. We designed RoundtableJS with LLM usage in mind, i.e. making it fully customizable and general-purpose. The alternative – building a library with a more constrained focus – would be more intuitive for unassisted programmers, but AI assistance makes it really easy to customize any part of the survey. Already we think this approach is easier and faster than no-code alternatives.<p>We left academia last year and have been building products in the survey space since. Our first product was an AI-powered survey simulator (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=36865625\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=36865625</a>). People loved playing with it, but it was difficult to monetize (as many HN comments predicted). We abandoned this, talked to customers, and found that data quality is a huge problem in market research (e.g. <a href=\"https:&#x2F;&#x2F;www.kantar.com&#x2F;company-news&#x2F;kantar-partners-with-realeyes-to-tackle-billion-dollar-survey-fraud-problem\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kantar.com&#x2F;company-news&#x2F;kantar-partners-with-rea...</a>). We released an API that analyzes open-end responses for low quality and fraudulent typing behavior. This helps firms save time cleaning data, but it is a limited market.<p>We plan to monetize through our cloud offering, which currently offers instant link deployment, an interactive code editor and a fraud detection suite. We plan to introduce more features here in the analytics, design, and productivity space.<p>Surveys are ubiquitous, but they are often bland and generic. By allowing people to fully customize them for today’s distribution channels, we want to make it easy to design better, more engaging surveys.<p>We just launched. Where can we improve?",
+        "time": 1723133585,
+        "title": "Show HN: RoundtableJS – Open-source programmatic survey library",
+        "type": "story",
+        "url": "https://github.com/roundtableAI/roundtable-js"
+      },
+      "comments": [
+        {
+          "commentId": 41193328,
+          "parentId": 41193112,
+          "author": "timshell",
+          "text": "Cloud editor open access for today at surveys.roundtable.ai.<p>Username: show-hn@news.ycombinator.com\nPW: Hackernews2024!",
+          "createdAt": "2024-08-08",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 41195041,
+          "parentId": 41193112,
+          "author": "jeanlucas",
+          "text": "Great. We really need more open source tools for surveying and forms.",
+          "createdAt": "2024-08-08",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 41197672,
+          "parentId": 41193112,
+          "author": "joshunrau",
+          "text": "Interesting but no type declarations makes this a non-starter for me. Are you planning to offer support for TypeScript?",
+          "createdAt": "2024-08-09",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 41196200,
+          "parentId": 41193112,
+          "author": "swyx",
+          "text": "lovely, congrats on launching! i guess at the limit this is a qualtrics competitor? and before that i guess google forms. can i use this as a strict google forms replacement? - dump data straight into a google spreadsheet?<p>i liked <a href=\"https:&#x2F;&#x2F;roundtable.ai&#x2F;survey&#x2F;9593255a3aa7231051e75e578747eaea2fde17b3\">https:&#x2F;&#x2F;roundtable.ai&#x2F;survey&#x2F;9593255a3aa7231051e75e578747eae...</a> as a multistep option<p>good luck - i think its an important problem but idk if its venture scale yet. you might explore RLHF&#x2F;AI data annotation as a usecase.<p>i&#x27;d be most concerned about botting and filtering out low effort surveys - the latter i imagine is a big academic concern. if you came out with a singular innovation there you could probably build a company around it.",
+          "createdAt": "2024-08-08",
+          "depth": 1,
+          "childCommentCount": 1
+        }
+      ]
+    }
+  ]
+}

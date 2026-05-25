@@ -20,7 +20,7 @@ This project uses public discussion data from three online platforms:
 - **GitHub Issues**: public issues and issue comments from `microsoft/vscode-copilot-release`, `openai/codex`, and `anthropics/claude-code`.
 - **Hacker News**: public story and comment threads about AI coding tools and developer workflows.
 
-The final merged dataset used for analysis contains comment text for NLP and interaction edges for network analysis. Full raw and processed datasets are not committed because of size and redistribution limits. Representative samples are included in `data/samples/`.
+The final merged dataset used for analysis contains comment text for NLP and interaction edges for network analysis. Raw and processed data files are included with the submitted code so the analysis can be rerun without collecting from the APIs again. Smaller representative samples are also included in `data/samples/`.
 
 ## Repository Structure
 
@@ -31,8 +31,8 @@ social-media-2/
 │   ├── github_collection_cleaning.ipynb
 │   └── hackerNews_collection_cleaning.ipynb
 ├── data/
-│   ├── raw/               # Generated locally, not committed
-│   ├── processed/         # Generated locally, not committed
+│   ├── raw/               # Raw API outputs used for the analysis
+│   ├── processed/         # Cleaned, merged, NLP, and network outputs
 │   └── samples/           # Small representative samples for submission
 ├── src/
 │   ├── nlp/               # Platform-specific NLP notebooks
@@ -83,18 +83,40 @@ GITHUB_TOKEN=your_github_token_here
 
 Do not commit `.env`, API keys, tokens, or private account information.
 
+## Reuse Included Data or Pull Fresh Data
+
+The submitted repository includes the raw and processed data used for the final report. This means the analysis can be rerun without using API credentials or spending API quota.
+
+Default behaviour:
+
+- Collection notebooks reuse existing raw JSON files when they are present.
+- `full_text_analysis.ipynb` reuses the saved LDA model when it is present.
+- Analysis outputs are written back into `data/processed/`.
+
+To pull fresh API data instead, set this flag near the top of the relevant collection notebook:
+
+```python
+FORCE_API_PULL = True
+```
+
+To retrain the combined LDA model instead of loading the saved model, set this flag in `full_text_analysis.ipynb`:
+
+```python
+FORCE_RETRAIN_LDA = True
+```
+
 ## Running the Full Pipeline
 
-Run notebooks in this order.
+Run notebooks in this order. The collection notebooks reuse existing raw files by default. To force a fresh API pull, set `FORCE_API_PULL = True` near the top of the relevant collection notebook before running it.
 
 1. `collection_notebooks/youtube_collection_cleaning.ipynb`
    - Collects YouTube video metadata, top-level comments, replies, and reply edges.
-   - Requires `YOUTUBE_API_KEY`.
+   - Requires `YOUTUBE_API_KEY` only when pulling fresh data.
    - Outputs to `data/raw/youtube/` and `data/processed/youtube/`.
 
 2. `collection_notebooks/github_collection_cleaning.ipynb`
    - Collects GitHub issues, issue comments, labels, cleaned text, and user-issue edges.
-   - Uses `GITHUB_TOKEN` if available.
+   - Uses `GITHUB_TOKEN` when pulling fresh data.
    - Outputs to `data/raw/github/` and `data/processed/github/`.
 
 3. `collection_notebooks/hackerNews_collection_cleaning.ipynb`
@@ -126,7 +148,7 @@ Run notebooks in this order.
      - `data/processed/network/community_profiles.csv`
      - network figures in `data/processed/network/`
 
-If the full generated dataset is supplied separately, place it back under `data/raw/` and `data/processed/` with the same paths above, then start from `data_merge.ipynb` or `full_text_analysis.ipynb` as appropriate.
+To rerun only the final analysis from the included files without API collection, start at `data_merge.ipynb`, then run `full_text_analysis.ipynb` and `full_network_analysis.ipynb`.
 
 ## Expected Final Outputs
 
@@ -169,6 +191,6 @@ These files show the structure of the text records and network edge records with
 
 ## Notes
 
-- Generated raw data, processed data, model artifacts, figures, `.env`, and virtual environments are ignored by git.
+- API credentials, virtual environments, caches, and saved LDA model internals are ignored by git. Raw and processed CSV/JSON/figure outputs are included for reproducibility.
 - NLTK resources are downloaded inside the notebooks. The main resources used are `stopwords`, `punkt`, `wordnet`, `omw-1.4`, `punkt_tab`, and `vader_lexicon`.
 - All assessed data processing, NLP, network construction, and visualisation are implemented in Python.

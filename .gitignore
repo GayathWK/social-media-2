@@ -11,15 +11,7 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 
-# Data - too large for git (submit samples separately)
-data/raw/
-data/processed/
-
-# Keep folder structure
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/samples/
-!data/samples/.gitkeep
+# Data is submitted with the project. Keep generated model internals ignored below.
 
 # OS
 .DS_Store
@@ -31,8 +23,5 @@ Thumbs.db
 *.model.*
 *.gensim
 
-# Generated NLP figures
-data/processed/nlp/**/*.png
-
-# Generated GitHub report figures
-data/processed/github/report_figures/*.png
+# Generated figures can be reproduced from the notebooks
+data/processed/**/*.png

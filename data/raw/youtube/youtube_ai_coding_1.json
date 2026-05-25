@@ -1,0 +1,4254 @@
+{
+  "searchQuery": "GitHub Copilot review developers",
+  "videos": [
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 1,
+      "title": "Get to know GitHub Copilot in VS Code and be productive IMMEDIATELY",
+      "videoId": "jXp5D5ZnxGM",
+      "channelTitle": "Visual Studio Code",
+      "publishedAt": "2024-02-15T14:22:36Z",
+      "viewCount": 737541,
+      "likeCount": 9132,
+      "commentCount": 164,
+      "comments": [
+        {
+          "author": "@alsacs3635",
+          "text": "Good overview. Thanks for sharing.",
+          "publishedAt": "2026-05-15T02:18:09Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@thudtheace",
+          "text": "Total trash!! Did you unleash copilot on GIT the other day, and completely F*** it all up with copilot.. Why are merges hallucinating and being F'ed up?? Couldn't leave GIT alone eh...",
+          "publishedAt": "2026-04-29T14:34:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@moxopixel",
+          "text": "Now it sucks",
+          "publishedAt": "2026-04-24T16:04:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@earthskysea1111",
+          "text": "CNTL + ENTER sends stuff to the terminal for me... (2026, vscode 1.1140)",
+          "publishedAt": "2026-04-08T21:43:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@TamilSelvanB-u4q",
+          "text": "Wonderful Explanation",
+          "publishedAt": "2026-02-19T09:07:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@FerjanaMousomi",
+          "text": "It is a useful video",
+          "publishedAt": "2026-01-22T17:06:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@cornsalad14",
+          "text": "In the chat, shouldn't I see an option for ai model it's currently using. I'm also getting same interface as you, but my friends can switch between models.",
+          "publishedAt": "2026-01-15T07:20:40Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@firstlast-ty4di",
+          "text": "Once you're past Hello World, GitHub Copilot is lost.  I asked: \"Is there any way that you can know whether your instructions will operate properly?\"  GitHub Copilot responded: \"No, there is no way for me to know with certainty that my instructions will operate properly in your environment. I do not have the ability to execute, test, or observe the results of commands or code directly. My responses are based on documentation, best practices, and the context you provide. I rely on your feedback to identify and resolve any issues that arise.\"",
+          "publishedAt": "2026-01-03T20:34:10Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@s_madhan623",
+          "text": "This ghost text is not coming for me in Eclipse ide, is it only for VS code",
+          "publishedAt": "2026-01-03T14:06:10Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@akashbarot9299",
+          "text": "Beautifully explained",
+          "publishedAt": "2025-12-18T01:50:57Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@vignesh_m_1995",
+          "text": "How to enable copilot in vs code command line?",
+          "publishedAt": "2025-12-02T09:12:04Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@prashantghewari3018",
+          "text": "I have exhausted my free version and now it saying my limit will reeset in  December moth but I want to enable premium model of $19. how to do this?",
+          "publishedAt": "2025-11-22T05:01:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@soubhagyak3061",
+          "text": "i am a newbee and i dont know where to start from",
+          "publishedAt": "2025-11-19T10:07:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@sachinmogha5168",
+          "text": "really short and concise.",
+          "publishedAt": "2025-10-28T14:34:07Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@nicholasferreira451",
+          "text": "The lighting in your studio makes your gaze feel a little unnerving. It looks like you're looking above the camera and not quite making eye contact",
+          "publishedAt": "2025-10-22T04:01:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@majorgear1021",
+          "text": "How do you tell it to repeat a fix everywhere it applies in the file?  \n\nI had an file with 16  ansible  import statements that didn’t use the fqcn format.\n\ncopilot will fix them one at a time , but want it to fix all of them at once!",
+          "publishedAt": "2025-09-18T23:24:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Indrius",
+          "text": "Nice tool to speed up/look up certain parts. However it looks like it turns coder into a code reviewer. Coding is an enjoyable experience (at least for those for whom this profession is a passion) and code reviewing is the boring and uninteresting part of this work really.",
+          "publishedAt": "2025-09-03T11:01:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kushtrims01",
+          "text": "does google gemini support code suggestion in VS Code as you go with your code ?",
+          "publishedAt": "2025-08-30T09:19:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@keshavgupta4807",
+          "text": "Very well explained short crisp and clear.",
+          "publishedAt": "2025-08-26T13:03:40Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@jmonge1",
+          "text": "thank you",
+          "publishedAt": "2025-08-12T02:45:50Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@VishGuru01",
+          "text": "please tell me how can i use my own snippet while enabling the  github co pilot . I am in mac , as i had built the snippet for my c boilerplate but now i am unable to invoke it by using its prrefix help me .",
+          "publishedAt": "2025-07-18T15:16:45Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@starshiptexas",
+          "text": "Oh I'm lookin' for the sparkle.",
+          "publishedAt": "2025-07-16T03:09:43Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@wolfmib",
+          "text": "thanks, nice intro",
+          "publishedAt": "2025-07-13T21:45:14Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@davevernon99",
+          "text": "Excellent video. Well done, Sir!",
+          "publishedAt": "2025-07-12T14:23:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@vazzdoin",
+          "text": "These AI tools have ruined the authenticity of real programming.. nowadays everyone is a programmer using AI.",
+          "publishedAt": "2025-07-10T19:37:33Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@MarkJones-bc5vx",
+          "text": "Great walkthrough! Thanks you so much.",
+          "publishedAt": "2025-06-18T20:36:01Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@XinhuiZENG",
+          "text": "Ctrl + Alt + I : Chat: Open Chat\nCtrl + Shift + Alt + I : Chat: Open Chat(Agent)",
+          "publishedAt": "2025-06-18T10:44:14Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@yahik",
+          "text": "cmd + enter doesn't work anymore in VScode on Windows",
+          "publishedAt": "2025-05-23T13:07:12Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@litojose22",
+          "text": "So all programmers will be replaced by AI: https://youtu.be/6vYHprx0GZ0?si=FLmByKWGb2-UcnAs",
+          "publishedAt": "2025-05-20T11:43:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@thenanook",
+          "text": "fabulous 😆",
+          "publishedAt": "2025-05-17T16:56:17Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@RohanRaj-h6i",
+          "text": "i need anser fr below?\nHow can you use GitHub Copilot to write documentation of your code? ]\nWhat are some of the ways that Github Profile can help you learn new code? []\nWhat are some of the frameworks and APIs that GitHub Pilot supports? [\n\nHow does GitHub Copilot learn to GitHub Copilot has the leadership team? \nHow does Github pilot chat learn from the code and feedback? \n\n How can you use Github Copilot to debug your code? \n\nwhat is GitHub Copilot?",
+          "publishedAt": "2025-05-07T20:01:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@RohanRaj-h6i",
+          "text": "How can you use Github Copilot to debug your code",
+          "publishedAt": "2025-05-07T19:59:41Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@diegoj4382",
+          "text": "If this comes from training datasets of github, What about the chances of falling into breaking licenses of some one?",
+          "publishedAt": "2025-03-30T22:58:00Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@GOODBOY-vt1cf",
+          "text": "2:01",
+          "publishedAt": "2025-03-29T09:57:24Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@IliyaDamyanov",
+          "text": "Are you the guy from the microsoft powershell videos?",
+          "publishedAt": "2025-03-22T21:59:28Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@devangborkar5652",
+          "text": "What is the default value of temperature for models in Github Copilot?",
+          "publishedAt": "2025-03-16T01:42:44Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@planetawesome8791",
+          "text": "Very upto the point converstion...my subscriber to your videos",
+          "publishedAt": "2025-03-06T18:17:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kryptorick5120",
+          "text": "and thus ended the world of developers",
+          "publishedAt": "2025-02-24T19:28:06Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@cringebunny5886",
+          "text": "u belive or not  GitHub Copilot suck",
+          "publishedAt": "2025-02-17T09:56:16Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@cringebunny5886",
+          "text": "can GitHub Copilot build apk using gradlew?",
+          "publishedAt": "2025-02-17T07:41:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@MPee76",
+          "text": "2000 code completions per month for free.. Now if copilot or anyone else could tell me how are those #comments completing my code?",
+          "publishedAt": "2025-02-15T23:34:15Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@jchanning72",
+          "text": "I have a personal dislike of tutorial videos with background music, this is meant to be technical instruction, not a sales video.  Overall, I would rate this video as poor.  The intro does not provide an introduction, it doesn't congratulates you on buying the product!  Using this product is not about being \"happy\" or \"liking\" the code it, writes, what utility does it provide and to what level of coder?  Frustrating.",
+          "publishedAt": "2025-02-09T15:35:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@robl39",
+          "text": "+1 for Lego modular buildings",
+          "publishedAt": "2025-02-07T11:46:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ashikeron9975",
+          "text": "which font are you using ?",
+          "publishedAt": "2025-01-25T15:33:57Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@adiorthotos",
+          "text": "I don't like this guy. Having said that he explained it all very clearly.",
+          "publishedAt": "2025-01-21T12:03:57Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AdamsTaiwan",
+          "text": "Can I know how many suggestions/chats are used? I would like to conserve for important tasks. Currently, I switch to Gemini browser for code bits just so I don't use up what I have.",
+          "publishedAt": "2025-01-20T06:14:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@vPsuYmqwR2eqgTAXUhXcT5mqLzrjJ6",
+          "text": "awesome content. brief, essential, and to the point.",
+          "publishedAt": "2024-12-31T09:14:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@bdjfbjvcrbxbx5560",
+          "text": "It's free now🎉🎉",
+          "publishedAt": "2024-12-28T12:22:17Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@wachirarisky4284",
+          "text": "Thank you",
+          "publishedAt": "2024-12-27T18:13:04Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@nomoredarts42",
+          "text": "Biggest question is, can I turn it off?",
+          "publishedAt": "2024-12-23T07:43:21Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@dyarawilliams",
+          "text": "So useful thank you🎉",
+          "publishedAt": "2024-12-20T04:52:16Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@artemis_russo",
+          "text": "Hot keys:\nTab - accept a text completion\nEsc - dismiss the text\nCmd + R arrow - accept a part of text completion\nCmd + enter - suggestions\nCmd + I - inline chat",
+          "publishedAt": "2024-12-18T11:37:06Z",
+          "likeCount": 181
+        },
+        {
+          "author": "@Hobnockers",
+          "text": "Does it support none coders like chatGPT? Just instruct with a text prompt what you want to create? Any beginner tutorial like that?",
+          "publishedAt": "2024-12-01T06:52:05Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DanFrederiksen",
+          "text": "is it me or is the shortcut for inline not well defined and often not working? you say CTRL I, in my visual studio it says ALT + / and neither works!",
+          "publishedAt": "2024-11-29T19:23:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@zzzaaasg",
+          "text": "❤",
+          "publishedAt": "2024-11-28T14:44:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@charlietunaable",
+          "text": "This no help. I subscribed, but am unable to access. Beginning video started AFTER what I need",
+          "publishedAt": "2024-11-18T22:04:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ebk_west",
+          "text": "just use the Cody extension",
+          "publishedAt": "2024-11-18T17:44:43Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@adrielomalley",
+          "text": "Great, video. spot on. you don't include the ctrl + shift + \"i\" - opens the chat/hides copilot's chat. - Go forward and see how better life will be with copilot ending remarks lol :-) thanks",
+          "publishedAt": "2024-11-18T04:05:42Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@CaseyHendley",
+          "text": "I am notoriously impatient and this is exactly the sort of \"quick and dirty\" intro guide I find very useful. You've got a new subscriber for getting straight to the point. Thanks!",
+          "publishedAt": "2024-11-14T19:19:00Z",
+          "likeCount": 46
+        },
+        {
+          "author": "@DmitriZaitsev",
+          "text": "How do you get that double star icon in the terminal at the end of the video?",
+          "publishedAt": "2024-11-13T23:20:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@syntaxsavvy2708",
+          "text": "I used copilot for a long time using the license given by the github developer pack but this time I used all the features that exist.\n\nintegration vscode with copilot is very indulgent 🤤",
+          "publishedAt": "2024-11-10T17:35:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@chitomi",
+          "text": "thanks for this really useful video, now i understand i could use ctrl+rightarrow to accept the next word of the inline suggestion, but when i try that key binding, i could not make things done in visual studio as in vs code, how could i get the similar feature in visual studio? do need your help very much",
+          "publishedAt": "2024-11-10T06:17:45Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@adibmohamed8356",
+          "text": "It can run in windows env but cannot run in wsl2 env",
+          "publishedAt": "2024-11-07T10:15:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@pedromota987",
+          "text": "when I add this comment \"// function to remove a specific number from an array\", it only adds ghost text for one line, not for the entire method",
+          "publishedAt": "2024-10-16T10:21:57Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@user-h2q3z",
+          "text": "Nice tool to going be lazy ...",
+          "publishedAt": "2024-10-10T20:10:57Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DarioDAversa",
+          "text": "This video convinced me.",
+          "publishedAt": "2024-10-10T19:56:18Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@notasandworm",
+          "text": "soooo worth it the $10/mo. but im a student so its even better bc its freeee!!!! thank you github!!",
+          "publishedAt": "2024-09-29T14:59:30Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Wulan_Purnomo",
+          "text": "What's your theme bro? I want to use it",
+          "publishedAt": "2024-09-25T04:05:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@cedmixon2993",
+          "text": "Wow this is amazing",
+          "publishedAt": "2024-09-18T21:31:21Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@andrez76",
+          "text": "This takes impostor syndrome to another level.",
+          "publishedAt": "2024-09-11T18:06:54Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@ColossalTrend",
+          "text": "Amazing video and amazing tool! As a newbie to the game dev field, this has helped me so much with learning C++.",
+          "publishedAt": "2024-09-04T22:34:17Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@dangtin277",
+          "text": "CMD + I \nOr\nCMD + ENTER",
+          "publishedAt": "2024-08-31T06:15:58Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@tranuclinh5026",
+          "text": "02:05 MACOS (Control + Return)",
+          "publishedAt": "2024-08-30T04:07:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@GypsyPaz",
+          "text": "Thanks, great video. perfectly succinct.",
+          "publishedAt": "2024-08-26T03:19:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@robertf57",
+          "text": "As someone who started out writing code in M6800 Assembly Language, today's programmers have absolutely no idea how easy they have it. 😆",
+          "publishedAt": "2024-08-18T14:00:01Z",
+          "likeCount": 141
+        },
+        {
+          "author": "@kmunson007",
+          "text": "Fantastic video!  Straight to the point.  I hit that Subscribe button in one second!  I don't want to know every single thing that Copilot can do, just the super useful stuff.  And, not to be too harsh, but I don't need a long intro with jokes and a 20 second intro with music and flashy images.  I need this!!!",
+          "publishedAt": "2024-08-07T23:24:56Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@beuzbeuz-dq4vy",
+          "text": "What font are u using ? Many thanks!",
+          "publishedAt": "2024-07-22T16:58:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@MrNareshProMax",
+          "text": "thanks for the video",
+          "publishedAt": "2024-07-17T15:19:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DD-coder",
+          "text": "I can hear all the Scrum master of the universe out there saying \"YOu have GEnAI doing this for you ... WE SHOULD SLASH BY 90% all the story points\"",
+          "publishedAt": "2024-07-08T09:28:57Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@jered1",
+          "text": "This guy reminds me of Jo Koy",
+          "publishedAt": "2024-06-03T16:16:58Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@ghostkee5031",
+          "text": "none of this shit work .. only ghsot texting work ...\n\ncrtl + i does not work.. chat does not work and says Chat failed to load. Please ensure that the GitHub Copilot Chat extension is up to date.",
+          "publishedAt": "2024-06-01T09:44:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@maurod.asuajeg.73",
+          "text": "Thanks so much, you kicked me do it! I just did it!",
+          "publishedAt": "2024-05-28T19:34:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@sivajinandimandalam6329",
+          "text": "Very useful, thank you :)",
+          "publishedAt": "2024-05-25T18:53:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@lordiblees",
+          "text": "Just got copilot but it refuses to work for me :/ \n\nIt says it's enabled but I get no suggestions whatsoever",
+          "publishedAt": "2024-05-17T09:45:09Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@kenniealbritton6390",
+          "text": "Excellent job!  Very concise.  And you also provided both windows and mac.  Some programmers forget some of us are windows users lol.  So great job including both!",
+          "publishedAt": "2024-05-14T11:03:40Z",
+          "likeCount": 24
+        },
+        {
+          "author": "@AdalbertoCaccia",
+          "text": "Visual Studio on MacOS:can't get to inline chat as Command-I gets trapped by VS!",
+          "publishedAt": "2024-04-27T07:52:14Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@creativehacksolutions",
+          "text": "is there a way to find specific text from github copilot chat ?",
+          "publishedAt": "2024-04-26T18:09:12Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@leshiq4214",
+          "text": "Copilot is great, but sometimes I still need to get back to GPT (3.5) to solve some problems, where I need more general approach. I mean, it's to focused on code, and so even earlier and weaker llms are capable of solving some staff better.",
+          "publishedAt": "2024-04-23T19:46:47Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AlexandreDias18",
+          "text": "Thanks for your time! Excellent video and excellent explanation  !",
+          "publishedAt": "2024-04-16T09:50:31Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@Tzalive",
+          "text": "I hate that you put a price on this",
+          "publishedAt": "2024-04-12T19:25:00Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@techtransformers7464",
+          "text": "what iis the VS theme youre using ?",
+          "publishedAt": "2024-04-12T04:33:50Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@devgatling",
+          "text": "fire!",
+          "publishedAt": "2024-04-10T02:56:51Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@marcalbrecht6518",
+          "text": "the matter of fact is that CoPilot lies about what it outputs. It often outputs plain wrong code (that is full of errors, often you can even find the snippets on github from which it copied and pasted components without understanding what it's doing) and then, when in the chat window is asked about what the error is it made, it will pretend that it never created any code or not that code or that the code it just presented one answer above is not from CoPilot. \nWorking with CoPilot has dramatically slowed my development down, as I have to constantly fight an Artificial Idiot that keeps writing wrong code, lies about what it did and does not even understand what the difference between \"unsigned integer\" and \"float\" is (I am frequently running into that: Provide a result from this function in unsigned integer\" will often create a \"float(result)\" type of function.\n\nCoPilot is INCREDIBLY dumb. Yes, it can help with setting up basic frameworks - but any seasoned developer already HAS a vast library of basic frameworks, so CoPilot is just a \"search engine\" for that. \nAny actual DEVELOPMENT where even the faintest understanding of what the code is supposed to do is required will get dramatically slowed down - compared to experienced code writing - instead of spead up.\n\nAgain, the product does have its advantages, but is highly overprized. You get the same quality of results from free LLMs that you run locally as a server. You don't need internet to do that, it's often faster and not worse in quality. If you want more sophisticated responses, you have to check out other vendors' products (not naming the elephant in the room here), but CoPilot is definitely not even in the top ten.",
+          "publishedAt": "2024-04-06T14:02:53Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@devlim",
+          "text": "It's not free",
+          "publishedAt": "2024-04-02T11:56:32Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@fengz-x7z",
+          "text": "The most useful video on how to use Github Copilot in VS Code.",
+          "publishedAt": "2024-03-24T14:46:26Z",
+          "likeCount": 100
+        },
+        {
+          "author": "@hecktorzr",
+          "text": "Very informative and succinct. Thank you!",
+          "publishedAt": "2024-03-23T12:09:39Z",
+          "likeCount": 6
+        },
+        {
+          "author": "@martapfahl940",
+          "text": "I mostly need it in edge cases and there it cant really help me... :(",
+          "publishedAt": "2024-03-21T08:24:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Charles.5277",
+          "text": "Awesome 🔥🔥",
+          "publishedAt": "2024-03-16T08:51:08Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@intellect.dev5",
+          "text": "Folks looking to generate UML diagrams from code check this out - https://youtube.com/shorts/0PQ1VvsPEfQ?si=Sbg1-feuBXM3eW8E",
+          "publishedAt": "2024-03-10T14:20:48Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@skystar3",
+          "text": "Can i get for free? if not what is the free alternative?",
+          "publishedAt": "2024-03-06T21:36:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Cbulaki",
+          "text": "being more productive and more productive, more productive and more productive. be more productive and more productive. at the end there are no human.",
+          "publishedAt": "2024-03-05T09:04:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Andy_B.",
+          "text": "Hello,\n\nhow do I let Copilot index multiple files (like for a website project)?!\n\nFor ex: I'd like to let Copilot add a sign-up option, via Google / FB account.\n\nHow would you do that?\n\n\nThanks.",
+          "publishedAt": "2024-02-22T09:50:07Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@sirkato7751",
+          "text": "Plot Twist: The code shown at 0:44 is actually very bad and should not pass any checks.",
+          "publishedAt": "2024-02-19T21:13:03Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@neilm9400",
+          "text": "I have had it for a year, best money i spend on work each year.\n\nLiterally chatted my way through a problem Friday night, re jQuery caching... I didn't know it was doing it, but once i explained the symptoms, came up with a non jQuery solution.",
+          "publishedAt": "2024-02-18T12:52:54Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@yuriygerasimovich4187",
+          "text": "Unless you are using 2 GitHub accounts. Then you can say goodbye to the Chat functionality. It just won't work. Then Copilot support will point fingers at the VSCode Team and vice versa",
+          "publishedAt": "2024-02-18T10:07:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@haha-eg8fj",
+          "text": "Not free...",
+          "publishedAt": "2024-02-18T05:58:48Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AhmetKizilay0",
+          "text": "Thanks for showing how to partially accept ghost code. I didn't know it existed, and I was very frustrated by too many lines of code that I didn't really need.",
+          "publishedAt": "2024-02-17T02:25:02Z",
+          "likeCount": 16
+        },
+        {
+          "author": "@AllisonBernard_RI",
+          "text": "Is there any way to get it for free to learn it.",
+          "publishedAt": "2024-02-16T22:46:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@zmagicsolutions",
+          "text": "Ghost text doesn't seem to be available (at least for me) on Visual Studio (not vs code). And I can't find a setting that turns it on or off.",
+          "publishedAt": "2024-02-16T20:15:21Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@kp_kovilakam",
+          "text": "Thanks for the info!",
+          "publishedAt": "2024-02-16T12:41:41Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@ardenttechie",
+          "text": "Note that Copilot won't be available during code interviews.",
+          "publishedAt": "2024-02-16T12:18:25Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@NotHuman-bc1cc",
+          "text": "And also cmd + enter is not working on Mac. Look on this issue",
+          "publishedAt": "2024-02-15T22:26:46Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@NotHuman-bc1cc",
+          "text": "I don’t know why, but sometimes when I am in Chat it shows that it matches with public code, even after I changed settings of code visibility in GitHub",
+          "publishedAt": "2024-02-15T22:17:12Z",
+          "likeCount": 4
+        },
+        {
+          "author": "@2099EK",
+          "text": "Can't wait until Github Copilot has the year-old GPT-4.",
+          "publishedAt": "2024-02-15T18:34:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@coopernik",
+          "text": "Inline chat is great but still need to be improved. When using it in jupyter notebooks instead of giving me one extra line of code it deletes all the previous code and just leaves me with the ‘answer to my question’",
+          "publishedAt": "2024-02-15T17:45:08Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@dreamsfloatjoe",
+          "text": "TYVM",
+          "publishedAt": "2024-02-15T15:36:53Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@GB-nn2cx",
+          "text": "Magic ✨",
+          "publishedAt": "2024-02-15T15:14:15Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@trannhathungnguyen352",
+          "text": "wonderful",
+          "publishedAt": "2024-02-15T14:52:16Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SigmaScorpion",
+          "text": "Give me copilot for free .... I will watch all vs code copilot related videos 😅",
+          "publishedAt": "2024-02-15T14:49:00Z",
+          "likeCount": 40
+        },
+        {
+          "author": "@maneshipocrates",
+          "text": "Gitpilot = money",
+          "publishedAt": "2024-02-15T14:34:51Z",
+          "likeCount": 5
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 2,
+      "title": "Github Copilot Can Now Review Your Code 🤯 #githubcopilot #webdeveloper #webdev #programmer #reactjs",
+      "videoId": "6wqmaYKmW1A",
+      "channelTitle": "Coding in Flow",
+      "publishedAt": "2024-12-05T10:45:00Z",
+      "viewCount": 84041,
+      "likeCount": 507,
+      "commentCount": 11,
+      "comments": [
+        {
+          "author": "@codinginflow",
+          "text": "Get my FREE React Best Practices course: https://codinginflow.com/reactbestpractices",
+          "publishedAt": "2024-12-05T11:22:59Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@OctavianBrânzeu",
+          "text": "Mulțumesc pentru informații utile.",
+          "publishedAt": "2026-02-11T16:52:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@hypershadow570",
+          "text": "It isn’t free ?",
+          "publishedAt": "2024-12-07T11:24:52Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@anshumankhanna8296",
+          "text": "Yes my internal critic wasn't enough, now I need the machines to laugh at me 🥲",
+          "publishedAt": "2024-12-05T15:25:21Z",
+          "likeCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 3,
+      "title": "GitHub Copilot | Honest Review (MUST WATCH)",
+      "videoId": "WlpNImzCA9I",
+      "channelTitle": "How To Mr",
+      "publishedAt": "2025-08-11T10:24:54Z",
+      "viewCount": 637,
+      "likeCount": 4,
+      "commentCount": 0,
+      "comments": []
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 4,
+      "title": "How to automate code reviews and testing with GitHub Copilot",
+      "videoId": "HDEGFNAUkX8",
+      "channelTitle": "GitHub",
+      "publishedAt": "2025-08-27T14:00:27Z",
+      "viewCount": 25751,
+      "likeCount": 298,
+      "commentCount": 49,
+      "comments": [
+        {
+          "author": "@scottish_folds_are_evil",
+          "text": "what about when it doesn't catch the bugs which it doesn't 90% of the time",
+          "publishedAt": "2025-12-17T16:33:16Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@darren780",
+          "text": "Very nice, but how do you get it to start a review? Did I miss that bit?",
+          "publishedAt": "2025-12-16T10:57:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Ridelit-m4z",
+          "text": "Automated reviews are awesome! Codoki really helps us define our rules and not miss any critical issues.",
+          "publishedAt": "2025-11-15T11:45:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@me_codeblazy",
+          "text": "wow did not know copilot could do all that",
+          "publishedAt": "2025-11-15T11:45:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@IstiakAhmedFemous",
+          "text": "this is super helpful for my projects",
+          "publishedAt": "2025-11-15T11:43:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Life.in.Facts.911",
+          "text": "finally some clarity on automation stuff",
+          "publishedAt": "2025-11-15T11:43:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@chandanimishra9798",
+          "text": "been wanting to try this for a while 👀",
+          "publishedAt": "2025-11-15T11:40:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AshadulSadu",
+          "text": "I just started using Codoki, and wow, it’s been great for spotting issues that I wouldn’t have caught otherwise.",
+          "publishedAt": "2025-11-13T23:25:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ThatOnePlayer909",
+          "text": "finally figured out how to set this up 🙌",
+          "publishedAt": "2025-11-13T23:25:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@RatulTamim-u7d",
+          "text": "wow i didn't know it could do all that",
+          "publishedAt": "2025-11-13T23:25:32Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SamiraSamira-n1v",
+          "text": "been curious about copilot for code reviews",
+          "publishedAt": "2025-11-13T23:25:32Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@achalsinghyaduvanshi7562",
+          "text": "super helpful, thx for sharing! 😄",
+          "publishedAt": "2025-10-22T02:06:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@cricket9998-x",
+          "text": "i had no idea copilot could do this",
+          "publishedAt": "2025-10-21T22:02:20Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@CDEA_1",
+          "text": "this looks super helpful for my projects",
+          "publishedAt": "2025-10-21T22:02:20Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@obbymaster-c2c",
+          "text": "I’m curious if Codoki can complement Copilot in catching those edge cases. Anyone have experience with that?",
+          "publishedAt": "2025-10-21T22:02:20Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Hoctap",
+          "text": "this looks super helpful for my projects",
+          "publishedAt": "2025-10-21T22:02:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@LordBORUTO121",
+          "text": "i had no idea copilot could do this",
+          "publishedAt": "2025-10-21T22:02:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@CrazyFacts-g-h",
+          "text": "Nice tips! I’ve noticed using Codoki with Copilot really helps us stick to our coding standards.",
+          "publishedAt": "2025-10-21T18:53:00Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@lilibeth6278",
+          "text": "never knew copilot could do all this",
+          "publishedAt": "2025-10-21T18:51:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@actressm",
+          "text": "this is gonna save me so much time",
+          "publishedAt": "2025-10-21T18:51:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Fhula",
+          "text": "cool tips, gonna try them out soon 😊",
+          "publishedAt": "2025-10-21T18:51:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Bgmi_with_ved",
+          "text": "cool tips, gonna try them out soon 😊",
+          "publishedAt": "2025-10-21T18:51:56Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SHERYBAHI56",
+          "text": "never thought about using copilot like this",
+          "publishedAt": "2025-10-21T15:50:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@nguyenvantai9093",
+          "text": "I wish I had Codoki during our last sprint! It would’ve helped us catch those performance risks before we merged.",
+          "publishedAt": "2025-10-21T15:48:53Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@mohitkumar-u1l4z",
+          "text": "wow gonna try this out for my next project",
+          "publishedAt": "2025-10-21T15:47:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@pixzuxo",
+          "text": "thanks for breaking it down so well",
+          "publishedAt": "2025-10-21T15:47:08Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@MDMAJHI934",
+          "text": "this is super helpful, i've been confused for ages",
+          "publishedAt": "2025-10-21T15:47:07Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kalebadane1",
+          "text": "never knew copilot could do this lol",
+          "publishedAt": "2025-10-21T12:35:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AlaaBoughdadi",
+          "text": "really cool stuff, thanks for sharing",
+          "publishedAt": "2025-10-21T12:35:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Tebou-k2",
+          "text": "i gotta try this out for my projects 🤔",
+          "publishedAt": "2025-10-21T12:35:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Ramusicofficial34321",
+          "text": "this is gonna save me so much time!",
+          "publishedAt": "2025-10-21T12:35:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SAHILVOICELIVE",
+          "text": "always wondered how this works lol",
+          "publishedAt": "2025-10-21T09:20:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Onlygirl004",
+          "text": "finally a clear guide on code reviews 👍",
+          "publishedAt": "2025-10-21T09:20:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@FaithFusion70",
+          "text": "Is anyone finding Codoki helpful? It feels like a perfect fit with tools like Copilot for keeping our code quality on point.",
+          "publishedAt": "2025-10-21T09:19:34Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@PriyankaSingh-ii7pw",
+          "text": "great tips, can't wait to try it out",
+          "publishedAt": "2025-10-21T09:19:34Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ISLAMIC_POST-Haq",
+          "text": "this is gonna save me so much time",
+          "publishedAt": "2025-10-21T06:19:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Mausam-Deepak",
+          "text": "finally some clarification on code reviews",
+          "publishedAt": "2025-10-21T06:19:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@KIDSTV4536-t5v",
+          "text": "i had no idea copilot could do this lol",
+          "publishedAt": "2025-10-21T06:19:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Shahidkhan.234",
+          "text": "Been using Codoki along with Copilot, and honestly, it’s been a game changer for catching those tricky logic errors.",
+          "publishedAt": "2025-10-21T06:19:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@UniqueChhetri729",
+          "text": "kinda mind blown by how easy this looks 😲",
+          "publishedAt": "2025-10-21T06:19:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Noor-Xrex",
+          "text": "wow just saved me a ton of time",
+          "publishedAt": "2025-10-20T16:36:21Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@djelloulmarga22",
+          "text": "this looks super helpful for my projects",
+          "publishedAt": "2025-10-20T16:31:32Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@moizplayss",
+          "text": "I love how GitHub Copilot suggests fixes, but I think catching those sneaky security issues is where Codoki really comes in handy!",
+          "publishedAt": "2025-10-20T16:31:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Vinayshort.93",
+          "text": "never knew copilot could do this",
+          "publishedAt": "2025-10-20T16:31:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@GEAKKI",
+          "text": "def gonna try this out soon 👍",
+          "publishedAt": "2025-10-20T16:31:30Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@abhinavsinghal5486",
+          "text": "@github great insight, is this possible in VSCode as well ?",
+          "publishedAt": "2025-08-28T14:02:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ernsttech5255",
+          "text": "Where can I get the copilot review instructions?",
+          "publishedAt": "2025-08-28T12:56:12Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@rahengmeng1215",
+          "text": "❤",
+          "publishedAt": "2025-08-28T08:36:32Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@rex25k",
+          "text": "AI code reviews should be left shift as much as possible.",
+          "publishedAt": "2025-08-27T20:25:22Z",
+          "likeCount": 1
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 5,
+      "title": "10 GitHub Copilot Tricks Most Developers Don&#39;t Know (2026)",
+      "videoId": "xyi3tTAS2QA",
+      "channelTitle": "TechWhistle",
+      "publishedAt": "2026-04-01T13:00:00Z",
+      "viewCount": 7591,
+      "likeCount": 116,
+      "commentCount": 9,
+      "comments": [
+        {
+          "author": "@marcus_leon",
+          "text": "this presentation is cool can you teach us how you do it?",
+          "publishedAt": "2026-05-13T08:32:51Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@codematrix",
+          "text": "Copalet 😂",
+          "publishedAt": "2026-05-10T00:28:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@BobBurgah",
+          "text": "gotta love it when AI explains you how to use AI",
+          "publishedAt": "2026-04-23T09:51:45Z",
+          "likeCount": 4
+        },
+        {
+          "author": "@MuchBacon",
+          "text": "What is this AI shit? Who pronounces Copilot like that?",
+          "publishedAt": "2026-04-18T20:52:13Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@marcoantoniosandoval6128",
+          "text": "Github Copilot is crashing hard right now. It's hiding code blocks and has lost its reasoning.",
+          "publishedAt": "2026-04-02T03:51:52Z",
+          "likeCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 6,
+      "title": "What&#39;s new with GitHub Copilot code review (CodeQL, agents &amp; more)",
+      "videoId": "ikIosF_iiz4",
+      "channelTitle": "GitHub",
+      "publishedAt": "2025-11-16T14:01:16Z",
+      "viewCount": 13108,
+      "likeCount": 181,
+      "commentCount": 5,
+      "comments": [
+        {
+          "author": "@RZRRR1337",
+          "text": "Available in all users?",
+          "publishedAt": "2025-11-18T20:33:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Andrey-xv9fl",
+          "text": "another AI slop",
+          "publishedAt": "2025-11-17T03:10:10Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@draft-ietf-pkix-rfc3280bis",
+          "text": "Github is the best",
+          "publishedAt": "2025-11-17T01:33:09Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@slushytheslush8347",
+          "text": "Clanker",
+          "publishedAt": "2025-11-16T17:49:15Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@LuckyDjaya-f8i",
+          "text": "Indonesia",
+          "publishedAt": "2025-11-16T14:17:15Z",
+          "likeCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 7,
+      "title": "How the GitHub Copilot coding agent works | GitHub Checkout",
+      "videoId": "1GVBRhDI5No",
+      "channelTitle": "GitHub",
+      "publishedAt": "2025-05-30T18:57:22Z",
+      "viewCount": 61415,
+      "likeCount": 698,
+      "commentCount": 37,
+      "comments": [
+        {
+          "author": "@Tiku-q3r",
+          "text": "The fake eyelashes and botox is very distracting and off brand here.",
+          "publishedAt": "2026-05-18T07:56:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@coderider3022",
+          "text": "Day 1 - show the boss, day 2 - redundancy",
+          "publishedAt": "2026-04-27T18:11:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@iamme788",
+          "text": "Just casually talking about the end of junior roles with a nice happy voice and video. (Then eventually senior roles ect ect)",
+          "publishedAt": "2026-04-15T13:24:00Z",
+          "likeCount": 5
+        },
+        {
+          "author": "@marcobaccaro",
+          "text": "Streached faced lady doesn't sound really excited as she says, neither the software industry.",
+          "publishedAt": "2026-01-30T17:45:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@amitk6701",
+          "text": "End of tech debt...huh.....how about using it to clean up bugs from windows os? Can it do that?",
+          "publishedAt": "2026-01-16T17:04:20Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@hamesrodrigues4232",
+          "text": "oh nice so we want to remove people",
+          "publishedAt": "2026-01-04T00:51:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@BryonLape",
+          "text": "CoPilot produces some of the worst code ever written.",
+          "publishedAt": "2025-09-24T17:55:16Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@arseniyivanov4197",
+          "text": "600 lines of code in 12 files. Please start merging such PR asap. I want to see how quickly code base will go to drain.\n\n600 lines, Karl! I wouldn't approve such a PR written by a Senior and would request to split it into several smaller PR, and that is AI.",
+          "publishedAt": "2025-09-19T05:52:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@GauravGoyal1911",
+          "text": "@Github, where can I see actions file and readme instruction for better efficiency",
+          "publishedAt": "2025-08-19T10:10:05Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@vbachris",
+          "text": "does this only work with github repos or will it work with Azure DevOps?",
+          "publishedAt": "2025-08-13T17:51:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ericlake62",
+          "text": "GitHub should consider a make up artist",
+          "publishedAt": "2025-07-31T11:00:52Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@pH7Programming",
+          "text": "🔥🔥",
+          "publishedAt": "2025-07-21T12:15:12Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@TheBest-sd2qf",
+          "text": "Hate how the force vs code down everyone's throat",
+          "publishedAt": "2025-07-12T13:56:48Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@ttaylor9916",
+          "text": "What is the role of the person on the left in this video?",
+          "publishedAt": "2025-06-27T16:23:24Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@spartano-ia",
+          "text": "Please, explain how to configure the repository in order to be able to see copilot in the list of assigne in issues",
+          "publishedAt": "2025-06-09T03:40:45Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@senju31",
+          "text": "@4:48",
+          "publishedAt": "2025-06-08T03:24:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@robertotomas",
+          "text": "within vscode, can you select a file instead of text (imagine you have a task description file in markdown in your project) -- also, is the context for that work managed by Github's copy of your project? ie, if there was an important supporting document in the repo for that task, would the agent have an opportunity to find it?",
+          "publishedAt": "2025-06-06T16:25:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@muhammadalfaris100",
+          "text": "Masih sepi, bikin rame gass",
+          "publishedAt": "2025-06-05T10:13:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Sri_Harsha_Electronics_Guthik",
+          "text": "Does it matter how it works if it is useless?",
+          "publishedAt": "2025-06-03T10:18:15Z",
+          "likeCount": 5
+        },
+        {
+          "author": "@ASSA727",
+          "text": "Do I dream or it is part of GitHub policy that these employees are there because of DEI without any real expertise and knowledge",
+          "publishedAt": "2025-06-02T09:49:37Z",
+          "likeCount": 4
+        },
+        {
+          "author": "@ans4175",
+          "text": "It's worth to pay for a fraction of \"SWE Salary\"",
+          "publishedAt": "2025-06-01T23:19:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@joshphilips9919",
+          "text": "I thought the host was a robot.",
+          "publishedAt": "2025-06-01T08:13:19Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@mwcz25",
+          "text": "this is so complicated, I'd better to github things on my own rather than this AI bots mess on GitHub.",
+          "publishedAt": "2025-06-01T06:15:34Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@FortniteDubs",
+          "text": "This video was super helpful for me creating UEFN 2.0 maps!",
+          "publishedAt": "2025-05-31T19:01:26Z",
+          "likeCount": 6
+        },
+        {
+          "author": "@randomforest_dev",
+          "text": "It has become unusable these days. Just a few messages and I see summarizing conversation and then it no longer knows what it is doing.  The code edits also messed up a lot. It is wasting a lot of tokens by retrying failed code edits.",
+          "publishedAt": "2025-05-31T17:21:25Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@jaggyjut",
+          "text": "wow. wondering if no code platforms would be used in the future?",
+          "publishedAt": "2025-05-31T08:17:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DmitriZaitsev",
+          "text": "This feature doesn't seem to be even on the floor plan isn't it? So what kind of subscription is required to use it and how much does it cost?",
+          "publishedAt": "2025-05-31T01:45:38Z",
+          "likeCount": 4
+        },
+        {
+          "author": "@adriano_silva_",
+          "text": "This is amazing",
+          "publishedAt": "2025-05-30T23:02:24Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@acolombiadev",
+          "text": "Letting AI tackle the backlog and routine grind, so we can focus on creative, high-impact work. No more 80% busywork, 20% innovation. Flip that. 🔥🎉 Here for it ❤",
+          "publishedAt": "2025-05-30T19:43:41Z",
+          "likeCount": 25
+        },
+        {
+          "author": "@melekRebai",
+          "text": "I don't think can never replace us, and if it does it's your fault 😂",
+          "publishedAt": "2025-05-30T19:02:27Z",
+          "likeCount": 7
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 8,
+      "title": "GitHub Copilot code review | New feature announcement",
+      "videoId": "cyPaAkRfEBQ",
+      "channelTitle": "GitHub",
+      "publishedAt": "2024-11-29T14:00:41Z",
+      "viewCount": 55143,
+      "likeCount": 539,
+      "commentCount": 26,
+      "comments": [
+        {
+          "author": "@rohitmania1",
+          "text": "Is this feature avaiable for corporate github deployments?",
+          "publishedAt": "2025-09-10T09:13:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Butters4Lyfe",
+          "text": "Bye bye CodeRabbit",
+          "publishedAt": "2025-03-28T21:33:53Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ItayBia",
+          "text": "are both features (review selection, review PR) available also if the code is hosted in GitLab, BitBucket or other? or only for GitHub hosted code?",
+          "publishedAt": "2025-03-09T07:56:15Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@MarusykRoman",
+          "text": "I need this in Azure DevOps... Is that possible?",
+          "publishedAt": "2025-02-24T22:05:54Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@JohanBautista-s3i",
+          "text": "so, i have copilot Pro but this option is not enable when i make my PR, this option Copilot- reviewer is only enable for enterprise mode? Thanks!",
+          "publishedAt": "2025-02-22T22:39:15Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@nlogn-xf7ly",
+          "text": "Can we have this GitHub Copilot code review in Azure devops?",
+          "publishedAt": "2025-01-03T14:58:31Z",
+          "likeCount": 12
+        },
+        {
+          "author": "@Iranianyoutubers",
+          "text": "⚠️ NOT Usable!",
+          "publishedAt": "2024-12-04T10:55:56Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@PedroOliveira-sl6nw",
+          "text": "Why is GitHub website white and trying to blind us?",
+          "publishedAt": "2024-11-30T11:49:09Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@neozoid7009",
+          "text": "Is it a subscription  ??",
+          "publishedAt": "2024-11-30T11:04:09Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AK-tz4it",
+          "text": "Copilot: LGTM",
+          "publishedAt": "2024-11-30T06:08:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@koodauskanava9096",
+          "text": "What would be really useful would be so that we can set Copilot codereview to be enough for certain repositories and not have to get human codereview at all. Please make that happen!",
+          "publishedAt": "2024-11-29T16:16:24Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@showmethemoney824",
+          "text": "Can I add initial PR review by copilot programmatically ? Instead manually choosing copilot from the dropdown",
+          "publishedAt": "2024-11-29T15:59:19Z",
+          "likeCount": 5
+        },
+        {
+          "author": "@bscodev",
+          "text": "Great, this Will be avaible un Bitbucket too?",
+          "publishedAt": "2024-11-29T14:12:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@2A9D8F",
+          "text": "What if I want this review to be private? It would be better if I can get this review on vscode before actually opening a PR, getting your code roasted publicly by an AI is something I would like to avoid",
+          "publishedAt": "2024-11-18T22:14:01Z",
+          "likeCount": 49
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 9,
+      "title": "Yes, GitHub Copilot knows about your whole codebase",
+      "videoId": "h0AT3GagswQ",
+      "channelTitle": "Burke Holland",
+      "publishedAt": "2025-03-04T15:54:48Z",
+      "viewCount": 15702,
+      "likeCount": 211,
+      "commentCount": 13,
+      "comments": [
+        {
+          "author": "@xqasazas2026",
+          "text": "what is that extension you used where it specify which lines are being changed or replaced ?",
+          "publishedAt": "2026-04-11T12:54:07Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Tony-dp1rl",
+          "text": "hmm ... semantics ... not really ... it knows how to search for code to bring into the context easily and quickly - the entire code is not in the context. This is just a different (arguably faster) approach to what all Agents like Codex, Claude, etc. do.",
+          "publishedAt": "2026-04-10T21:41:58Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@moxopixel",
+          "text": "It researches my codebase everytime you use #codebase in the prompt. It does not know exactly where I call functions and methods. It must relearn every agent session. I have remote index and repo for the project.",
+          "publishedAt": "2025-09-02T02:26:18Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@phenry9999",
+          "text": "Are you sure @workspace and @codebase does what you say? I tried it today, it says \"1 reference\" I don't think that means what you think it means, it's NOT doing what you said it would. My solution has MANY more files than 1 file. Copilot is really dumb and not worth the money I'm paying! Frustrating.",
+          "publishedAt": "2025-08-01T16:15:40Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@phenry9999",
+          "text": "Huh? at 1:28, you say \"we didn't pass the context\".....does copilot know about the solution or not? in the first 10s you said it did, but then at the minute and half mark you said it doesn't. This is a binary, it either does or it doesn't. And if it doesn't, why doesn't it? Having to make the user add a \"workspace participate\" uhm....that's not intuitive, useful, nor helpful. This opens up So many questions, namely what's the difference between @workspace and #solution? And then there's @codebase? Christ, why can't it just KNOW what is in the solution?",
+          "publishedAt": "2025-07-31T22:02:10Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@phenry9999",
+          "text": "Within the first 10 seconds you say github copilot knows about my solution. Uhm...I call liar liar pants on fire. I have read that marketing websites, blogs, vblogs, etc. Except in real practise, for my very small solution, DAILY it will tell me to add a new ViewModel, or a new Model.....when one ALREADY exists, exactly the same name in fact!!!!!!! It's frustrating when it tells me, oh I have a solution, just do this, when the problem is SOOOOO MUCH more complicated because that file is already there AND copilot doesn't even see it. Even after TELLING it it's there, often about 3/4 times a week, it'll get lost in a cycle where I tell it's there, it says it found it, here's the new code, which is.....wait for it....the exact same code I already have! WTF? So to tell me copilot understand my solution is disingenuous at best IMHO.\nOk, so it's likely just a bug, a big one, but a bug. So, I was told I have to tell it to use my #solution or #filename....this class ignorance or stupidity continues even with this inclusion. Yes, I'm frustrated, HUGELY cause I'm paying for a tool to save me time, when in fact it completely wastes it!",
+          "publishedAt": "2025-07-31T21:47:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@julian_pp",
+          "text": "WOWOWOWOWOW thank you!!!",
+          "publishedAt": "2025-07-10T00:00:00Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@satishsingh9053",
+          "text": "What about autocompletion context. How to set that to whole project?",
+          "publishedAt": "2025-06-30T05:21:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@yudhishthirkulkarni6431",
+          "text": "if i have opened the project folder it should automatically aware of it",
+          "publishedAt": "2025-05-30T12:31:33Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@zaidalruwaishan1915",
+          "text": "Seems like @workspace has now been replaced by #codebase.",
+          "publishedAt": "2025-05-13T02:13:20Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@simonweiguny",
+          "text": "Why can't I set the whole project as default context? It's annoying to need to set it for every message.",
+          "publishedAt": "2025-04-21T09:43:04Z",
+          "likeCount": 16
+        },
+        {
+          "author": "@MilaKitty7",
+          "text": "This is very helpful. Thank you.",
+          "publishedAt": "2025-04-03T11:46:31Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@SoftwareDev1431-e8u",
+          "text": "This was helpful 💯thanks for pointing out the difference between @workspace and #codebase 👍",
+          "publishedAt": "2025-03-24T23:25:15Z",
+          "likeCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 10,
+      "title": "Using GitHub Copilot for code reviews: from VS Code to github.com",
+      "videoId": "xf65vxjNWdk",
+      "channelTitle": "GitHub",
+      "publishedAt": "2025-07-26T14:01:31Z",
+      "viewCount": 70232,
+      "likeCount": 593,
+      "commentCount": 95,
+      "comments": [
+        {
+          "author": "@JohnGooch-e3t",
+          "text": "You completely skipped over explaining how to have it do a review inside the editor. You staged changes and clicked on the review button, without telling the viewers what you were doing and why you were doing it.  Same for the github copilot review.  Don't just tell viewers that they CAN do something, tell them HOW to do it.\n\nFor shame!",
+          "publishedAt": "2026-04-10T22:45:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@OctavianBrânzeu",
+          "text": "Foarte bine explicat totul.",
+          "publishedAt": "2026-02-11T16:52:45Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@sowhjfnalknfalknflnfln",
+          "text": "I don't seem to find that icon, any one facing same issue ?",
+          "publishedAt": "2026-01-19T08:00:04Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@LighterGlow._.777",
+          "text": "this is super helpful for code reviews",
+          "publishedAt": "2025-11-16T03:26:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@animeedit1",
+          "text": "i had no idea it could do this lol",
+          "publishedAt": "2025-11-16T03:26:00Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SahedKing-cx3eg",
+          "text": "Solid video! I’ve been curious about trying Codoki to see how it can work alongside what Copilot already does.",
+          "publishedAt": "2025-11-16T03:25:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SamanlangkiSuchiang-s8k",
+          "text": "really cool to see it in action 👍",
+          "publishedAt": "2025-11-16T03:25:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@philippemandolani453",
+          "text": "just started using copilot and wow",
+          "publishedAt": "2025-11-16T03:25:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@sellingbd8804",
+          "text": "really cool to see it in action 👍",
+          "publishedAt": "2025-11-16T03:25:56Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Cricketpridection0009",
+          "text": "this is super helpful for code reviews",
+          "publishedAt": "2025-11-16T03:25:56Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Illusionay",
+          "text": "just started using copilot and wow",
+          "publishedAt": "2025-11-16T03:25:56Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@NasrinBibi-sz9kh",
+          "text": "i had no idea it could do this lol",
+          "publishedAt": "2025-11-16T03:25:56Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@oggymaro",
+          "text": "this looks super handy for reviews",
+          "publishedAt": "2025-11-14T18:22:54Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@rottwillerdoges523",
+          "text": "wasn't sure about copilot but this helps a lot",
+          "publishedAt": "2025-11-14T18:22:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AartiBAGHEL-wu8xx",
+          "text": "i need this in my workflow fr",
+          "publishedAt": "2025-11-14T18:22:50Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Adityagamerfreefiremax",
+          "text": "kinda mindblown by how easy it seems",
+          "publishedAt": "2025-11-14T18:22:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kittinansr",
+          "text": "This button is gone 😭😭😭",
+          "publishedAt": "2025-10-29T06:35:43Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@sksķ-d5o6f",
+          "text": "this is gonna save me so much time",
+          "publishedAt": "2025-10-19T16:23:50Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Footlab1",
+          "text": "never knew copilot could do reviews like this",
+          "publishedAt": "2025-10-19T16:23:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@FF_BROTHERS_GAMING_999",
+          "text": "helped me get the hang of git",
+          "publishedAt": "2025-10-19T16:23:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Nagaeducational",
+          "text": "You nailed it with the logic bugs! Codoki really helps ensure we catch those before any merges.",
+          "publishedAt": "2025-10-19T16:23:24Z",
+          "likeCount": 11
+        },
+        {
+          "author": "@AmadouSenou-p9q",
+          "text": "cool tips on using it with vs code 👍",
+          "publishedAt": "2025-10-19T16:23:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@GoodGoodSunil",
+          "text": "this is actually super helpful for my code reviews",
+          "publishedAt": "2025-10-19T13:27:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SKPIPALIYALAVIE",
+          "text": "i always struggled with reviews but this might help",
+          "publishedAt": "2025-10-19T13:27:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@leonelambrosioruiz4188",
+          "text": "The one-click suggestions from Copilot are neat, but I wonder if Codoki can help automate enforcing best practices too?",
+          "publishedAt": "2025-10-19T13:26:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@U.CRISTIANO-c5s",
+          "text": "really cool to see this in action",
+          "publishedAt": "2025-10-19T13:26:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@karthilove1",
+          "text": "didn't know copilot could do this 👍",
+          "publishedAt": "2025-10-19T13:26:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@The_pathan_gaming",
+          "text": "This is really helpful! I usually run Codoki after Copilot’s suggestions to make sure I catch everything.",
+          "publishedAt": "2025-10-19T10:22:38Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Ayanshorts777",
+          "text": "pretty cool way to streamline things 😄",
+          "publishedAt": "2025-10-19T10:22:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Naeemkhokhar1",
+          "text": "this is super helpful for my code reviews",
+          "publishedAt": "2025-10-19T10:22:30Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Futbol-fv2eg",
+          "text": "pretty cool way to streamline things 😄",
+          "publishedAt": "2025-10-19T10:22:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@gocgiaitri3198",
+          "text": "this is super helpful for my code reviews",
+          "publishedAt": "2025-10-19T10:22:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@besttopical1853",
+          "text": "def gonna try this next time lol",
+          "publishedAt": "2025-10-19T10:22:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Nawab4883",
+          "text": "wow i didn’t know copilot could do this",
+          "publishedAt": "2025-10-19T10:22:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Raunak.pandit.3232",
+          "text": "This is really helpful! I usually run Codoki after Copilot’s suggestions to make sure I catch everything.",
+          "publishedAt": "2025-10-19T10:22:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@whereisBarceloniarz",
+          "text": "I don't see the 'Code Review' option either! Maybe I should look into Codoki more, I’ve heard it works well with GitHub.",
+          "publishedAt": "2025-10-19T07:22:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@jassu.ff.999",
+          "text": "didn't know copilot could do this, nice!",
+          "publishedAt": "2025-10-19T07:22:35Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@QuaraworkGaming-k6t",
+          "text": "this is super helpful, makes code reviews way easier",
+          "publishedAt": "2025-10-19T07:22:35Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@hyunliaaa",
+          "text": "kinda mind blown by how useful this is 🤯",
+          "publishedAt": "2025-10-19T07:22:32Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@rajveerdhura4819",
+          "text": "the workflow looks pretty smooth, might try it out",
+          "publishedAt": "2025-10-19T07:22:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@HatakiKakashi-b8j",
+          "text": "this is super helpful, makes code reviews way easier",
+          "publishedAt": "2025-10-19T07:22:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@FREESTILE-m9h",
+          "text": "I don't see the 'Code Review' option either! Maybe I should look into Codoki more, I’ve heard it works well with GitHub.",
+          "publishedAt": "2025-10-19T07:22:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Datboi_ace0",
+          "text": "didn't know copilot could do this, nice!",
+          "publishedAt": "2025-10-19T07:22:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@OopaingZaw",
+          "text": "Using Copilot for initial reviews is cool! I wish more people knew about how Codoki can customize rules to fit specific needs.",
+          "publishedAt": "2025-10-19T04:18:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Akashkumarsahs",
+          "text": "never thought of using copilot like this",
+          "publishedAt": "2025-10-19T04:18:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Amazonproducts225",
+          "text": "Using Copilot for initial reviews is cool! I wish more people knew about how Codoki can customize rules to fit specific needs.",
+          "publishedAt": "2025-10-19T04:18:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@anuragmasih999",
+          "text": "learning new stuff every time i watch these",
+          "publishedAt": "2025-10-19T04:18:09Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@arnavgupta-op",
+          "text": "was kinda lost on code reviews before, thanks!",
+          "publishedAt": "2025-10-19T04:18:09Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kundansinghmahara2284",
+          "text": "didn't know copilot could do this, nice",
+          "publishedAt": "2025-10-19T01:16:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@suneetaadhikary8388",
+          "text": "wow this makes code reviews way easier 👍",
+          "publishedAt": "2025-10-19T01:15:55Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ISLAMIC-CHANEL-Aryan",
+          "text": "this is so helpful for my code reviews",
+          "publishedAt": "2025-10-19T01:15:20Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@tomek_inadventures",
+          "text": "finally learned how to use this properly lol",
+          "publishedAt": "2025-10-19T01:15:20Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@lover.66",
+          "text": "I’ve noticed that while Copilot is helpful, Codoki really shines when checking for performance risks in larger pull requests.",
+          "publishedAt": "2025-10-19T01:15:20Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Mssbro.videos",
+          "text": "this is gonna save me so much time",
+          "publishedAt": "2025-10-18T22:14:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DashLevelNews-zk3zw",
+          "text": "Anyone else think Copilot misses some of the bigger context? I’ve found Codoki really helps fill in those gaps during reviews.",
+          "publishedAt": "2025-10-18T22:14:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@wilken7",
+          "text": "never thought code reviews could be this easy",
+          "publishedAt": "2025-10-18T22:14:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Phonk22-u9e",
+          "text": "wow didn’t know copilot could do that 🤯",
+          "publishedAt": "2025-10-18T22:14:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Theluxuryventures",
+          "text": "i need to try this out for my projects",
+          "publishedAt": "2025-10-18T22:14:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Funnysofficialchannel",
+          "text": "this is gonna save me so much time",
+          "publishedAt": "2025-10-18T22:14:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Osthirbangali1M",
+          "text": "pretty cool seeing copilot in action",
+          "publishedAt": "2025-10-18T19:35:37Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@createnew1",
+          "text": "This totally resonates with my team's code review struggles. Codoki lets us set custom rules, and that’s been a game changer for maintaining our standards!",
+          "publishedAt": "2025-10-18T19:35:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@NadiaHammouni-p9l",
+          "text": "never thought code reviews could be fun lol",
+          "publishedAt": "2025-10-18T19:33:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@jamilaait3mer88",
+          "text": "wait is that really how it works?",
+          "publishedAt": "2025-10-18T19:33:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@GauravKumar-i7t9u",
+          "text": "this is gonna save me so much time",
+          "publishedAt": "2025-10-18T19:33:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@atikulislamjewel5588",
+          "text": "gotta check this out for my next project",
+          "publishedAt": "2025-10-18T15:19:39Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@movetv6337",
+          "text": "solid tip on using vscode with github",
+          "publishedAt": "2025-10-18T15:19:39Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AstroGyann-p6p",
+          "text": "I've been using Codoki alongside Copilot, and it's interesting how they catch different types of errors. Codoki's context understanding really makes a difference!",
+          "publishedAt": "2025-10-18T15:19:39Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ghostqertgd",
+          "text": "never knew copilot could do this lol",
+          "publishedAt": "2025-10-18T15:19:39Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@gihankosala8417",
+          "text": "this is super helpful for my code reviews",
+          "publishedAt": "2025-10-18T15:19:37Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Lag_yoncs",
+          "text": "Great video! I find Copilot catches a lot of logic bugs, but Codoki has been a lifesaver for spotting security issues in my pull requests too!",
+          "publishedAt": "2025-10-18T12:14:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ARGW",
+          "text": "never thought about using copilot for reviews",
+          "publishedAt": "2025-10-18T12:12:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Sciencetolearn",
+          "text": "i need to try this out asap 😂",
+          "publishedAt": "2025-10-18T12:12:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@PutulBiswas-e2b",
+          "text": "pretty cool way to review code, thanks",
+          "publishedAt": "2025-10-18T12:12:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Bkking112",
+          "text": "this is gonna save me so much time",
+          "publishedAt": "2025-10-18T12:12:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ChaampiansLeague",
+          "text": "I do not see \"Code Review\" option on my tab",
+          "publishedAt": "2025-09-12T07:30:21Z",
+          "likeCount": 10
+        },
+        {
+          "author": "@shahparansarker484",
+          "text": "ok. video very good",
+          "publishedAt": "2025-09-11T05:00:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@criticalcritics6531",
+          "text": "Can we feed a system prompt so copilot code review on Github knows what to look out for in terms of team code standards?",
+          "publishedAt": "2025-09-04T10:40:17Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@hanlie407",
+          "text": "As a junior programmer i dont like its suggestion. Its either break or it doesnt work. I just go for google or chatgpt to understand.",
+          "publishedAt": "2025-08-13T06:07:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@pranayamr",
+          "text": "what kind of license is required for this ?",
+          "publishedAt": "2025-07-29T09:18:34Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@BenyaminM-f4m",
+          "text": "Already use it, sometimes suggestion very good, sometimes wrong. Majority it helps me to find potential bugs, security, N+1 problem, and typo. Also I use it mostly for code review.",
+          "publishedAt": "2025-07-27T13:52:40Z",
+          "likeCount": 7
+        },
+        {
+          "author": "@rajjaiswalsaumya",
+          "text": "This is just a buzz. Copilot cannot understand business requirements. Consider rm -rf in code. Copilot won't know whether rm -rf is required or not.",
+          "publishedAt": "2025-07-27T04:10:50Z",
+          "likeCount": 13
+        },
+        {
+          "author": "@muhammadahsanakhtar8322",
+          "text": "Is copilot plugin also available for Azure Devops repository?",
+          "publishedAt": "2025-07-26T21:49:53Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@holeefukisback",
+          "text": "yeah! try catch everywhere so debugging becoming a nightmare... yeah!",
+          "publishedAt": "2025-07-26T14:42:12Z",
+          "likeCount": 2
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 11,
+      "title": "GitHub Copilot Just Died",
+      "videoId": "CST89O0Ecy8",
+      "channelTitle": "Kyle Cook from Web Dev Simplified",
+      "publishedAt": "2026-04-27T19:23:23Z",
+      "viewCount": 177512,
+      "likeCount": 6342,
+      "commentCount": 1124,
+      "comments": [
+        {
+          "author": "@itsaboonething",
+          "text": "the only way forward is running your own free ai server on your gpu",
+          "publishedAt": "2026-05-20T21:10:38Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@henrique-work",
+          "text": "There is an calculator in github dashbaord now, i check how my bills would be and its say that my monthly pay would go from $10,00 to $84,36 😭😭😭",
+          "publishedAt": "2026-05-18T23:47:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@coldcircuit99",
+          "text": "Canceled my gh pro fuck them.",
+          "publishedAt": "2026-05-18T09:31:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@joomla-expert",
+          "text": "If Copilot seems expensive now, consider the future when upstream AI providers start charging the actual cost plus profit, even though they're not doing so currently.",
+          "publishedAt": "2026-05-18T08:36:35Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@yourlocalsip",
+          "text": "i was right to just keep coding myself this entire time. i knew the day would come.\nthe plan of these ai companies:\n\n1. make you dependent\n3. enshittify the product\n4. raise the prices\n5. you're locked in, can't easily leave\n6. profit",
+          "publishedAt": "2026-05-17T15:19:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Raikatuji",
+          "text": "Wait a minute - did you really think they’d always offer you premium models for practically nothing and never raise their prices? Just wait a minute - soon all models will be much more expensive, and then we’ll be laughing at the CEOs who thought they could hire a few juniors/mid-level employees for minimum wage and give them AI to work with instead of seniors ;d\nI think Copilot will still be well below the break-even point for them",
+          "publishedAt": "2026-05-15T15:15:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@mariushernes606",
+          "text": "Ah yes, Anthropic and everybody else is going to keep their existing model where they bleed money.",
+          "publishedAt": "2026-05-15T08:02:35Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@arnaldofernandez",
+          "text": "2:54 \"not enough to do any type of actual work\"...I believe what have died are real programmers, not Copilot.",
+          "publishedAt": "2026-05-14T11:18:27Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@joostdenboer5689",
+          "text": "I am in the EU. Just checked but I have not received any mail from Copilot or Microsoft that the pricing of Copilot will change. If it does as you say, then terminating the subscription is a no-brainer.",
+          "publishedAt": "2026-05-14T07:14:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@nate32396",
+          "text": "Imagine paying for a subscription only to be nickel and dimed. Same with the forced  monthly subscription.",
+          "publishedAt": "2026-05-12T16:42:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@thomasg.5990",
+          "text": "If this was surprising to you, you shouldnt make these videos.",
+          "publishedAt": "2026-05-12T15:08:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ConvexRook",
+          "text": "Switched to Codex and everything coding based was so much better",
+          "publishedAt": "2026-05-12T13:07:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@nohox9444",
+          "text": "Wait we actually should pay for services 😂",
+          "publishedAt": "2026-05-12T06:03:17Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@solson223",
+          "text": "I just signed up for the year plan like 2+ months ago, right after the trial period. It is, and soon to be - was, a great service. It's sad to see this great pro plan go down the toilet. I understand why they're doing it, but there's no point in keep the plan now. I'll probably cancel within in the next week or so.",
+          "publishedAt": "2026-05-11T22:46:28Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@arrrghh",
+          "text": "A lot of developers are getting frustrated with how some AI coding plans are changing lately, especially when features that used to feel included are starting to look more like direct usage billing. It changes the value proposition quite a bit for people who relied on those limits and workflows. I’ve noticed more devs experimenting with lighter setups and smaller self-managed projects lately, sometimes even sharing quick builds through simple platforms like Tiiny Host.",
+          "publishedAt": "2026-05-11T10:54:07Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ytfeelslikenorthkorea",
+          "text": "well.. time to revisit local hosting...copilot was too good for my needs so I didn't have a motivation to set everything up.\nI was using at least 20 prompts per day in vscode to review my code, to progress projects or even completely rapid prototype something brand new.\nGlad I've built 3 apps I really needed for work, now I am just tweaking the code, so will be fine with manual coding or local models",
+          "publishedAt": "2026-05-10T10:57:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kajacx",
+          "text": "I think there is future for AI, but it needs to be open source models, trained on publicly available data, and it runs locally on your computer.\n\nAnd for fucks sake, don't give it access to the command line.",
+          "publishedAt": "2026-05-09T19:45:28Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@hammondsoftware",
+          "text": "Even the free version of Copilot is very annoying because whenever I use the chat it turns on inline suggestions and it's a pain to figure out which setting to turn this off. Then, the next time you use the chat, it turns back on. I find inline suggestions are very disruptive when coding.",
+          "publishedAt": "2026-05-09T18:24:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@josedonieboncales6449",
+          "text": "bro. your head is moving too much",
+          "publishedAt": "2026-05-09T07:19:30Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kshayk0",
+          "text": "So it produces no actual production-ready products but they cost more than the average developer...makes sense",
+          "publishedAt": "2026-05-09T07:13:53Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@aliasad8544",
+          "text": "Im gonna build my own machine to use open source models instead paying msft",
+          "publishedAt": "2026-05-09T04:30:48Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@z2155",
+          "text": "Time to move out",
+          "publishedAt": "2026-05-08T23:19:07Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Guitar_Godd",
+          "text": "Sweet guitar back there",
+          "publishedAt": "2026-05-08T22:42:39Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@gavrilenko2012",
+          "text": "I have canceled my subscription, cause I was paying 10 a month and then about a 100 extra, and they would tell me that I exceed my premium requests and I need to rest for some time 😒\nThat’s super annoying…\nSo I just switched to Claude 😂",
+          "publishedAt": "2026-05-08T20:25:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DDogCodes",
+          "text": "Sorry but I think this is really just the cold hard reality hitting people that have been getting something for well under a realistic price up until now. \n\nOf course I’d rather pay less than more, who wouldn’t. But all these ai tools have been severely underpriced and it’s not sustainable. \n\nNot defending the companies (and it’s not just GitHub both OpenAI and Anthropic have massively tightened up on allowance and rate limiting too), they almost definitely priced these so low to get people using them, all of the use has fed back in a loop to help improve how the tools work too, but this was always coming anybody who thought you’d be paying $10 for hundreds of pounds worth of compute until the end of time was naive to believe that",
+          "publishedAt": "2026-05-08T19:31:54Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@deerPG",
+          "text": "$hit i must do all work to june 🤣🤣🤣",
+          "publishedAt": "2026-05-08T19:11:45Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@EwaldDieser",
+          "text": "Sucks, sure. But on the other hand, why are we expecting to get something much cheaper that Claude sells for more? \n\nFor me even if the prices are the same, I still will use Copilot because I like the integration in GitHub more.",
+          "publishedAt": "2026-05-08T07:24:37Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@swapnamoy6134",
+          "text": "This shis is good only when used as a airo complete",
+          "publishedAt": "2026-05-08T02:29:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@integrityintellectualprope5185",
+          "text": "Dude - your head is twitching too much. I can't watch the video.",
+          "publishedAt": "2026-05-08T01:17:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@tea_otomo",
+          "text": "People finally realize the real cost of AI ... most companies who offer AI literally just lose money on their users so far. Most users create cost that exceed their plans by far.",
+          "publishedAt": "2026-05-07T15:32:38Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SophannarethNoy",
+          "text": "Vibe coding is not cheap any more lol. Frankly, any XXX Copilot by Microsoft just sick.",
+          "publishedAt": "2026-05-07T14:29:30Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@4ngelf",
+          "text": "I already migrated to codeberg",
+          "publishedAt": "2026-05-07T11:28:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Wholedpzoajabab",
+          "text": "Hello Kyle, since this is such a big change. I think making a video on what are the alternatives of copilot would be a great content for you. and really hoping for it because i believe a lot of people rely on them and dont have enough budget for this kind of increase.",
+          "publishedAt": "2026-05-07T09:02:38Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@mangeshchaudhari663",
+          "text": "look at the smile on his face",
+          "publishedAt": "2026-05-07T06:28:45Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@deepkarmakar",
+          "text": "Use ollama cloud or huggingface",
+          "publishedAt": "2026-05-07T05:57:17Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@jasonreviews",
+          "text": "should of used deep seek or qwen way cheaper",
+          "publishedAt": "2026-05-07T03:52:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kashyapchonekar5437",
+          "text": "It's not like they can't subsidize the models it just that they can't make enough inference chips",
+          "publishedAt": "2026-05-06T21:06:20Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kashyapchonekar5437",
+          "text": "They are compute limited",
+          "publishedAt": "2026-05-06T21:05:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ziplockk",
+          "text": "I got the email, and my grey matter based neural net almost instantly cancelled my subscription, while running a vision processing system unsurpassed by any artificial system by many orders of magnitude, while also running full, self learning General Intelligence, and the list goes on. I can do all this and all I need are some chips, non silicon with some salt and a beer.",
+          "publishedAt": "2026-05-06T21:03:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@axelcarre8939",
+          "text": "Ah that's why I got that 100% used notification..",
+          "publishedAt": "2026-05-06T08:15:08Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@martapfahl940",
+          "text": "How is it legal to change pricing for a plan that you signed up for without fixed duration?",
+          "publishedAt": "2026-05-06T07:59:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@LongJourneys",
+          "text": "Honestly I'm thinking about moving away from Github entirely and moving our company's git repos somewhere else, either one of the other established services or maybe even something custom on GCP (where most of our stuff is hosted).",
+          "publishedAt": "2026-05-05T17:57:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@coolstorybrooooo7643",
+          "text": "Cancelled.",
+          "publishedAt": "2026-05-05T17:10:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@United_Slaves_Of_Israel",
+          "text": "This is just the beginning, they need to raise it 2x again soon 😂",
+          "publishedAt": "2026-05-05T06:22:48Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@michaelschmid2311",
+          "text": "Best solution for a local drop-in Copilot alternative?\n\nContinue?",
+          "publishedAt": "2026-05-04T22:51:35Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ionutth4895",
+          "text": "stop moving your head so much or remove your face its so annoying",
+          "publishedAt": "2026-05-04T21:37:43Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@darren-evans-007",
+          "text": "Lol. Just also got this notification about Amazon Q Dev IDE support when I launched VS Code. The Great AI Enshitiification era continues. They too have locked Claude Opus models behind the new Kiro product 😆\n\n\"Amazon Q Developer IDE plugins will reach end of support on April 30, 2027. New accounts will no longer be available starting May 15, 2026.\"",
+          "publishedAt": "2026-05-04T11:54:37Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@saber8387",
+          "text": "I used to pray for time like this",
+          "publishedAt": "2026-05-04T11:39:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@darren-evans-007",
+          "text": "I just cancelled my Pro+ subscription because I'm not happy about these first steps in enshittification. This is also just one more compelling turn of events that signals the AI bubble is about to pop as non-technical investors who've been mesmerised by the FOMO, hype-driven marketing claims of AI start to realise the math behind the sustainability of the AI profit model does not add up.\n\nThis token-usage billing model is now non-deterministic, and customers are not given any usage tracking tools in their account dashboard to make sure they aren't surprised by any surge-billing costs. The only customer base for these AI tools will devolve to institutional subscribers who pay per developer seat because indie, hobbyist and solo devs will likely not be able to afford any surprise surge billing costs that will likely surface now.",
+          "publishedAt": "2026-05-04T11:12:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@HenkieIsNietGek",
+          "text": "This is where on paper, mistral will start excelling. They have structured their models to become more fit for purpose, lighter, faster and cheaper in terms of tokens.",
+          "publishedAt": "2026-05-04T10:59:45Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@TheOleFrank",
+          "text": "Goodbye GH Copilot. Where to go from here? Claude Code Max subscription...?",
+          "publishedAt": "2026-05-04T06:32:22Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@rand0mtv660",
+          "text": "It was inevitable this was going to happen. I'm using the $39 plan and I'm curious how much will it actually cost me with this new pricing model. If pricing is ok, I think there is still value in Copilot because you get models from Anthropic, OpenAI and Google all in one package. I can use Claude models and then I can use GPT or Gemini models all within the same subscription. If anyone thought existing model where you create a big prompt and AI works for 10 minutes and you spend only 1 \"premium request\" in your subscription, they were delusional.",
+          "publishedAt": "2026-05-04T03:36:18Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@frytura",
+          "text": "i saw this comming a looooooooooooong way with Copilot, like: that was obvious.\nwhat i DIDN'T see comming was Claude Code/Claude Pro and possibily chatGPT soon.",
+          "publishedAt": "2026-05-03T21:14:08Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Czapokx",
+          "text": "What's else should we use?",
+          "publishedAt": "2026-05-03T20:38:10Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@the_wormy",
+          "text": "No clickbait, 100% accurate, ripperino dicksoft",
+          "publishedAt": "2026-05-03T20:11:51Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@eljogt",
+          "text": "Windsurf has enshitified their plan in the same way. And they are ripping people off: you can't do anything with the included credits and it's insanely expensive going above. I went OpenCode and Ollama.",
+          "publishedAt": "2026-05-03T19:53:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@inselbergos",
+          "text": "They need to make trillions of money because AI is great. \nOn the other side, how really needed those 300 premium requests? Nobody. \nAs i said AI is so great that the result of a single request is so great that you needed not a single fix, ask 10 times exact the same thing until it was maybe done by her/his/it greatness.  \n\nSo 1$ for a opus request is a great deal ... For microsoft.",
+          "publishedAt": "2026-05-03T15:18:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@neoenergy2929",
+          "text": "ok bit working with Copilot is a pain if you are comming from claude code.",
+          "publishedAt": "2026-05-03T12:35:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@user-qy2wf2lt6v",
+          "text": "Membah when they all pledge to be \"carbon neutral\" by 2030. I membah :)",
+          "publishedAt": "2026-05-03T11:51:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@simmzzzz",
+          "text": "Copilot is the internet explorer of the AI world",
+          "publishedAt": "2026-05-03T11:10:46Z",
+          "likeCount": 7
+        },
+        {
+          "author": "@xcoder1122",
+          "text": "You need to understand that no AI company ever made any profit. All they do is burning investor money (pure AI company) or existing profits of the company that operates them (if a big tech company is behind them). They would not even make profit if they were to double the prices and half the service at the very same time. \n\nAt the moment they keep burning that money as a kind of bet on the future of AI. The bet is, that one day people are willing to pay enough, that they will have enough customers who pay but don't fully use the product, or that technological progress will reduce the operational costs to a point where they finally will make profit. But until then, they must reduce their losses to the point they can actually stay alive and this only works by increasing the prices or reducing the service. The less money they have left, the more they will have to do so.",
+          "publishedAt": "2026-05-03T10:28:46Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@lx6381",
+          "text": "i would love my company to use something like openrouter with a given monthly credit for each employee. but it's not possible because of security concerns..  so that's why we will probably still keep using GH Copilot amen",
+          "publishedAt": "2026-05-03T07:12:50Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@TheTakenKing999",
+          "text": "Same shit is going to happen with claude code. AI is not sustainable under unchecked capitalism. Also, I hope this AI crash brings back entry level jobs in tech. Feels bad seeing juniors graduate and get no interviews despite being really good students.",
+          "publishedAt": "2026-05-03T07:02:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SensSword",
+          "text": "I've never relied on a third party to run my own CI/CD pipelines. That seems especially regarded. That's worse than Boomer BS.",
+          "publishedAt": "2026-05-03T06:00:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ericcarlsonweb",
+          "text": "My local AI models running on a Mac Studio aren't as capable as the big models but have proven extremely helpful for many daily coding tasks.",
+          "publishedAt": "2026-05-03T03:23:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@bidguru94",
+          "text": "Bubbles will explode soon",
+          "publishedAt": "2026-05-03T02:34:51Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@peacenquiet294",
+          "text": "Now only people making money would be selling GPUs, instead of paying $500 a month to code, people buy $5000 rig",
+          "publishedAt": "2026-05-02T23:06:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Moonriddim",
+          "text": "I was on the 39$ plan and you could do so much with its more than with any other subscription in that price range and now in june i will go back to open ai as claude is to expensive for how much you actually get -.-",
+          "publishedAt": "2026-05-02T22:21:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@developer-brgnet",
+          "text": "Your clickbait titles are embarrassing.",
+          "publishedAt": "2026-05-02T16:56:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@alastairsounds",
+          "text": "it’s embarrassing how bad github copilot's agent mode has deteriorated. Request take like 10 times as long, it has issues reading and writing files, and forgets context three messages in.",
+          "publishedAt": "2026-05-02T13:20:43Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@gillesashley9314",
+          "text": "I left Augment due to this same credit pricing model. 😢.",
+          "publishedAt": "2026-05-02T12:06:43Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@iamxanderg",
+          "text": "This is why we are all f*#ked. New devs need AI to tell them how to code. Don’t use AI, don’t need to…",
+          "publishedAt": "2026-05-02T10:57:16Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Sollace",
+          "text": "And nothing of value was lost",
+          "publishedAt": "2026-05-02T10:48:35Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@Slash1066",
+          "text": "This is why I never got excited about AI, it was obvious it was not sustainable, the prices would have to skyrocket",
+          "publishedAt": "2026-05-02T08:44:53Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@IC_4666",
+          "text": "No offense but the head movement is making me dizzy😢",
+          "publishedAt": "2026-05-02T08:10:15Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@evancombs5159",
+          "text": "It was the request based payment system that made copilot my preferred option. It is predictable pricing. I know one request will always be the same cost. This token based pricing just means pricing is unpredictable a single request could cost $0.05 or it could cost $10 I don't know until three output is complete.",
+          "publishedAt": "2026-05-01T22:43:05Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@user-ej9kb1kb2d",
+          "text": "Nobody wants AI.",
+          "publishedAt": "2026-05-01T22:14:27Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@programateiro",
+          "text": "A single sneeze and all my Claude Code tokens get burned away. Despite the more limited usage window the model has become increasingly shittier to work with.\r\nI am cancelling my Anthropic subscription it's way better to run Gemma 4 locally anyway",
+          "publishedAt": "2026-05-01T21:53:22Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@coolblue5929",
+          "text": "Wait, are you telling me that after spending hundreds of billions of dollars on building and training these things, delivering an almost vertical point of inflection, they want us to pay for it???  Oh the humanity!",
+          "publishedAt": "2026-05-01T20:19:30Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@beaterbagcar",
+          "text": "Wait you use co-pilot and pay for it? Why!?!??",
+          "publishedAt": "2026-05-01T16:17:27Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@krox477",
+          "text": "We went from 1hr tutorial videos to this😂",
+          "publishedAt": "2026-05-01T07:20:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@gt10i",
+          "text": "Terrible news for personal use, great news for company use.",
+          "publishedAt": "2026-05-01T06:51:15Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@FGK_Capone",
+          "text": "Dumped it the day the changes went live.",
+          "publishedAt": "2026-05-01T06:34:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@redoberon",
+          "text": "I'm lucky I don't pay for it because it's gonna be so funny to watch them crash. They took every single worst decision possible.",
+          "publishedAt": "2026-04-30T23:36:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@martin1b",
+          "text": "Bait and switch",
+          "publishedAt": "2026-04-30T22:28:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kaimaiiti",
+          "text": "This is the enshittification we were waiting for. But are devs now so reliant on AI that 1 request per day is insufficient for \"real work\"?",
+          "publishedAt": "2026-04-30T20:43:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@filip97078",
+          "text": "The only thing they are keeping for free is the in-code hints... well, I don't know if anyone else has a problem with this but it's gotten so bad that copilot is basically useless even for the hints, every single suggestion I get is mostly useless, it doesn't even suggest me anything 90% of the time. And it was just a year ago that I thought, it's reading my mind, it knows exactly what I want to write, to it being the tool that not only doesn't work... but mostly breaks my code. It ended up just like any other microsoft product.",
+          "publishedAt": "2026-04-30T19:36:37Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@maksym-m",
+          "text": "I'm using copilot yearly and after last updates I want my money back, anyone know how to do that ?",
+          "publishedAt": "2026-04-30T18:58:38Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@apexcrab",
+          "text": "It's not that surprising, normal enshittification is a good product trying to figure out how to make money, genAI is a way to make money trying to find a good product.",
+          "publishedAt": "2026-04-30T17:52:51Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@IshaatDipu",
+          "text": "I hate the word \"AI\" now like wtf are U gonna do replace human ? Then who's gonna pay U on the loop? ..the world is run by dumb a$$",
+          "publishedAt": "2026-04-30T17:47:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kodoras",
+          "text": "Investors are already saying \"show me the money\" but it is still a drop in the ocean",
+          "publishedAt": "2026-04-30T17:06:53Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@alguienmasraro915",
+          "text": "I'm sorry man, but...\n\nProgrammer Zac Efron isn't real, he can't hurt you.\n\nProgrammer Zac Efron:",
+          "publishedAt": "2026-04-30T15:03:57Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@josecastaneda8082",
+          "text": "It costs 0$ using your own head and skills to code.",
+          "publishedAt": "2026-04-30T14:50:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@colinwiseman",
+          "text": "We can't afford AI. This is what will kill AI... thankfully.",
+          "publishedAt": "2026-04-30T10:24:58Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ltybchxtyrj",
+          "text": "what the best llm i can run locally on m5 pro with 64 gb unified memmory?",
+          "publishedAt": "2026-04-30T08:26:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kauwgomboom",
+          "text": "If Microsoft, the most healthy AI company is starting to bill per token, this means the OpenAI and Anthropics of the world will only follow when they are close to defaulting. This is the reality of LLM costs finally starting to work through and it is extremely worrying that Microsoft, who could front these costs the longest, is the one first starting to realistically bill their customers….",
+          "publishedAt": "2026-04-30T06:12:40Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@PhilippeJoseph-i4s",
+          "text": "I don't know where you get the 300 credits for your $10; all I found was “(1 AI credit = $0.01 USD),\" which would put you at 1k credits. It still is an increase in cost for you.",
+          "publishedAt": "2026-04-30T05:14:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@x_ph1l",
+          "text": "Oh no... anyways..",
+          "publishedAt": "2026-04-30T02:10:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@nandoflorestan",
+          "text": "Dude, why did you accelerate your own video??? Are you insane?",
+          "publishedAt": "2026-04-30T00:46:00Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@CineTechGeek",
+          "text": "Yep, did a quick calculation.  It going to go to $200-600 per month to use a flagship model like claud 4.5 etc.   Who can afford that?  Local LLM implementation will explode.  I also hear Dell and other harware makers are bringing out LMM devices with huge SOC memory capabilities. like 1TB. so you can run 4.5 and equivalent type models locally.  May cost 6-10k to purchase, but you can share it between people and its a set investment and you can hammer it all you like.  Distributesd AI is the future.  These Data Centre investments are a BUST already.",
+          "publishedAt": "2026-04-29T23:05:37Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@jorsm.3893",
+          "text": "This shouldn't be a surprise to anyone right ? It was beyond obvious that they were making a huge loss on this PRU system. This is a very big price hike, but is probably still cheaper than going with Claude directly for companies for example.",
+          "publishedAt": "2026-04-29T22:46:07Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@djscratchnsniff",
+          "text": "thanks for the video",
+          "publishedAt": "2026-04-29T22:21:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@bhaaipo",
+          "text": "I was on that $10 github copilot plan last year and I didn’t renew. I use AI for doing little things like vibe-coding a function given some input outputs something. Qwen code on my mackbook is more than capable doing so without ever connecting to the internet. I prefer doing the “architectural” stuffs myself anyway. \n\nI hope the next generation open source models will continue to be updated with latest docs. oss ftw.",
+          "publishedAt": "2026-04-29T20:14:04Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@peerbr7849",
+          "text": "Screwed by Microslop? I'm shocked, shocked!",
+          "publishedAt": "2026-04-29T19:08:03Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@fts1293",
+          "text": "Paying for a slop tool 😂if its up to me Windows and Sloppilot both can go to 0 users.",
+          "publishedAt": "2026-04-29T17:51:39Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@platformarthus",
+          "text": "2+2=4, what you expect! It was not sustainable from the begining.",
+          "publishedAt": "2026-04-29T17:40:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@yomajo",
+          "text": "I was/am on annual plan too. Shitty trend. But expected. Imma likely code more myself instead of writing paragraphs on task and context.",
+          "publishedAt": "2026-04-29T17:38:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@parzival123",
+          "text": "claude and codex is the enterprise go to now",
+          "publishedAt": "2026-04-29T17:34:57Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@hoangdilo1412",
+          "text": "I enjoyed Github Copilot a lot, but with these bulsh1t changes I changed to Claude Code immediately. Really sad seeing Github doing this move",
+          "publishedAt": "2026-04-29T17:27:51Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@etgaming6063",
+          "text": "People still use GitHub Copilot?",
+          "publishedAt": "2026-04-29T17:18:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@psnts-5ao",
+          "text": "wow, i knew the free ride wasn't going to last forever, but shifting to a pure token-based billing model this quickly is brutal. a 9x multiplier on the opus models essentially makes the $10 plan completely useless for anything beyond basic autocomplete. the \"inshitification\" of these tools is happening way faster than anyone predicted. whenever i am testing out simple code generated by these expensive models, i usually just throw the static html/js onto tiiny host to make sure the logic actually works before i burn more tokens asking the ai to refine it. it looks like we are all going to have to get much more efficient with our prompts",
+          "publishedAt": "2026-04-29T16:27:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@abhishekbehera1992",
+          "text": "AI Boom is going to explode, and everyone know the cost will be passed onto the customers. No surprise there.",
+          "publishedAt": "2026-04-29T16:24:10Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@mikeschepers796",
+          "text": "Guess I'll go back to doing everything myself again 😂",
+          "publishedAt": "2026-04-29T15:37:16Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Tuaregoxffff",
+          "text": "This Luddite is upset he has become a milk man. It’s ok, acceptance phase will come after denial.",
+          "publishedAt": "2026-04-29T15:20:39Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@mathias78835",
+          "text": "It is more or less useless to pay for tokens as it is so hard to conceptualize how many tokens you will use.",
+          "publishedAt": "2026-04-29T15:08:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@buzinvv",
+          "text": "Сopilot is 🎃 right not is fully useless. Sorry, you've exceeded your 5 hour session limits -- It's so useless all your updates stupid and I think good chance to refund subscription!",
+          "publishedAt": "2026-04-29T14:54:05Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@BitSquareStudio",
+          "text": "Lots of vibe-coded projects will need to be rewritten once the hype dies down.",
+          "publishedAt": "2026-04-29T14:38:10Z",
+          "likeCount": 5
+        },
+        {
+          "author": "@entropy3000",
+          "text": "This is why I never even started using copilot.",
+          "publishedAt": "2026-04-29T14:37:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@NikosKatsikanis",
+          "text": "dude, we are web coding channels, we dont need to cope",
+          "publishedAt": "2026-04-29T14:17:04Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@propheciah",
+          "text": "If they actually start charging what is needed to be profitable, or to just break even on operating costs, nobody except FAANGs will be able to afford it for their employees lol",
+          "publishedAt": "2026-04-29T14:17:03Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@leo-g3j2l",
+          "text": "It looks like the AI bubble has begun to burst. 27 premium requests for Opus is very cheap. Try to use via tokens... $50-100 / work day.",
+          "publishedAt": "2026-04-29T14:07:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@alanschmitt9865",
+          "text": "I can’t believe I got laid off because of these things and NOW people decide to rub two brain cells together about the costs of these fucking things",
+          "publishedAt": "2026-04-29T13:27:35Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@TopixonYT",
+          "text": "Everyone knew it was going to happen. But there's a positive side: people who know the technology can use AI more wisely and spend fewer tokens solving technical issues.",
+          "publishedAt": "2026-04-29T13:16:35Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Byhythloh",
+          "text": "Everyone who works in tech who wasn't a delusional CEO could see this coming over a year ago. I hope it all collapses.",
+          "publishedAt": "2026-04-29T12:54:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@hanspeterbestandig2054",
+          "text": "I finally deleted my account at Github. It became worthless and yet dangerous for my projects.",
+          "publishedAt": "2026-04-29T12:44:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Draikava",
+          "text": "To be fair “premium requests” were always just tokens in disguise",
+          "publishedAt": "2026-04-29T12:28:04Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@mathieulalonde",
+          "text": "Humm, no mention of Cursor... let's hope they have a better business model.",
+          "publishedAt": "2026-04-29T12:02:08Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ΒινςΜοργκαν",
+          "text": "What about cursor?",
+          "publishedAt": "2026-04-29T11:57:53Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@stevetaylor5290",
+          "text": "Interesting (though expected) news - but please can we have a break from clickbait titles?",
+          "publishedAt": "2026-04-29T09:17:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@TheCameltotem",
+          "text": "I havent tried everything but I can't find anything that beats copilot chat in vs code/studio. It's by far the best integration regardless of model.",
+          "publishedAt": "2026-04-29T09:05:15Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@truecomments7190",
+          "text": "The bit that surprises me isn’t that features are being reduced; it’s that people didn’t expect it.\n\nAI at current pricing simply isn’t sustainable. These tools are rolled out aggressively to drive adoption, not profitability. Once dependency sets in, the model shifts and either prices go up, or features quietly disappear behind higher tiers. We’re already seeing the early signs of that.\n\nWhat’s more subtle is the impact on skills. AI doesn’t necessarily “dumb people down,” but it does change what competence looks like. Writing code is slowly being replaced by reviewing, stitching, and validating AI output. \n\nThat can feel like accelerated seniority/promotion but it’s earned without the same depth of understanding underneath.\n\nOver time, fewer people build the foundational intuition you only get from solving problems the hard way. And once that layer thins out, the industry becomes heavily reliant on tools it doesn’t fully understand - or control.\n\nThat’s not an end to engineering per say, but it is a shift in where the real expertise sits.",
+          "publishedAt": "2026-04-29T08:39:26Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@TAV-j3h",
+          "text": "Not shocked at all \nAlways found AI to unsustainable",
+          "publishedAt": "2026-04-29T08:35:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@karlisgertmanis",
+          "text": "we will have to pay ai to keep our jobs.",
+          "publishedAt": "2026-04-29T08:04:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@viggizags",
+          "text": "None of this pricing makes any sense there has been 0 profit made off of this type of revenue stream its all losses at this point. I use the example of UBER why do drivers get paid less and riders pay more? Its the equity subsidy went away. I really d9nt want to pay 100 bucks a month for anyones 20 a month plan but they really do need to charge that much to be profitable and wont be still because no one will use it. Thats way too expensive.",
+          "publishedAt": "2026-04-29T07:11:04Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SankaYoutube-e6n6b",
+          "text": "Why should any one work with them ? If working with Claude directly is same price",
+          "publishedAt": "2026-04-29T06:37:47Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@andreashauschild7757",
+          "text": "Its ok, just switch to chinese models and it will be much much cheeper.",
+          "publishedAt": "2026-04-29T06:30:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@RJTC",
+          "text": "The simple solution is to run your own local system. I use a Jetson Orin with 16GB RAM, which is rated at 100 TOPS. Obviously not quite as fast as the big online server farm systems, but totally free and private once it's set up. Power consumption is trivial, idling at next to nothing and peaking about 25W while generating responses.\nAs far as anything using it is concerned it's just the OpenAI interface, at a different server address.\nAnd the speed is improving over time, as more models are being optimised for small systems, with companies trying to make them compatible with phones etc; those developments end up in the free models as well. The new ternery models look really interesting, though I've not had chance to try those yet.",
+          "publishedAt": "2026-04-29T06:20:32Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Gabriel-kl6bt",
+          "text": "Good. Shooting AI in the foot. Code yourself; you trained and learned for that. Don't lose the knowledge by asking a stupid AI to vomit your code. Honestly, if you \"code\" with prompts, you are not a developer.",
+          "publishedAt": "2026-04-29T06:04:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@MonsieurSansHonte",
+          "text": "Oh no! What will I do?\nContinue not using AI, I guess. 🤷‍♂️",
+          "publishedAt": "2026-04-29T05:35:14Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@chuck_stones",
+          "text": "The enshitification of AI will be as rapid as the forced insertion of it into everything we use and do.",
+          "publishedAt": "2026-04-29T05:20:36Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@backtorparn",
+          "text": "Damn, now I have to understand the mess that I let it create. One month left to have Copilot make the code human usable.",
+          "publishedAt": "2026-04-29T04:45:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@nrmlb",
+          "text": "Companies struggling to pay a cheap human developer, how come they can afford a prompt engineer.",
+          "publishedAt": "2026-04-29T04:44:15Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Danielm103",
+          "text": "Jackson",
+          "publishedAt": "2026-04-29T04:25:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SpooningTreesap86",
+          "text": "Looking forward to the influx of new dev job postings over the next few years to clean up all the slop or start over 🤣",
+          "publishedAt": "2026-04-29T03:31:45Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@TetsuDeinonychus",
+          "text": "Fingers crossed.",
+          "publishedAt": "2026-04-29T03:01:21Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ericnewton5720",
+          "text": "Enshittification is not the same as having to pay for the actual cost of the underlying service.",
+          "publishedAt": "2026-04-29T02:49:10Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ScottsUpwrd",
+          "text": "I don’t know how much my company pays for all of our engineers to use GitHub copilot, but I know I’ve only been able to make 50 requests a month at work. To be honest, I haven’t typed a line of code by myself for a very long time, and have become heavily reliant on the few AI tools my company allows. It’s to the point where I value my GitHub copilot credits like gold. Super bummed this is happening, and just gonna try to adapt",
+          "publishedAt": "2026-04-29T02:03:32Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DreQueary",
+          "text": "ur head movements remind me of the \"aint no body got time for that\" meme. Which is quite apt given the topic. 😄",
+          "publishedAt": "2026-04-29T01:55:05Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Sminimal",
+          "text": "honestly this is good. we're getting WAY to comfortable with this vibe coding crap. Perhaps some will go back to the ancient art of coding by hand. Scary I know.",
+          "publishedAt": "2026-04-29T01:48:07Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@No_wHere_Game",
+          "text": "Dude, it's all headed towards local LLMs. Screw these monoliths, we don't need them.",
+          "publishedAt": "2026-04-29T01:28:55Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@PikalaxALT",
+          "text": "I for one welcome this change. My hope is that most users will be priced out from using this technology so it can whimper out of existence.",
+          "publishedAt": "2026-04-29T01:27:50Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Mr76Pontiac",
+          "text": "I wonder what it'll take to turn my rig into an AI system that works 10% as well as these other online coding AIs?  I've had nothing but crap luck getting anything usable, at all, for any language, under any circumstances, even if it's just to translate what an API call is supposed to mean.  Ryzen7-7700x with a 12gig RTX5070 and plenty of drive space.....",
+          "publishedAt": "2026-04-29T01:00:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@thomas6502",
+          "text": "My favorite price: 0",
+          "publishedAt": "2026-04-29T00:55:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@calkelpdiver",
+          "text": "Well just like any other business they are targeting the deeper pockets of clients.  Small and medium size companies are now going to be priced out.  Only the big boys with Beaucoup bucks are going to be able to afford to use AI at large scale.\nWhy does this surprise anyone.  You knew it would happen, it just happened sooner than expected.  Suck it up, Buttercup.",
+          "publishedAt": "2026-04-29T00:41:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@derghiarrinde",
+          "text": "Hey, K., your head movements and expression is kind of similar to that \"you don't say?\" Nicolas Cage meme. https://www.youtube.com/watch?v=aEtm69mLK6w",
+          "publishedAt": "2026-04-29T00:23:41Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@romanandreevich3738",
+          "text": "Like someone with a fully developed brain ever actually used copilot full time….",
+          "publishedAt": "2026-04-29T00:08:25Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@k.chriscaldwell4141",
+          "text": "Advanced Idiocracy. _”It’s got what __-plants-__ sheeple crave.”_",
+          "publishedAt": "2026-04-28T23:53:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@RandalexK",
+          "text": "I'm on a big project refactoring on so many fronts just on my own. But I will be finished before June 1st. Afterwards, I'll not be depending on Copilot.",
+          "publishedAt": "2026-04-28T23:45:34Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Junkyard_Cybertruck",
+          "text": "copilot legit sucks",
+          "publishedAt": "2026-04-28T23:34:43Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Jim-tv2tk",
+          "text": "Claude in Copilot is 7.5 x and going to be even more expensive. I will probably go full Claude Code $100 / month. Going to pay that or more with Copilot anyway. My employer just enrolled a bunch of us in Claude Academy so looks like work is going to drop Copilot also.",
+          "publishedAt": "2026-04-28T23:14:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@JoeD0403",
+          "text": "Say man, wanna buy some AI tokens? I got lots of tokens here. Totally legit. Pay me cash so you can make an image of a tiger playing basketball.",
+          "publishedAt": "2026-04-28T22:57:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@TheReferrer72",
+          "text": "Stop moaning they are trying to safe guard your job by making it expensive.",
+          "publishedAt": "2026-04-28T22:49:34Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@jakubpas",
+          "text": "Yeah I just cancelled",
+          "publishedAt": "2026-04-28T22:29:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@plamendimitrov9097",
+          "text": "Coding is just one part of it! What about automation that is powered by AI models. The automation was supposed to replace even more jobs. Next time you make a call to Customer Service and AI picks up - make sure to keep it on the phone for 8 to 10 hrs. See how that works for that company 😂😂",
+          "publishedAt": "2026-04-28T22:26:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@beecher92099",
+          "text": "Their email was a good reminder to cancel my subscription.",
+          "publishedAt": "2026-04-28T21:58:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@frozenphoenix1463",
+          "text": "I guess ai will be a tool to enhance devs on extremely complex problems and will stop being worth it for anything else that's more simple or can be handled by a junior",
+          "publishedAt": "2026-04-28T21:42:55Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@RyanJackson",
+          "text": "AI costs too much for the normal enshitification rates.",
+          "publishedAt": "2026-04-28T21:25:08Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@urssaf343",
+          "text": "When are you guys cancelling your annual plan ?😊",
+          "publishedAt": "2026-04-28T21:15:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ViaScientifica",
+          "text": "Ha, I’ll be cancelling my yearly subscription when it expires.",
+          "publishedAt": "2026-04-28T21:12:17Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@dorklol2969",
+          "text": "set sail for fail. china is going to win this war, too... very sad!",
+          "publishedAt": "2026-04-28T21:03:51Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@augustday9483",
+          "text": "All those million LoC slop-coded projects will become completely unmaintainable if the AI coding tools become too expensive. Companies that went all-in on replacing engineers with AI will be in for some rough quarters.",
+          "publishedAt": "2026-04-28T20:31:18Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@sferdeveloper",
+          "text": "AI is like a drug, first pill is free!",
+          "publishedAt": "2026-04-28T20:29:28Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@andrewlloyd-callachund6341",
+          "text": "Anthropic welcomes the change 😂",
+          "publishedAt": "2026-04-28T20:28:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@yavvivvay",
+          "text": "changing the multipliers should be a class action for people with yearly shouldnt it?",
+          "publishedAt": "2026-04-28T20:26:03Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@eagleeagle7360",
+          "text": "I don't think they're surprised, right?\n\nThey've done this hundreds of times throughout human history hahaha.",
+          "publishedAt": "2026-04-28T20:25:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@HaraldEngels",
+          "text": "Anything beyond code completion was so or so crap in Copilot. No loss!",
+          "publishedAt": "2026-04-28T20:18:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@MuhammadRizwan-sk5ot",
+          "text": "So what is the best alternative to this? just thinking about other affordable solutions with better response.",
+          "publishedAt": "2026-04-28T20:12:37Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@CheeseStickzZ",
+          "text": "GPT 5.4 mini from 0.33 to 6.... HAHAHA",
+          "publishedAt": "2026-04-28T20:05:48Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ryanwriter",
+          "text": "Suggest reading Zitron's article about costs",
+          "publishedAt": "2026-04-28T19:44:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@HartleySan",
+          "text": "Big tech is freaking out about how to monetize this. This will never scale to what they're hoping for.",
+          "publishedAt": "2026-04-28T19:32:55Z",
+          "likeCount": 11
+        },
+        {
+          "author": "@tajsec",
+          "text": "oh kyle from web dev simplified:))",
+          "publishedAt": "2026-04-28T18:43:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@CaponeBlackBusiness",
+          "text": "Qwen 3.6 is saving our asses!",
+          "publishedAt": "2026-04-28T18:01:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@hamza-325",
+          "text": "Any cheap alternatives to GitHub Copilot which still have premium requests or extended coding rate limits? I was on the $10 plan then forced to upgrade to the $39 with the recent rate limits, but with these news it seems that I will be down by June, unless I manage to quickly make my MVP succeed!",
+          "publishedAt": "2026-04-28T17:29:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@PathToSagehood",
+          "text": "How many dollars are you willing to bet, that despite all, AI programming will only keep growing v/s that it will not? There will be changes in pricing models, how they're offered etc., but they're here to stay for good. This isn't early 2023 anymore. Anyone who knows enough programming is going to be using AI far better than those who just think of it as a magic wand.",
+          "publishedAt": "2026-04-28T17:00:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@samserious1337",
+          "text": "Isn't this a bit dumb? If you dont want that the frog jumps out of the pot, you need to boil it slowly. Radical changes should be avoided.",
+          "publishedAt": "2026-04-28T16:56:10Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@CodeLife_12",
+          "text": "Kind of makes me worried about the company where I work whoheartedly embracing AI in our workflows. I'm not sure it's a good move long term... I guess we'll see.",
+          "publishedAt": "2026-04-28T16:54:03Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@MM-ds7eu",
+          "text": "Copilot has started by getting unlimited code completions per month and they are still offering that and then some agentic use on top of it?",
+          "publishedAt": "2026-04-28T16:47:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@KaleemLmar",
+          "text": "DeepSeek? Anybody?",
+          "publishedAt": "2026-04-28T16:21:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Kaizzer",
+          "text": "It was good until it wasn't",
+          "publishedAt": "2026-04-28T16:18:51Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@BlueScreenCorp",
+          "text": "I don't understand why anyone is choosing to use these things in the first place for a myriad of reasons, the least of which is AI generated code isn't really good or fast...",
+          "publishedAt": "2026-04-28T16:14:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Chain_Sprocket-XD",
+          "text": "Cancelled my copilot plan the moment I got that email. Turns out people dont reward greed.. who knew..",
+          "publishedAt": "2026-04-28T15:53:50Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@pogo55555",
+          "text": "Wow.",
+          "publishedAt": "2026-04-28T15:53:47Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@IamJamesA",
+          "text": "I'm going to cancel my subscription with copilot😂",
+          "publishedAt": "2026-04-28T15:15:41Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@nurito_burrito",
+          "text": "What happens if companies and devs stop using it? Would prices not go down?",
+          "publishedAt": "2026-04-28T15:15:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@gp390",
+          "text": "Finally, failed project just from a start...",
+          "publishedAt": "2026-04-28T15:06:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@harshitichigo7223",
+          "text": "Cause anthropic has decided to charge per API for enterprise users so GitHub thought why not just do for others too for more profit 😂😂",
+          "publishedAt": "2026-04-28T14:45:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@TheNefastor",
+          "text": "LMAO, people finding out that refusing to use their own brains is a costly vulnerability. I'm over there, eating popcorn, coding without any LLM, and guess what: my shit works.",
+          "publishedAt": "2026-04-28T14:43:11Z",
+          "likeCount": 8
+        },
+        {
+          "author": "@ericrolph",
+          "text": "Microsoft does not care about offering value to developers since they're announcing partnerships to ship copilot to the masses, see the Accenture copilot rollout announcement.",
+          "publishedAt": "2026-04-28T14:18:12Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@lowlandtech",
+          "text": "thats why I am replacing copilot with kimi k2, that thing is amazing for the value you are getting... I reduced my claude code subscription from 200 to 100 and I barely use it my 3 kimi k2 subscription allows me to keep 30 agents working none stop at sonnet level none stop and I never ever hit the rate limit... so I am going to get another one and drop copilot completely because its bad at long running tasks... kimi k2 keeps working as long as there is work inventory... copilots stops to ask for confirmation even worse, it breaks off a task to tell me that copilot has been working for a long time on a task... just so I can use another request .... I hate that ... so yeah copilot bye bye... it was good when the getting was good, so long ...",
+          "publishedAt": "2026-04-28T14:07:30Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@891games9",
+          "text": "Any better alternatives?",
+          "publishedAt": "2026-04-28T13:36:55Z",
+          "likeCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 12,
+      "title": "How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners",
+      "videoId": "-yKALFS5ewY",
+      "channelTitle": "GitHub",
+      "publishedAt": "2026-04-16T15:00:00Z",
+      "viewCount": 47085,
+      "likeCount": 658,
+      "commentCount": 14,
+      "comments": [
+        {
+          "author": "@aerisseon",
+          "text": "Curious here. When you used the built-in code review agent - why is that an agent, and not a skill? Can i create a skill or custom agent if i want to define my code reviewer?",
+          "publishedAt": "2026-05-20T00:10:55Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@pramendra811",
+          "text": "This helps!! Thanks man!!",
+          "publishedAt": "2026-05-10T10:33:58Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DeepakSachdevankshschdv",
+          "text": "this is very uncomfortable to watch , make him look professional without nail paints. and normal looking dressing which people just think about learning rather than judging the host.",
+          "publishedAt": "2026-05-07T07:49:07Z",
+          "likeCount": 6
+        },
+        {
+          "author": "@TetonBased",
+          "text": "His attire is incredibly distracting for someone with ADD. ADD brain just can't move on from it.",
+          "publishedAt": "2026-05-06T12:51:17Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@CivicYt",
+          "text": "Copilot now sucks. Rate limits on Pro+.... hahaha",
+          "publishedAt": "2026-05-01T23:22:07Z",
+          "likeCount": 7
+        },
+        {
+          "author": "@SimZoneStudios",
+          "text": "this guy sits like a 5 year old and paints his nails like a 15 year old",
+          "publishedAt": "2026-04-26T04:15:17Z",
+          "likeCount": 24
+        },
+        {
+          "author": "@SayaliYewale-ug7rg",
+          "text": "How to create github copilot custom AI agent",
+          "publishedAt": "2026-04-23T04:46:25Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@KnerftErftinger",
+          "text": "Stay away from github copilot \"plans\" as individual ... only thing that is \"plannable\" while on a plan is service degradation whenever @binderjoe feels like ripping you off. Go elswhere if you want a coding agent.",
+          "publishedAt": "2026-04-22T07:44:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@someone5943",
+          "text": "Hey GitHub please give me free copilot 😢.\nPls its may small to u but for me huge 🙏🙏",
+          "publishedAt": "2026-04-18T09:52:17Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@이재홍-l4j",
+          "text": "Azertyuiopmlknjbhvgfdsqwc",
+          "publishedAt": "2026-04-16T22:30:01Z",
+          "likeCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 13,
+      "title": "When to use GitHub Copilot coding agent versus agent mode",
+      "videoId": "a1BR6K3E4zs",
+      "channelTitle": "GitHub",
+      "publishedAt": "2025-07-29T14:00:00Z",
+      "viewCount": 54302,
+      "likeCount": 436,
+      "commentCount": 19,
+      "comments": [
+        {
+          "author": "@junkname9983",
+          "text": "so you told AI to steal someone's Snake game and just copy and paste it into your own application and call it a job well done? ridiculous.",
+          "publishedAt": "2026-04-25T06:20:29Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@calmhorizons",
+          "text": "Looks like a living nightmare of review.",
+          "publishedAt": "2026-02-18T13:15:23Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ItsABitNutty",
+          "text": "that voice lmao",
+          "publishedAt": "2026-02-17T21:53:08Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@lunar-ix9vu",
+          "text": "This video seems pointless",
+          "publishedAt": "2026-01-26T22:15:57Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@mannaraps",
+          "text": "Cool video, but doesn’t answer the question posed in the title",
+          "publishedAt": "2026-01-24T17:07:56Z",
+          "likeCount": 7
+        },
+        {
+          "author": "@johng5295",
+          "text": "Awesome",
+          "publishedAt": "2025-12-27T17:16:44Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@benlucky4254",
+          "text": "How does this have just 13 comments?  @github thank you for all you do. Co-pilot agent task was brilliant and has completely overhauled my vibe coding workflow ❤",
+          "publishedAt": "2025-11-18T23:22:44Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@TQwando",
+          "text": "This is such a scam. Look at the coding agent, in the video it did 2 out of 11 subtasks it created, while working 3+ minutes on it and already used 12 premium requests in that time. SO for a SIMPLE issue it uses 6 tokens per 1,5 minutes per 1 (sub)task. When it finished it would have used about 66 premium tokens, worked 33+ minutes to fix 1 full SIMPLE issue.\nNow Copilot Pro includes 300 premium requests PER MONTH, so in 1 day you wont be able to use it any more.\nUpgrade perhaps to Copilot Pro+? It is the highest subscription and includes only 1,500 premium requests.\nYou would hit that cap after using it for only 6,5 hours!\nGuess you can now wait another month to use it...",
+          "publishedAt": "2025-09-13T10:30:21Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ziyadshow-h5q",
+          "text": "Great option",
+          "publishedAt": "2025-08-14T22:38:40Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@peaceofjo",
+          "text": "Great work",
+          "publishedAt": "2025-07-31T18:12:15Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@paul_devos",
+          "text": "This doesn't seem to show any differences of the two things mentioned in the title. I see no demonstration or list of what \"interactive agent mode\" actually does compared to \"Copilot coding agent\", which I believe is what mode created the video game?",
+          "publishedAt": "2025-07-30T14:56:13Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@chatpranks9518",
+          "text": "Why are you using claude 3.7 🤔",
+          "publishedAt": "2025-07-30T13:42:20Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@exploittutorial8689",
+          "text": "In my experience, agent-mode tends to introduce unnecessary complexity. While it's intended to add flexibility and modularity, it often results in over-engineered solutions that make the system harder to understand, maintain, and debug. Simpler alternatives frequently offer the same functionality with less cognitive overhead.",
+          "publishedAt": "2025-07-29T15:52:30Z",
+          "likeCount": 7
+        },
+        {
+          "author": "@Lukas_H-z1x",
+          "text": "Sehr cool 👍🏼 gerne mehr Demovideos, gerne auch mit echten Welt Problemen.",
+          "publishedAt": "2025-07-29T15:43:03Z",
+          "likeCount": 1
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 14,
+      "title": "How to Use GitHub Copilot Agent Mode - Visual Studio 2026 | Tips &amp; Tutorial",
+      "videoId": "wBgNflnfIEA",
+      "channelTitle": "Codeless Developer",
+      "publishedAt": "2026-01-28T10:00:00Z",
+      "viewCount": 9172,
+      "likeCount": 112,
+      "commentCount": 6,
+      "comments": [
+        {
+          "author": "@CodelessDeveloper",
+          "text": "**Watch the Full playlist** of how I use Copilot to rewrite an old application\r\n\r\n👉 GitHub Copilot Agent Mode Playlist (auto-plays next video):  \r\nhttps://www.youtube.com/watch?v=wBgNflnfIEA&list=PLphsQTGN5DbLdV_onH0hKB_b-ezcIvAZk&index=1\r\n\r\nThis video is part of a step-by-step GitHub Copilot Agent Mode tutorial series for Visual Studio 2026, designed for C# and .NET developers who want real productivity—not hype.\r\n\r\n📌 **Why watch the full playlist?**  \r\n✔ Learn Agent Mode vs Chat Mode in the right order  \r\n✔ Avoid slow, stuck, or expensive Copilot tasks  \r\n✔ Understand premium request costs & model selection  \r\n✔ See real-world .NET examples (scaffolding, rewrites, automation)  \r\n\r\n💡 Perfect for developers using GitHub Copilot in Visual Studio 2026 for professional C# and .NET work.\r\n\r\n👉 Start here: https://www.youtube.com/watch?v=wBgNflnfIEA&list=PLphsQTGN5DbLdV_onH0hKB_b-ezcIvAZk&index=1",
+          "publishedAt": "2026-01-28T10:59:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@skynet0811",
+          "text": "Now GitHub Copilot and agent mode can complete with Cursor AI",
+          "publishedAt": "2026-05-12T14:26:58Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@jozek24",
+          "text": "Good content but you're doing too much on the screen so it's hard for me to stay focused",
+          "publishedAt": "2026-04-28T11:34:29Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@billr.2210",
+          "text": "Thank you for the video good man!",
+          "publishedAt": "2026-04-09T13:04:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@saramarrspellmaker9592",
+          "text": "what do you do about the rapped context memory usage after it hits 90%.  I done the compress and even started a new chat, only to reset the context back to 50%? If I start a new project with the same AI it still comes back at 50% plus or minus.",
+          "publishedAt": "2026-03-20T17:17:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@nofallacypls",
+          "text": "Nice content man. This is what the market is needing right now, or at least I do. I'm fcking lost on this AI crap lol",
+          "publishedAt": "2026-02-20T02:58:32Z",
+          "likeCount": 1
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 15,
+      "title": "Demo: end-to-end agentic development with GitHub Copilot",
+      "videoId": "onVn-lnHZ9s",
+      "channelTitle": "GitHub",
+      "publishedAt": "2025-08-26T14:01:29Z",
+      "viewCount": 69292,
+      "likeCount": 558,
+      "commentCount": 35,
+      "comments": [
+        {
+          "author": "@ChaymaCv",
+          "text": "Heard great things about Pneumatic Workflow for automating repetitive tasks; definitely planning to give it a try!",
+          "publishedAt": "2025-12-15T21:14:56Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ccvv2625",
+          "text": "def gonna try this out now",
+          "publishedAt": "2025-12-15T21:08:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AbdulrhmanKb",
+          "text": "helped me a lot, thx for sharing",
+          "publishedAt": "2025-12-15T21:07:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@aahilkk31",
+          "text": "i had no idea copilot did this stuff",
+          "publishedAt": "2025-12-15T21:07:38Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@solihinsan",
+          "text": "this is way cooler than i thought it would be",
+          "publishedAt": "2025-12-15T21:06:54Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@dhannusinghdee",
+          "text": "this is super helpful for learning copilot",
+          "publishedAt": "2025-12-15T19:00:04Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@sathamhussain9252",
+          "text": "really cool demo, makes it look easy 😄",
+          "publishedAt": "2025-12-15T18:55:21Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@KhalifamuhammadTafida-z3t",
+          "text": "this is super helpful for learning copilot",
+          "publishedAt": "2025-12-15T18:51:09Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@FajerAlhamed-t6j",
+          "text": "man this changed my perspective on coding",
+          "publishedAt": "2025-12-15T18:50:04Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@MonalisaCabotaje-w1u",
+          "text": "Copilot's code generation is useful, but Pneumatic Workflow excels at automating workflow documentation.",
+          "publishedAt": "2025-12-15T18:49:32Z",
+          "likeCount": 12
+        },
+        {
+          "author": "@NarendraMahanta-j2p5f",
+          "text": "never knew it could do this stuff",
+          "publishedAt": "2025-12-15T18:49:03Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AtitChhetri-kp3mc",
+          "text": "really cool demo, makes it look easy 😄",
+          "publishedAt": "2025-12-15T18:48:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Wasem_r6",
+          "text": "wow this changes everything for coding",
+          "publishedAt": "2025-12-15T16:21:40Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AbodemhmdAzar",
+          "text": "i need to try this out for my projects 🔥",
+          "publishedAt": "2025-12-15T16:20:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@NaikGanesh-t1z",
+          "text": "this is cool but i still have questions",
+          "publishedAt": "2025-12-15T16:20:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@chandankumarMrchandankumar-e5u",
+          "text": "Been using Pneumatic Workflow for task management, and its human-in-the-loop feature significantly reduces errors.",
+          "publishedAt": "2025-12-15T16:19:59Z",
+          "likeCount": 19
+        },
+        {
+          "author": "@SlemanAessa",
+          "text": "didn’t expect it to be this easy lol",
+          "publishedAt": "2025-12-15T16:19:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ElvisHernandez-py7pr",
+          "text": "wow this changes everything for coding",
+          "publishedAt": "2025-12-15T16:14:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@sameersingh790",
+          "text": "i need to try this out for my projects 🔥",
+          "publishedAt": "2025-12-15T16:14:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@MhamadAlali-tv8fz",
+          "text": "really helpful demo, thanks!",
+          "publishedAt": "2025-12-14T09:06:35Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@MohanadSulaiman-q2x",
+          "text": "never thought about using copilot like this",
+          "publishedAt": "2025-12-14T09:06:21Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@arianagushi6168",
+          "text": "Tried using GitHub Copilot for documentation, but I ended up sticking with Pneumatic Workflow for its structured workflows.",
+          "publishedAt": "2025-12-14T09:06:19Z",
+          "likeCount": 12
+        },
+        {
+          "author": "@hrock7558",
+          "text": "gotta try this out for my projects 😄",
+          "publishedAt": "2025-12-14T09:06:08Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AnittaYatthaisong",
+          "text": "Stubid Pleplo USA Time 2019!! Not EN",
+          "publishedAt": "2025-09-16T09:21:02Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DecemberNames",
+          "text": "this is super helpful dog.  thanks for sharing",
+          "publishedAt": "2025-09-08T11:22:19Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@bbs32",
+          "text": "this is like magic.",
+          "publishedAt": "2025-09-04T04:32:28Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@AIToolSquare",
+          "text": "let the copilot run the world 😆",
+          "publishedAt": "2025-08-30T21:53:59Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@zapy422",
+          "text": "agent  makes too many chnages, hard to follow",
+          "publishedAt": "2025-08-29T09:30:07Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@AamirFarooq",
+          "text": "Please add Audio Track for Urdu (Pakistan) language",
+          "publishedAt": "2025-08-28T09:38:39Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@Ariccio123",
+          "text": "Okay, now we need Opus 4.1 in copilot - it's *so good* in Claude code.",
+          "publishedAt": "2025-08-27T17:32:41Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@chlvrs",
+          "text": "Signed and verified commits coming soon?",
+          "publishedAt": "2025-08-26T18:29:02Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@darkomuj",
+          "text": "Not interested in AI PREMIUM",
+          "publishedAt": "2025-08-26T14:04:25Z",
+          "likeCount": 2
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 16,
+      "title": "How to close pull requests faster with Copilot code review | GitHub Checkout",
+      "videoId": "8hyvYP5PCks",
+      "channelTitle": "GitHub",
+      "publishedAt": "2025-12-02T15:00:17Z",
+      "viewCount": 5402,
+      "likeCount": 138,
+      "commentCount": 7,
+      "comments": [
+        {
+          "author": "@appsphere-consultants",
+          "text": "I dont see code review inside co pilot on the settings of my repo? I only see Cloud agent",
+          "publishedAt": "2026-04-09T07:51:43Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@bwitme4mesandy",
+          "text": "Can we use Copilot code review if we dont use Github as our repo? If we can use it through IDE, can you share any documentation explaining how we can use it?",
+          "publishedAt": "2026-03-11T09:38:13Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@amit_th4kur",
+          "text": "❤",
+          "publishedAt": "2025-12-24T17:07:41Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@acolombiadev",
+          "text": "Copilot code review is closing PRs 43% faster. The agentic approach here is chef's kiss, deterministic tools + LLM = consistency without the hallucinations.",
+          "publishedAt": "2025-12-11T23:16:14Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@NadaHasni",
+          "text": "amazing 🎉",
+          "publishedAt": "2025-12-05T05:07:50Z",
+          "likeCount": 1
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 17,
+      "title": "How to use GitHub Copilot for code reviews in pull requests",
+      "videoId": "jYW9MorrE_w",
+      "channelTitle": "GitHub",
+      "publishedAt": "2025-08-06T14:01:17Z",
+      "viewCount": 13087,
+      "likeCount": 176,
+      "commentCount": 6,
+      "comments": [
+        {
+          "author": "@rollthers3157",
+          "text": "So basically Copilot will review code generated by ... Copilot.",
+          "publishedAt": "2026-04-05T18:04:32Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Extension-Hub",
+          "text": "❤❤",
+          "publishedAt": "2025-09-11T22:30:05Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AkshayHosur",
+          "text": "Is it a commit-aware review ?\n\nIf i push a few more commits after a review, does it review entire PR again or only the latest commits ?",
+          "publishedAt": "2025-08-06T15:49:17Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@someone-mw8eg",
+          "text": "Good work",
+          "publishedAt": "2025-08-06T14:06:10Z",
+          "likeCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 18,
+      "title": "Uplevel Your Coding — 10× Faster with GitHub Copilot in Visual Studio 2022",
+      "videoId": "nRP1lUeMCbo",
+      "channelTitle": "Developer Education Hub",
+      "publishedAt": "2025-05-23T09:01:19Z",
+      "viewCount": 1350,
+      "likeCount": 15,
+      "commentCount": 3,
+      "comments": [
+        {
+          "author": "@DeveloperEducationHub",
+          "text": "Thanks for watching! If you’ve used Copilot in Visual Studio, let me know your experience.\nDo you think AI is ready to assist professional developers?\n\nhttps://youtu.be/nRP1lUeMCbo",
+          "publishedAt": "2025-05-29T18:58:39Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@SidheswarSenapati-bz7xn",
+          "text": "Nice Bro",
+          "publishedAt": "2026-03-14T13:03:31Z",
+          "likeCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 19,
+      "title": "How I Code with GitHub Copilot in Visual Studio 2022 to Boost Productivity Everyday",
+      "videoId": "Z6BYhJl9hV8",
+      "channelTitle": "James Montemagno",
+      "publishedAt": "2025-03-06T14:00:38Z",
+      "viewCount": 216774,
+      "likeCount": 3838,
+      "commentCount": 85,
+      "comments": [
+        {
+          "author": "@jasminbecirevic3273",
+          "text": "Thanks a lot! 😊 Really simple and clearly explained—I appreciate it 🙌 All the best! 🌟",
+          "publishedAt": "2026-04-20T07:46:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@romanbolgar",
+          "text": "Спасибо, но хотелось бы подробнее для вайбкодеров, То есть тех, кто не любит копаться в строках кода. Я, например, сейчас дал ему задание, он декомпилирует файл, Но, может, ему не хватает каких-то расширений. Задача сложная, не знаю, справится он или нет.",
+          "publishedAt": "2026-04-11T09:07:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@carpenter083",
+          "text": "copilot is $shit.",
+          "publishedAt": "2026-02-24T11:37:33Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ahmadyazdany2102",
+          "text": "24 minutes seemed a bit long but quite worthy of time. thanks for sharing 👌👌",
+          "publishedAt": "2026-02-19T09:09:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@FurkanDincerov",
+          "text": "Hello",
+          "publishedAt": "2026-01-14T21:09:05Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@FurkanDincerov",
+          "text": "Hi",
+          "publishedAt": "2026-01-14T21:09:01Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@bmp713",
+          "text": "Why do you think hardly anyone is doing videos on Copilot Agent when its so similar to Cursor?",
+          "publishedAt": "2026-01-04T00:13:17Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@diydancochran",
+          "text": "I just used it yesterday,  I actually got to a point i simply did a backup of my code and just let it have full run Just to see how far it would go with a ESP32 board and my program and just kept clicking allow,, I am Blown away with what it can do.",
+          "publishedAt": "2025-12-07T12:28:45Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@BlackBay17",
+          "text": "sorry, can't find how I can make this i con on my  Vcode.",
+          "publishedAt": "2025-11-08T05:31:07Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@cazolasoft",
+          "text": "Thank you",
+          "publishedAt": "2025-10-05T23:55:09Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@bradtaylor1910",
+          "text": "Be aware he is showing paid copilot",
+          "publishedAt": "2025-10-01T19:47:11Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@La-FL-DS-MDFR",
+          "text": "xD cuando analiza la primera funcion y ya ves que copilot le describe lo que dice el comentario, ya vamos mal... jajajja buen ejemplo, pero me parece que lo esta usando muy a medio pelo, yo lo uso en mi trabajo y la verdadera utilidad esta en cuando el proyecto es grande y necesitas entender rapidamente un flujo, pero para explicar una funcion de 20 lineas no tiene sentido xd",
+          "publishedAt": "2025-09-27T18:45:53Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@TreadTheNet",
+          "text": "What language are you speaking?  That's not any dialect nor accent of English that I've ever heard.  Even when I slow you down to half rate, it still has some dissonent component that gives me a headache.   Did you use AI to modify your audio?",
+          "publishedAt": "2025-09-16T15:10:28Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@trsarathi",
+          "text": "my head spins",
+          "publishedAt": "2025-09-13T22:50:57Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@jasper5016",
+          "text": "This is so useful. Thanks. I really liked the way you explained.",
+          "publishedAt": "2025-09-05T05:18:15Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@PaulA-c4x",
+          "text": "thanks for the informative clear vid ! I have the latest VS2022 and I can't locate the \"Create new edits thread\" ?",
+          "publishedAt": "2025-09-02T19:45:31Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@john.the.baptist_yt",
+          "text": "I don't have the model dropdown.  Is that a premium feature or a feature of the insider build or something?",
+          "publishedAt": "2025-08-28T15:35:26Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@parthodave123",
+          "text": "Best video. Thanks ❤.",
+          "publishedAt": "2025-08-26T10:08:35Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@zeeshanasghar3751",
+          "text": "hi, i am not seeing Review changes with copilot option in my VS2022 enterprise edition. can any give me some advise on it",
+          "publishedAt": "2025-08-16T16:31:50Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@JafarUlla15",
+          "text": "Thanks a lot",
+          "publishedAt": "2025-08-07T10:46:31Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@1BestPahad",
+          "text": "nice article on co pilot it helped me a lot",
+          "publishedAt": "2025-07-31T00:49:45Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@junior.santana",
+          "text": "Awesome presentation, James, thanks.\nI'm looking for tips on how to use it for creating and updating unit tests, maybe it could be a nice video",
+          "publishedAt": "2025-07-25T17:53:05Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@robmyers8948",
+          "text": "The roasting level function adding the descriptions in a list like that doesn't make sense.  It should have gone into key value pairs for description and name.",
+          "publishedAt": "2025-07-25T10:35:53Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@pH7Programming",
+          "text": "Hello 2022! So much has changed, seems like it was 10 years ago! 😆",
+          "publishedAt": "2025-07-11T09:39:46Z",
+          "likeCount": 10
+        },
+        {
+          "author": "@RasulAbuMuhammadAmin",
+          "text": "Nobody cares about MS marketing BS channels, It's better to hear real developer review and tutorial!",
+          "publishedAt": "2025-07-01T12:29:55Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DinoB-x1z",
+          "text": "VS is a land of sadness",
+          "publishedAt": "2025-06-27T14:35:39Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@Bitstream",
+          "text": "Thanks! 🙂 Learned a lot in a short time.",
+          "publishedAt": "2025-06-23T12:55:00Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@지현명-m2c",
+          "text": "\"Please use this to create a MAUI in-app (purchase) for iOS.\"",
+          "publishedAt": "2025-06-21T00:44:40Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@JohnTerry-p2v",
+          "text": "Tell me about my other devices",
+          "publishedAt": "2025-06-15T05:41:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@kedarnathk9590",
+          "text": "looking for some references how to configure different context in MCP configuration file in Visual studio solution and setup.",
+          "publishedAt": "2025-06-06T00:15:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@mashkult",
+          "text": "This video is irrelevant. You need to create this “project”, which is child's play. You can do it in a few minutes. It would have been more interesting to see the agent in a real project with complex demands. It's not certain that this would have done the trick.",
+          "publishedAt": "2025-06-01T11:33:27Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@NevoVaknin",
+          "text": "This looks nice and cool, and could be very helpful. My only worry is that Copilot/GPT/other AI could steal or copy the code, save the data, and transfer it to someone else who needs similar assistance. Do you feel it's safe to use, or are you using it because it makes your life easier? Will you trust & use the copilot with Intellectual Property code?",
+          "publishedAt": "2025-05-29T18:54:54Z",
+          "likeCount": 11
+        },
+        {
+          "author": "@leoantiday",
+          "text": "Hey! I’m having trouble with GitHub Copilot in VS Code — the ghost text suggestions are using theme colors instead of a consistent gray like before.\n\nI tried setting \"editorGhostText.foreground\" in settings.json, but it doesn’t seem to apply. Even after switching themes and reloading, the suggestions are still faded syntax-colored.\n\nAny idea how to force Copilot’s ghost text to be light gray again? Would really appreciate any help!",
+          "publishedAt": "2025-05-23T14:42:56Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@hongdali-s9o",
+          "text": "copilot is so useless， the programer or the design gived by it , all are useless, just waste you time !",
+          "publishedAt": "2025-05-16T14:31:24Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@luisarguello9690",
+          "text": "Great video, what is ur VS version ? I have VS community 2022 and I dont have the Create new Edits thread",
+          "publishedAt": "2025-04-29T13:22:06Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@AltaiiSinan",
+          "text": "Did you try context @solution? Its my understanding that this will give Github Copilot a better conext awareness when suggesting solutions or code. Not sure if its equivalent to #codebase in VS code which tell Copilot to look through the entire codebase to give copilot a better context awareness for both suggesting new code and solutions to an existing issue.",
+          "publishedAt": "2025-04-25T11:51:27Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@NabranAboubacar",
+          "text": "Amazing démo 😊.\nWe feel your ease of use ,this is a really badass really user démo.\nThanks",
+          "publishedAt": "2025-04-19T18:56:31Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@BirhanNega",
+          "text": "Why do you use GPT_40? isn't it free? I don't think github copilot is worthit",
+          "publishedAt": "2025-04-10T06:55:03Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ballan00",
+          "text": "I've been using copilot in visual studio for about a month and this is what I have found:\n1. It is great at explaining things which really helps our QA and junior devs but is sometimes useful to me also\n2. It is really good at writing tests.  I find it gets me at least 80% of the way there and then I modify them to get them exactly where I want them which is a big time save\n3. It is pretty good at writing code for very basic things such as CRUD\n4. I rarely do pure crud and I often find it quicker to just write the code how I want it than to coax copilot into doing it and also the effort to make sure it isn't introducing unexpected bugs\n5.  I find the \"ghost text\"  super annoying as it is wrong way more often than it is right... and I prefer just plain old intellisense...    I prefer to have copilot make suggestions only when I ask it to \n6.  You can ask it for help inline by clicking alt + / so you don't have to right click on your mouse...",
+          "publishedAt": "2025-04-03T21:50:53Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@francoisdebber6256",
+          "text": "This sounds awesome for regular app based on CRUD, but working on a large & complex corp application is different, I still don't see Copilot understanding the subtlety and updating it",
+          "publishedAt": "2025-03-21T07:04:55Z",
+          "likeCount": 18
+        },
+        {
+          "author": "@volodymyrprokopovych6384",
+          "text": "very exciting. thanks!",
+          "publishedAt": "2025-03-18T22:46:16Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@vivekerra7948",
+          "text": "is there any way we could build a plugin around github copilot, or somehow invoke it as a backend service api to complete our task, automating the prompt generation and  finally a response from it?",
+          "publishedAt": "2025-03-17T06:09:55Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@rogerswetnam1416",
+          "text": "Excellent video - very useful!  I would like to know how you were able to get Claude 3.7 Model as an option in your dropdown list.  According to Claude \"As of my last update in October 2024, Claude was not directly integrated with GitHub Copilot in Visual Studio. GitHub Copilot primarily uses OpenAI's models, not Anthropic's Claude.\"  Any help greatly appreciated.",
+          "publishedAt": "2025-03-16T14:41:48Z",
+          "likeCount": 3
+        },
+        {
+          "author": "@LeoBranca-y8o",
+          "text": "Simply awesome. A great tool for us, the old school devs.",
+          "publishedAt": "2025-03-14T11:04:49Z",
+          "likeCount": 21
+        },
+        {
+          "author": "@InfiniteCuriousity",
+          "text": "Excellent overview, thank you!",
+          "publishedAt": "2025-03-12T02:45:01Z",
+          "likeCount": 4
+        },
+        {
+          "author": "@eContentManager",
+          "text": "In a big project, is there a way for the copilot to analyse all the code and then be able to work based on that analysis?",
+          "publishedAt": "2025-03-10T23:13:16Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@TheProfessionalGamerSS4444",
+          "text": "How do you use custom instructions when you are using visual Studio 2022 with Azure TFS as source control? It says to put it at the root of your Git Repository, but I don't have one. Could I put it somewhere on the file system? I haven't been able to find any information on this and my stack overflow question on this remains unanswered.",
+          "publishedAt": "2025-03-10T04:06:36Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@greeksinmars",
+          "text": "Yeah, we love visual studio....no more videos for vs code 😂....we grow with visual studio...",
+          "publishedAt": "2025-03-08T20:41:54Z",
+          "likeCount": 4
+        },
+        {
+          "author": "@Guillen8606",
+          "text": "HI James, I use Jetbrains Rider but like many I started with Visual Studio. The integration with Github Copilot in Visual Studio is amazing. It's quite appealing right now. Thanks for the great video.",
+          "publishedAt": "2025-03-08T13:57:48Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@HOSTRASOKYRA",
+          "text": "Hello! Could you make a video on how to use the \"MAUI Blazor Hybrid and Web App\" template together with a Web API project, with a small CRUD operation and sharing a single database without duplicating logic and code? Thank you.",
+          "publishedAt": "2025-03-08T11:23:48Z",
+          "likeCount": 14
+        },
+        {
+          "author": "@RobertSmith-wj7zf",
+          "text": "I really need an answer to this. I will repost my original question below with some more information.\n\nOkay, most of these exercises are NOT working for me. I have the $10 CoPilot subscription from GitHub. Is there a higher subscription required to get these more advanced functions with CoPilot? I'm using Visual Studio 2022 Professional.\n\nI do not see an \"Extensions Ecosystem\"\nClicking on the CoPilot icon at the end of a line of code does nothing.\nNumerous other exercises don't work for me.",
+          "publishedAt": "2025-03-07T21:46:48Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@DevanshRana-GOD",
+          "text": "I ❤ james way of working from Xamarin days to now",
+          "publishedAt": "2025-03-07T01:20:55Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@RobertSmith-wj7zf",
+          "text": "Okay, most of these exercises are NOT working for me. I have the $10 CoPilot subscription from GitHub. Is there a higher subscription required to get these more advanced functions with CoPilot? I'm using Visual Studio 2022.",
+          "publishedAt": "2025-03-06T23:29:42Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@funditaucher7020",
+          "text": "Is there a way to set a \"default\" model? For example if i always want to open the copilot chat or explain with sonnet 3.7 instead of gpt4o??",
+          "publishedAt": "2025-03-06T15:52:52Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@RobertSmith-wj7zf",
+          "text": "Wow! Wow! Wow! I retired 6 years ago with 40+ years of software engineering experience and recently decided to create some personal applications to stay sharp with the new technology’s. I am learning .NET MAUI MVVM and after watching your video I’m just amazed at how I can use GitGub Copilot in Visual Studio 2022. Thank you!",
+          "publishedAt": "2025-03-06T15:30:19Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@saifsaif8580",
+          "text": "Hey james montemogno I hope you are doing amazing 🎉..\nAre .NET developers will be in High demand in 2025?\nPlease answer my question",
+          "publishedAt": "2025-03-06T14:09:13Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@annieorben",
+          "text": "I didn't know the Edits feature would create new files. That's nice! There's more integration into the IDE than I was previously aware of. Is there a one-stop shop where I can quickly and easily find all the new functionality?",
+          "publishedAt": "2025-03-05T01:37:54Z",
+          "likeCount": 5
+        }
+      ]
+    },
+    {
+      "sourceQuery": "GitHub Copilot review developers",
+      "searchRank": 20,
+      "title": "What are Skills, Agents, Prompts, Instructions and how to use them?",
+      "videoId": "QcxL0SXILC4",
+      "channelTitle": "Software Developer Diaries",
+      "publishedAt": "2026-03-28T07:19:41Z",
+      "viewCount": 23542,
+      "likeCount": 524,
+      "commentCount": 18,
+      "comments": [
+        {
+          "author": "@yogeshgaonkar4955",
+          "text": "What you explained is good. But the paper seems actually opposite of what you are explaining.\nIt says all these params are somewhat counter productive in terms of performance :D\nRe-read at 03:00",
+          "publishedAt": "2026-05-06T12:09:28Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@BenDover-pq8xj",
+          "text": "Why oh Why can't you start with a blank page rather than a mulitasking multiuser mamouth project. Yep, I mean cut the confusion and stick to the title, wtf is github & copilot all about for skills etc, i thought they were a generic file for agent workflows ?. All YT creators are valued for their time and effort in the tutorials but these days most start with fully furnished room to teach you how to decorate, why not start from the start. Still desperately need a skill tutorial if anyone can direct me to one, as this is just total confusion with the real info hidden under things I either do know about or don't need ?. Thks for try, still appreciated but no real help.",
+          "publishedAt": "2026-05-21T01:58:34Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@patriciarodriguez977",
+          "text": "Where we can find the github repo? 😄",
+          "publishedAt": "2026-05-10T12:40:54Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@alwanlytech",
+          "text": "Thanks a lot! That’s exactly the video I was looking for.",
+          "publishedAt": "2026-05-08T06:27:57Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@daegohikari",
+          "text": "Such a good video!!",
+          "publishedAt": "2026-04-28T17:30:30Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@KST8512",
+          "text": "The line between instructions , skills and prompts is very thing. Skills you could say are a a bigger task but then you end up with workflows. I find it hard to   'pick the right one'.",
+          "publishedAt": "2026-04-27T14:18:36Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@saikonuru",
+          "text": "Informative video, thanks for sharing your knowledge.",
+          "publishedAt": "2026-04-25T15:24:05Z",
+          "likeCount": 1
+        },
+        {
+          "author": "@mikeeomega",
+          "text": "Thank you! Great video :)",
+          "publishedAt": "2026-03-31T04:41:49Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@ZlatkoTestDerkoskiTest",
+          "text": "It’s all bulshit that will spend your time and money for result slop",
+          "publishedAt": "2026-03-30T09:58:24Z",
+          "likeCount": 2
+        },
+        {
+          "author": "@lehaduong2532",
+          "text": "Thank you so much! It's helped me a lot",
+          "publishedAt": "2026-03-30T07:27:08Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@vitalydushkin",
+          "text": "Another one goes for AI s** 😕 Was always good content before that. Unsubscribing.",
+          "publishedAt": "2026-03-28T12:08:52Z",
+          "likeCount": 0
+        },
+        {
+          "author": "@jeremyccc",
+          "text": "This is great! Thank you so much. Compared to Claude Code resources, there really isn’t that much well thought and succinct copilot explainers like this",
+          "publishedAt": "2026-03-28T07:59:29Z",
+          "likeCount": 2
+        }
+      ]
+    }
+  ]
+}

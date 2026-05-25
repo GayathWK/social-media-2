@@ -1,0 +1,160 @@
+{
+  "source": "hackernews",
+  "searchQuery": "AI software developer productivity",
+  "storyThreads": [
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 1,
+      "story": {
+        "by": "algoghostf",
+        "descendants": 0,
+        "id": 41505157,
+        "score": 1,
+        "time": 1726000141,
+        "title": "The Impact of Generative AI on Software Developer Productivity",
+        "type": "story",
+        "url": "https://medium.com/@AhmedF/the-real-impact-of-generative-ai-on-software-developer-productivity-evidence-from-field-686e3a36138a"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 2,
+      "story": {
+        "by": "msolujic",
+        "descendants": 2,
+        "id": 46534402,
+        "kids": [
+          46534558,
+          46534724
+        ],
+        "score": 5,
+        "time": 1767826508,
+        "title": "AI hampered productivity of software developers,m",
+        "type": "story",
+        "url": "https://fortune.com/article/does-ai-increase-workplace-productivity-experiment-software-developers-task-took-longer/"
+      },
+      "comments": [
+        {
+          "commentId": 46534558,
+          "parentId": 46534402,
+          "author": "Terr_",
+          "text": "The pre-paywall stuff makes it sound like this is about the 2025 METR study of time taken versus time reported. [0]<p>While the authors noted that they cant prove their experiences are broadly representative of the entire craft&#x2F;industry, IMO that&#x27;s a pretty high bar for anybody to clear.<p>[0] <a href=\"https:&#x2F;&#x2F;metr.org&#x2F;blog&#x2F;2025-07-10-early-2025-ai-experienced-os-dev-study&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;metr.org&#x2F;blog&#x2F;2025-07-10-early-2025-ai-experienced-o...</a>",
+          "createdAt": "2026-01-07T23:09:27+00:00",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 46534724,
+          "parentId": 46534402,
+          "author": "llmslave2",
+          "text": "&gt; When developers are allowed to use AI tools, they take 19% longer to complete issues—a significant slowdown that goes against developer beliefs and expert forecasts. This gap between perception and reality is striking: developers expected AI to speed them up by 24%, and even after experiencing the slowdown, they still believed AI had sped them up by 20%.<p>Fascinating that their perceptions basically matched their predictions, and were totally off. Take any claims of &quot;Opus makes me 10x more productive!&quot; with a massive grain of salt, considering they probably read that on X or HN and then their predictions influence their perception.",
+          "createdAt": "2026-01-07T23:25:40+00:00",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 3,
+      "story": {
+        "by": "Irishsteve",
+        "descendants": 0,
+        "id": 19309959,
+        "score": 1,
+        "time": 1551787355,
+        "title": "What Predicts Software Developers’ Productivity?",
+        "type": "story",
+        "url": "https://ai.google/research/pubs/pub47853"
+      },
+      "comments": []
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 4,
+      "story": {
+        "by": "dboreham",
+        "descendants": 5,
+        "id": 45761979,
+        "kids": [
+          45762110,
+          45762504,
+          45762229
+        ],
+        "score": 3,
+        "text": "Lifelong AI skeptic now turned LLM proponent here. I&#x27;m almost in the Adrian Cockroft&#x2F;Joe Magerramov camp: for me today&#x27;s LLMs are by far the most productivity-increasing tool for software development since the compiler. Yes I&#x27;m so old that I remember making software without a compiler. Reinforcing my non-koolaid-consuming cred: I&#x27;ve been using LLM tools to write programs I&#x27;d never have time to write, find bugs I&#x27;d have taken much longer to track down myself, understand the design of large complex codebases I&#x27;d have previously left as mystery-meat. The new tools are helping me work through the seemingly endless pile of stuff that always needed to be done but never got done.<p>Although the media narrative and previous HN discussions focus on developer layoffs supposedly due to AI adoption, I&#x27;m wondering about the inverse perspective. Since LLM tools improve software developer productivity significantly, why haven&#x27;t we seen much better software? Why haven&#x27;t we seen startups making new useful applications? Is there something about the wider business context that precludes improved productivity being applied to increase capacity and&#x2F;or improve quality? After all when Walmart discovered how to optimize retail they didn&#x27;t use that capability to make one super-efficient store. They built stores everywhere. Are we somehow stuck in some crappyness equilibrium where there&#x27;s no overall benefit to improving software. Was that always the case but we never realized because by chance we had just enough developers to get by?",
+        "time": 1761842268,
+        "title": "Ask HN: LLMs enhance productivity so why don't we have more/better software?",
+        "type": "story"
+      },
+      "comments": [
+        {
+          "commentId": 45762110,
+          "parentId": 45761979,
+          "author": "verdverm",
+          "text": "1. Productivity (quantity) does not equal quality. How is productivity even measured? (the jury is still out on this one)<p>2. LLMs &amp; Agents do not automatically create better software. They more often prefer to write from scratch rather than use the library sitting right next to the code they reimplement. While they are good at writing narrowly scoped tasks, they are not good at large perspective work. They also make lots of mistakes, just like us.<p>3. Why haven&#x27;t we seen the things you expect? Because of (1) hype and, similar to stock market trades, people only share their wins and not their losses. (2) They are not as capable as the proffers would have you believe.",
+          "createdAt": "2025-10-30T16:48:32+00:00",
+          "depth": 1,
+          "childCommentCount": 0
+        },
+        {
+          "commentId": 45762504,
+          "parentId": 45761979,
+          "author": "incomingpain",
+          "text": "Because coding LLMs have really only been about a year or so. Do you expect the entire landscape of software to change in only a year? Most the AI activity is on fixing and improving what we already have.",
+          "createdAt": "2025-10-30T17:20:40+00:00",
+          "depth": 1,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45762547,
+          "parentId": 45762504,
+          "author": "dboreham",
+          "text": "Fair point perhaps, although I&#x27;d note that I first heard colleagues boasting about how they were having Chat-GPT write all their tests sometime in 2022.",
+          "createdAt": "2025-10-30T17:23:20+00:00",
+          "depth": 2,
+          "childCommentCount": 1
+        },
+        {
+          "commentId": 45762229,
+          "parentId": 45761979,
+          "author": "PaulHoule",
+          "text": "Whenever some new development in software development comes around people remember this classic Fred Brooks essay<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;No_Silver_Bullet\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;No_Silver_Bullet</a><p>which points out that software development involves many different tasks,  let&#x27;s say<p><pre><code>   20%    requirements gathering\n   20%    design\n   20%    coding\n   20%    test\n   20%    deployment\n</code></pre>\nlet&#x27;s say that some huge innovation cuts the time to code down to 0.  You still have to do 80% of the work!  If a &quot;no code&quot; system is going to radically improve the situation it has to take a big chunk out of all of those things.<p>We don&#x27;t have a failing video game industry or disasters like iOS 26 because low-level coders are making little mistakes,  we are having them because of poor productivity and quality in the area of deciding what software gets made and what characteristics that software has.  If you were able to:  (a) fire everybody at Microsoft except for Satya Nadella or (b) fire Satya Nadella,  (b) would be the change that would impact what gets made,  I&#x27;m sure Satya Nadella could come up with the bad ideas on all his own in case (a).<p>---<p>The bright spot is that there&#x27;s a certain kind of person who could make AI-enhanced software for their own personal or for small group use.  If you can get the <i>business</i> out of it entirely,  AI software development could be revolutionary.  If the goal is to make polished software that serves the needs of a wide number of people you run into all the old business problems (e.g. <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Enshittification\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Enshittification</a>)",
+          "createdAt": "2025-10-30T16:58:30+00:00",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    },
+    {
+      "sourceQuery": "AI software developer productivity",
+      "searchRank": 5,
+      "story": {
+        "by": "palad1n",
+        "descendants": 5,
+        "id": 46510980,
+        "kids": [
+          46511270,
+          46511020
+        ],
+        "score": 6,
+        "time": 1767697946,
+        "title": "Experienced software developers assumed AI would save them a chunk of time",
+        "type": "story",
+        "url": "https://fortune.com/article/does-ai-increase-workplace-productivity-experiment-software-developers-task-took-longer/"
+      },
+      "comments": [
+        {
+          "commentId": 46511270,
+          "parentId": 46510980,
+          "author": "chrisjj",
+          "text": "The bigger surprise here is the test sample of experienced software developers &quot;expected AI to expedite their work and increase productivity&quot;. Perhaps a more scientifically selected sample would have yielded a more scientifically valid result.",
+          "createdAt": "2026-01-06T11:59:49+00:00",
+          "depth": 1,
+          "childCommentCount": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "total_comments": 32810,
+  "overall_sentiment": {
+    "positive": 18188,
+    "neutral": 7642,
+    "negative": 6980
+  },
+  "overall_topics": {
+    "productivity": 10680,
+    "job_displacement": 9896,
+    "reliability": 8204,
+    "cost": 2502,
+    "unknown": 1528
+  },
+  "avg_sentiment_by_platform": {
+    "github": 0.0743,
+    "hackernews": 0.2871,
+    "youtube": 0.2516
+  },
+  "sentiment_by_topic": {
+    "negative": {
+      "cost": 411,
+      "job_displacement": 1975,
+      "productivity": 2261,
+      "reliability": 2270,
+      "unknown": 63
+    },
+    "neutral": {
+      "cost": 726,
+      "job_displacement": 2106,
+      "productivity": 2251,
+      "reliability": 1858,
+      "unknown": 701
+    },
+    "positive": {
+      "cost": 1365,
+      "job_displacement": 5815,
+      "productivity": 6168,
+      "reliability": 4076,
+      "unknown": 764
+    }
+  },
+  "avg_sentiment_by_topic": {
+    "cost": 0.2471,
+    "job_displacement": 0.2566,
+    "productivity": 0.247,
+    "reliability": 0.1383,
+    "unknown": 0.2636
+  },
+  "sentiment_by_comment_type": {
+    "negative": {
+      "reply": 903,
+      "top_level": 6077
+    },
+    "neutral": {
+      "reply": 1764,
+      "top_level": 5878
+    },
+    "positive": {
+      "reply": 3060,
+      "top_level": 15128
+    }
+  }
+}
