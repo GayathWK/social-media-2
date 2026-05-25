@@ -33,3 +33,6 @@ Thumbs.db
 
 # Generated NLP figures
 data/processed/nlp/**/*.png
+
+# Generated GitHub report figures
+data/processed/github/report_figures/*.png
