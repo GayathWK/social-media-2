@@ -24,3 +24,12 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# LDA models
+**/lda_model/
+*.model
+*.model.*
+*.gensim
+
+# Generated NLP figures
+data/processed/nlp/**/*.png

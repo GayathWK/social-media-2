@@ -1,0 +1,122 @@
+{
+  "0": {
+    "theme": "reliability",
+    "top_terms": [
+      "goal",
+      "fix",
+      "git",
+      "api",
+      "false",
+      "content",
+      "error",
+      "change",
+      "name",
+      "file",
+      "system",
+      "read",
+      "test",
+      "request",
+      "true"
+    ]
+  },
+  "1": {
+    "theme": "other",
+    "top_terms": [
+      "mcp",
+      "thread",
+      "server",
+      "path",
+      "skill",
+      "project",
+      "plugin",
+      "desktop",
+      "local",
+      "json",
+      "config",
+      "session",
+      "chrome",
+      "command",
+      "run"
+    ]
+  },
+  "2": {
+    "theme": "reliability",
+    "top_terms": [
+      "desktop",
+      "session",
+      "remote",
+      "text",
+      "state",
+      "control",
+      "local",
+      "macos",
+      "server",
+      "project",
+      "connection",
+      "error",
+      "mobile",
+      "request",
+      "host"
+    ]
+  },
+  "3": {
+    "theme": "other",
+    "top_terms": [
+      "enabled",
+      "disabled",
+      "detail",
+      "summary",
+      "gpu",
+      "system",
+      "trace",
+      "reporter",
+      "cpu",
+      "video",
+      "webgl",
+      "canvas",
+      "rasterization",
+      "info",
+      "memory"
+    ]
+  },
+  "4": {
+    "theme": "reliability",
+    "top_terms": [
+      "bug",
+      "image",
+      "error",
+      "src",
+      "response",
+      "alt",
+      "width",
+      "img",
+      "height",
+      "platform",
+      "report",
+      "account",
+      "additional",
+      "information",
+      "message"
+    ]
+  },
+  "5": {
+    "theme": "productivity",
+    "top_terms": [
+      "session",
+      "context",
+      "agent",
+      "feature",
+      "task",
+      "work",
+      "time",
+      "prompt",
+      "token",
+      "limit",
+      "usage",
+      "hook",
+      "problem",
+      "user",
+      "fix"
+    ]
+  }
+}
